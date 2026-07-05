@@ -1,0 +1,190 @@
+import { Map, Target, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Telur My Dino Park: Biaya, Penetasan, dan Panduan Urutan Pembelian",
+  description: "Gunakan panduan telur My Dino Park ini untuk memilih urutan penetasan terbaik, membandingkan biaya dan pendapatan, serta menghindari pemborosan di awal pada telur yang lemah.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/8B5E34/fff?text=Egg+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki My Dino Park"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Telur My Dino Park**: Mulailah dengan telur Common, lalu tingkatkan hanya setelah arus Cash Anda bisa pulih dengan cepat.
+- **Nilai awal terbaik**: Gunakan kode dulu, terutama **DINOSLOVESU**, yang memberi Frozen Egg plus Cash.
+- **Progresi cerdas**: Beli telur Uncommon dan Rare sebelum mengejar penetasan Epic atau Legendary.
+- **Aturan pendapatan**: Tempatkan setiap hasil penetasan segera agar pendapatan pengunjung mulai bekerja untuk Anda.
+- **Target akhir game**: Simpan Legendary Egg untuk saat 50.000 Cash terasa bisa dipulihkan.
+</Callout>
+
+<Section icon={Map} title="Gambaran Umum Telur My Dino Park">
+
+Telur My Dino Park adalah tulang punggung progres awal. Urutan penetasan yang tepat mengisi taman Anda lebih cepat, menjaga Cash tetap bergerak, dan membantu Anda berkembang ke dinosaurus yang lebih kuat tanpa membuat ekonomi tersendat.
+
+<Callout type="tip" title="Aturan Telur Awal">
+Jika taman Anda masih memiliki ruang kosong, telur yang lebih murah biasanya lebih baik daripada menunggu yang lebih besar.
+</Callout>
+
+| Telur | Biaya | Waktu Menetas | Pool | Kegunaan Terbaik |
+|---|---:|---:|---|---|
+| Common Egg | 500 Cash | Instan | Common | Pembelian pertama, pengisian lahan awal |
+| Uncommon Egg | 4.000 Cash | 10 detik | Common / Uncommon | Upgrade pertama setelah pendapatan awal |
+| Rare Egg | 10.000 Cash | 30 detik | Uncommon / Rare | Langkah utama pendapatan pertengahan game |
+| Epic Egg | 25.000 Cash | 1 menit | Rare / Epic | Dorongan pertumbuhan dari pertengahan ke akhir game |
+| Legendary Egg | 50.000 Cash | 2 menit | Epic / Legendary | Target pendapatan akhir game |
+| Frozen Egg | Hadiah kode | Telur kode | Terbatas / khusus kode | Penetasan awal gratis dari DINOSLOVESU |
+
+<CardGrid cols={3}>
+  <Card title="Tangga Awal">
+    - **Common Egg**
+    - **Uncommon Egg**
+    - Isi ruang dengan cepat
+  </Card>
+  <Card title="Lompatan Pertengahan Game">
+    - **Rare Egg**
+    - **Epic Egg**
+    - Dorongan pendapatan yang kuat
+  </Card>
+  <Card title="Target Akhir Game">
+    - **Legendary Egg**
+    - **Frozen Egg**
+    - Target terbaik di sesi akhir
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Urutan Telur Terbaik Berdasarkan Progresi">
+
+Jalur paling rapi itu sederhana: klaim hadiah, beli telur murah, tempatkan setiap hasil penetasan, lalu naik satu tier demi satu tier. Ini menjaga taman Anda tetap produktif saat Anda naik level.
+
+<Callout type="warning" title="Jangan Terburu-buru Membeli Telur Premium">
+Telur Epic dan Legendary bisa memperlambat progres Anda jika taman Anda tidak bisa membangun kembali Cash setelah pembelian.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Tukar hadiah gratis terlebih dahulu">
+    Buka Store, klaim kode aktif, dan gunakan bonus Cash sebelum membeli telur.
+  </Step>
+  <Step num="2" title="Beli Common Egg">
+    Habiskan 500 Cash untuk penetasan pertama agar taman Anda langsung mulai menarik minat pengunjung.
+  </Step>
+  <Step num="3" title="Beralih ke Uncommon Egg">
+    Ganti setelah dinosaurus awal ditempatkan dan pendapatan Anda bisa menopang pengeluaran 4.000 Cash.
+  </Step>
+  <Step num="4" title="Buka Rare Egg berikutnya">
+    Gunakan Rare Egg sebagai lompatan utama pertengahan game saat Anda menginginkan pendapatan yang lebih baik per penetasan.
+  </Step>
+  <Step num="5" title="Simpan Epic dan Legendary Egg untuk sesi yang siap pulih">
+    Beli ini hanya ketika pengeluaran besar tidak akan menghentikan pertumbuhan Anda terlalu lama.
+  </Step>
+</Steps>
+
+| Tahap Progresi | Telur yang Direkomendasikan | Pemeriksaan Pengeluaran | Mengapa Ini Efektif |
+|---|---|---|---|
+| Sesi pertama | Common Egg | 500 Cash tersedia | Awal termurah yang andal |
+| Pertumbuhan awal | Uncommon Egg | Beberapa dinos sudah ditempatkan | Kualitas penetasan lebih baik tanpa jeda besar |
+| Pertengahan game | Rare Egg | Siklus Cash stabil | Kenaikan pendapatan yang kuat |
+| Pertengahan game akhir | Epic Egg | Taman sudah menghasilkan dengan baik | Nilai lebih besar tanpa risiko awal |
+| Akhir game | Legendary Egg | 50.000 Cash bisa dipulihkan | Batas standar tertinggi |
+
+<Callout type="tip" title="Aturan Praktis">
+Jika Anda masih melihat lahan kosong, belanjakan untuk cakupan penetasan sebelum Anda membelanjakan untuk rarity.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Nilai Telur, Pendapatan, dan Reinvestasi">
+
+Nilai telur di My Dino Park bukan hanya soal rarity. Ini soal seberapa cepat sebuah penetasan membantu Anda menempatkan lebih banyak dinosaurus, menarik pengunjung, dan membuka tier pendapatan berikutnya.
+
+<Callout type="success" title="Boost Gratis Terbaik">
+DINOSLOVESU memberi Frozen Egg plus 10.000 Cash, menjadikannya hadiah awal terkuat di kumpulan kode saat ini.
+</Callout>
+
+| Target Telur | Contoh Hasil | Rata-rata Pendapatan per Menit | Prioritas Penggantian |
+|---|---|---:|---|
+| Common Egg | Compsognathus, Gallimimus, Dilophosaurus | 75 | Ganti secepatnya |
+| Uncommon Egg | Parasaurolophus, Ankylosaurus, Pterodactyl | 300 | Gunakan sebagai stok jembatan |
+| Rare Egg | Velociraptor, Stegosaurus, Brachiosaurus | 600 | Inti kuat pertengahan game |
+| Epic Egg | Spinosaurus, Triceratops | 1.300 | Pertahankan hingga akhir game |
+| Legendary Egg | T-Rex | 2.500 | Penjaga akhir game |
+| Frozen Egg | Hasil hadiah kode | Hadiah kode | Buka segera |
+
+| Masalah Pengeluaran | Solusi yang Lebih Baik | Hasil |
+|---|---|---|
+| Membeli telur Rare terlalu awal | Isi slot dengan penetasan Common atau Uncommon | Pendapatan pengunjung lebih cepat |
+| Menyimpan terlalu lama untuk Legendary | Beli Rare atau Epic lebih dulu | Waktu menganggur lebih sedikit |
+| Terlalu lama mempertahankan dinosaurus lemah | Ganti dengan penghasil yang lebih baik | Arus Cash lebih tinggi |
+| Mengabaikan kode | Klaim hadiah aktif terlebih dahulu | Lebih banyak sumber daya awal |
+
+<Checklist
+  id="egg-progress-goals"
+  title="Target Progres Telur:"
+  items={[
+    "Klaim kode aktif sebelum membeli telur pertama",
+    "Isi setiap petak kosong dengan dinosaurus yang ditempatkan",
+    "Tingkatkan dari Common ke Uncommon setelah pendapatan mulai bergerak",
+    "Gunakan Rare Egg sebagai lompatan utama pertengahan game",
+    "Simpan Epic dan Legendary Egg untuk sesi pemulihan yang stabil"
+  ]}
+/>
+
+<Callout type="info" title="Prioritas Reinvestasi">
+Urutan paling aman adalah telur dulu, lalu dinosaurus yang lebih kuat, lalu peningkatan taman, lalu perluasan lahan.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Kesalahan Umum dan Tautan Resmi">
+
+Sebagian besar kesalahan soal telur berasal dari ketidaksabaran. Pemain terbaik membangun siklus penetasan yang stabil, menjaga lahan tetap produktif, dan menghindari mengunci Cash pada satu pembelian besar.
+
+<Callout type="warning" title="Kesalahan Umum">
+Perlambatan terbesar adalah membeli telur tier tinggi sebelum penetasan tier rendah Anda sudah bekerja untuk Anda.
+</Callout>
+
+| Kesalahan | Langkah yang Lebih Baik | Mengapa Membantu |
+|---|---|---|
+| Melewatkan Common Egg | Beli penetasan murah pertama | Pendapatan dimulai segera |
+| Melebih-lebihkan rarity | Fokus pada kecepatan pemulihan pendapatan | Ritme progres lebih baik |
+| Membiarkan petak kosong | Tempatkan setiap penetasan dengan cepat | Pendapatan pengunjung dimulai lebih awal |
+| Membeli Legendary terlalu cepat | Bangun lewat Rare dan Epic terlebih dahulu | Tekanan ekonomi lebih kecil |
+| Mengabaikan hadiah kode | Klaim kode aktif segera | Cash gratis dan Frozen Egg |
+
+| Sumber Resmi | Yang Anda Dapatkan | Tautan |
+|---|---|---|
+| Roblox Experience | Mainkan gamenya, cek judul langsung, dan konfirmasi update saat ini | https://www.roblox.com/games/80701570784699/My-Dino-Park |
+| Dino Community | Grup Roblox resmi untuk pengembang | https://www.roblox.com/communities/532484073/Dino-Community |
+| Discord Invite | Kode, update, dan bantuan pemulihan | https://discord.com/invite/eQHNk8dGpz |
+
+<FAQ items={[
+  {
+    question: "Apa telur pertama terbaik di My Dino Park?",
+    answer: "Common Egg adalah pembelian pertama terbaik karena hanya berharga 500 Cash dan langsung memulai siklus pendapatan Anda."
+  },
+  {
+    question: "Kapan saya harus membeli Rare Egg?",
+    answer: "Beralih ke Rare Egg setelah taman Anda memiliki beberapa dinosaurus yang sudah ditempatkan dan Cash Anda bisa pulih tanpa jeda panjang."
+  },
+  {
+    question: "Apakah Frozen Egg layak digunakan segera?",
+    answer: "Ya. Frozen Egg dari DINOSLOVESU adalah hadiah gratis, jadi sebaiknya dibuka lebih awal daripada disimpan di inventaris."
+  },
+  {
+    question: "Haruskah saya menabung untuk Legendary Egg secepat mungkin?",
+    answer: "Biasanya tidak. Legendary Egg memang kuat, tetapi progres awal lebih mulus jika Anda membangun melalui Common, Uncommon, Rare, dan Epic terlebih dahulu."
+  }
+]} />
+
+<Callout type="success" title="Kesimpulan Akhir">
+Gunakan telur murah untuk mengisi ruang, gunakan telur Rare dan Epic untuk berkembang, dan simpan pembelian Legendary saat taman Anda bisa menyerap biayanya.
+</Callout>
+
+</Section>

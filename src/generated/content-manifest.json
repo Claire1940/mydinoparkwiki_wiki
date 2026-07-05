@@ -1,1 +1,658 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "my-dino-park-codes",
+        "file": "my-dino-park-codes"
+      }
+    ],
+    "dinos": [
+      {
+        "slug": "my-dino-park-best-dinos",
+        "file": "my-dino-park-best-dinos"
+      },
+      {
+        "slug": "my-dino-park-dino-list",
+        "file": "my-dino-park-dino-list"
+      },
+      {
+        "slug": "my-dino-park-dinosaurs",
+        "file": "my-dino-park-dinosaurs"
+      },
+      {
+        "slug": "my-dino-park-epic-dinos",
+        "file": "my-dino-park-epic-dinos"
+      },
+      {
+        "slug": "my-dino-park-gallimimus",
+        "file": "my-dino-park-gallimimus"
+      },
+      {
+        "slug": "my-dino-park-infinite-dinos",
+        "file": "my-dino-park-infinite-dinos"
+      },
+      {
+        "slug": "my-dino-park-mechanical-dragon",
+        "file": "my-dino-park-mechanical-dragon"
+      },
+      {
+        "slug": "my-dino-park-parasaurolophus",
+        "file": "my-dino-park-parasaurolophus"
+      }
+    ],
+    "eggs": [
+      {
+        "slug": "my-dino-park-dino-box",
+        "file": "my-dino-park-dino-box"
+      },
+      {
+        "slug": "my-dino-park-egg-opening",
+        "file": "my-dino-park-egg-opening"
+      },
+      {
+        "slug": "my-dino-park-eggs",
+        "file": "my-dino-park-eggs"
+      },
+      {
+        "slug": "my-dino-park-epic-eggs",
+        "file": "my-dino-park-epic-eggs"
+      },
+      {
+        "slug": "my-dino-park-new-dino-box",
+        "file": "my-dino-park-new-dino-box"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "my-dino-park-beginner-guide",
+        "file": "my-dino-park-beginner-guide"
+      },
+      {
+        "slug": "my-dino-park-game-tips",
+        "file": "my-dino-park-game-tips"
+      },
+      {
+        "slug": "my-dino-park-guide",
+        "file": "my-dino-park-guide"
+      },
+      {
+        "slug": "my-dino-park-how-to-play",
+        "file": "my-dino-park-how-to-play"
+      },
+      {
+        "slug": "my-dino-park-strategy",
+        "file": "my-dino-park-strategy"
+      },
+      {
+        "slug": "my-dino-park-tips",
+        "file": "my-dino-park-tips"
+      },
+      {
+        "slug": "my-dino-park-tutorial",
+        "file": "my-dino-park-tutorial"
+      },
+      {
+        "slug": "my-dino-park-walkthrough",
+        "file": "my-dino-park-walkthrough"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "my-dino-park-level-1",
+        "file": "my-dino-park-level-1"
+      },
+      {
+        "slug": "my-dino-park-level-4-dinos",
+        "file": "my-dino-park-level-4-dinos"
+      },
+      {
+        "slug": "my-dino-park-level-up",
+        "file": "my-dino-park-level-up"
+      },
+      {
+        "slug": "my-dino-park-max-level",
+        "file": "my-dino-park-max-level"
+      },
+      {
+        "slug": "my-dino-park-upgrade",
+        "file": "my-dino-park-upgrade"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "my-dino-park-roblox-codes",
+        "file": "my-dino-park-roblox-codes"
+      },
+      {
+        "slug": "my-dino-park-roblox-gameplay",
+        "file": "my-dino-park-roblox-gameplay"
+      },
+      {
+        "slug": "my-dino-park-roblox-guide",
+        "file": "my-dino-park-roblox-guide"
+      },
+      {
+        "slug": "my-dino-park-roblox-update",
+        "file": "my-dino-park-roblox-update"
+      },
+      {
+        "slug": "my-dino-park-roblox",
+        "file": "my-dino-park-roblox"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "my-dino-park-july-2026-update",
+        "file": "my-dino-park-july-2026-update"
+      },
+      {
+        "slug": "my-dino-park-new-update",
+        "file": "my-dino-park-new-update"
+      },
+      {
+        "slug": "my-dino-park-update-1",
+        "file": "my-dino-park-update-1"
+      },
+      {
+        "slug": "my-dino-park-update-2",
+        "file": "my-dino-park-update-2"
+      },
+      {
+        "slug": "my-dino-park-update-3",
+        "file": "my-dino-park-update-3"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "my-dino-park-codes",
+        "file": "my-dino-park-codes"
+      }
+    ],
+    "dinos": [
+      {
+        "slug": "my-dino-park-best-dinos",
+        "file": "my-dino-park-best-dinos"
+      },
+      {
+        "slug": "my-dino-park-dino-list",
+        "file": "my-dino-park-dino-list"
+      },
+      {
+        "slug": "my-dino-park-dinosaurs",
+        "file": "my-dino-park-dinosaurs"
+      },
+      {
+        "slug": "my-dino-park-epic-dinos",
+        "file": "my-dino-park-epic-dinos"
+      },
+      {
+        "slug": "my-dino-park-gallimimus",
+        "file": "my-dino-park-gallimimus"
+      },
+      {
+        "slug": "my-dino-park-infinite-dinos",
+        "file": "my-dino-park-infinite-dinos"
+      },
+      {
+        "slug": "my-dino-park-mechanical-dragon",
+        "file": "my-dino-park-mechanical-dragon"
+      },
+      {
+        "slug": "my-dino-park-parasaurolophus",
+        "file": "my-dino-park-parasaurolophus"
+      }
+    ],
+    "eggs": [
+      {
+        "slug": "my-dino-park-dino-box",
+        "file": "my-dino-park-dino-box"
+      },
+      {
+        "slug": "my-dino-park-egg-opening",
+        "file": "my-dino-park-egg-opening"
+      },
+      {
+        "slug": "my-dino-park-eggs",
+        "file": "my-dino-park-eggs"
+      },
+      {
+        "slug": "my-dino-park-epic-eggs",
+        "file": "my-dino-park-epic-eggs"
+      },
+      {
+        "slug": "my-dino-park-new-dino-box",
+        "file": "my-dino-park-new-dino-box"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "my-dino-park-beginner-guide",
+        "file": "my-dino-park-beginner-guide"
+      },
+      {
+        "slug": "my-dino-park-game-tips",
+        "file": "my-dino-park-game-tips"
+      },
+      {
+        "slug": "my-dino-park-guide",
+        "file": "my-dino-park-guide"
+      },
+      {
+        "slug": "my-dino-park-how-to-play",
+        "file": "my-dino-park-how-to-play"
+      },
+      {
+        "slug": "my-dino-park-strategy",
+        "file": "my-dino-park-strategy"
+      },
+      {
+        "slug": "my-dino-park-tips",
+        "file": "my-dino-park-tips"
+      },
+      {
+        "slug": "my-dino-park-tutorial",
+        "file": "my-dino-park-tutorial"
+      },
+      {
+        "slug": "my-dino-park-walkthrough",
+        "file": "my-dino-park-walkthrough"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "my-dino-park-level-1",
+        "file": "my-dino-park-level-1"
+      },
+      {
+        "slug": "my-dino-park-level-4-dinos",
+        "file": "my-dino-park-level-4-dinos"
+      },
+      {
+        "slug": "my-dino-park-level-up",
+        "file": "my-dino-park-level-up"
+      },
+      {
+        "slug": "my-dino-park-max-level",
+        "file": "my-dino-park-max-level"
+      },
+      {
+        "slug": "my-dino-park-upgrade",
+        "file": "my-dino-park-upgrade"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "my-dino-park-roblox-codes",
+        "file": "my-dino-park-roblox-codes"
+      },
+      {
+        "slug": "my-dino-park-roblox-gameplay",
+        "file": "my-dino-park-roblox-gameplay"
+      },
+      {
+        "slug": "my-dino-park-roblox-guide",
+        "file": "my-dino-park-roblox-guide"
+      },
+      {
+        "slug": "my-dino-park-roblox-update",
+        "file": "my-dino-park-roblox-update"
+      },
+      {
+        "slug": "my-dino-park-roblox",
+        "file": "my-dino-park-roblox"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "my-dino-park-july-2026-update",
+        "file": "my-dino-park-july-2026-update"
+      },
+      {
+        "slug": "my-dino-park-new-update",
+        "file": "my-dino-park-new-update"
+      },
+      {
+        "slug": "my-dino-park-update-1",
+        "file": "my-dino-park-update-1"
+      },
+      {
+        "slug": "my-dino-park-update-2",
+        "file": "my-dino-park-update-2"
+      },
+      {
+        "slug": "my-dino-park-update-3",
+        "file": "my-dino-park-update-3"
+      }
+    ]
+  },
+  "id": {
+    "codes": [
+      {
+        "slug": "my-dino-park-codes",
+        "file": "my-dino-park-codes"
+      }
+    ],
+    "dinos": [
+      {
+        "slug": "my-dino-park-best-dinos",
+        "file": "my-dino-park-best-dinos"
+      },
+      {
+        "slug": "my-dino-park-dino-list",
+        "file": "my-dino-park-dino-list"
+      },
+      {
+        "slug": "my-dino-park-dinosaurs",
+        "file": "my-dino-park-dinosaurs"
+      },
+      {
+        "slug": "my-dino-park-epic-dinos",
+        "file": "my-dino-park-epic-dinos"
+      },
+      {
+        "slug": "my-dino-park-gallimimus",
+        "file": "my-dino-park-gallimimus"
+      },
+      {
+        "slug": "my-dino-park-infinite-dinos",
+        "file": "my-dino-park-infinite-dinos"
+      },
+      {
+        "slug": "my-dino-park-mechanical-dragon",
+        "file": "my-dino-park-mechanical-dragon"
+      },
+      {
+        "slug": "my-dino-park-parasaurolophus",
+        "file": "my-dino-park-parasaurolophus"
+      }
+    ],
+    "eggs": [
+      {
+        "slug": "my-dino-park-dino-box",
+        "file": "my-dino-park-dino-box"
+      },
+      {
+        "slug": "my-dino-park-egg-opening",
+        "file": "my-dino-park-egg-opening"
+      },
+      {
+        "slug": "my-dino-park-eggs",
+        "file": "my-dino-park-eggs"
+      },
+      {
+        "slug": "my-dino-park-epic-eggs",
+        "file": "my-dino-park-epic-eggs"
+      },
+      {
+        "slug": "my-dino-park-new-dino-box",
+        "file": "my-dino-park-new-dino-box"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "my-dino-park-beginner-guide",
+        "file": "my-dino-park-beginner-guide"
+      },
+      {
+        "slug": "my-dino-park-game-tips",
+        "file": "my-dino-park-game-tips"
+      },
+      {
+        "slug": "my-dino-park-guide",
+        "file": "my-dino-park-guide"
+      },
+      {
+        "slug": "my-dino-park-how-to-play",
+        "file": "my-dino-park-how-to-play"
+      },
+      {
+        "slug": "my-dino-park-strategy",
+        "file": "my-dino-park-strategy"
+      },
+      {
+        "slug": "my-dino-park-tips",
+        "file": "my-dino-park-tips"
+      },
+      {
+        "slug": "my-dino-park-tutorial",
+        "file": "my-dino-park-tutorial"
+      },
+      {
+        "slug": "my-dino-park-walkthrough",
+        "file": "my-dino-park-walkthrough"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "my-dino-park-level-1",
+        "file": "my-dino-park-level-1"
+      },
+      {
+        "slug": "my-dino-park-level-4-dinos",
+        "file": "my-dino-park-level-4-dinos"
+      },
+      {
+        "slug": "my-dino-park-level-up",
+        "file": "my-dino-park-level-up"
+      },
+      {
+        "slug": "my-dino-park-max-level",
+        "file": "my-dino-park-max-level"
+      },
+      {
+        "slug": "my-dino-park-upgrade",
+        "file": "my-dino-park-upgrade"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "my-dino-park-roblox-codes",
+        "file": "my-dino-park-roblox-codes"
+      },
+      {
+        "slug": "my-dino-park-roblox-gameplay",
+        "file": "my-dino-park-roblox-gameplay"
+      },
+      {
+        "slug": "my-dino-park-roblox-guide",
+        "file": "my-dino-park-roblox-guide"
+      },
+      {
+        "slug": "my-dino-park-roblox-update",
+        "file": "my-dino-park-roblox-update"
+      },
+      {
+        "slug": "my-dino-park-roblox",
+        "file": "my-dino-park-roblox"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "my-dino-park-july-2026-update",
+        "file": "my-dino-park-july-2026-update"
+      },
+      {
+        "slug": "my-dino-park-new-update",
+        "file": "my-dino-park-new-update"
+      },
+      {
+        "slug": "my-dino-park-update-1",
+        "file": "my-dino-park-update-1"
+      },
+      {
+        "slug": "my-dino-park-update-2",
+        "file": "my-dino-park-update-2"
+      },
+      {
+        "slug": "my-dino-park-update-3",
+        "file": "my-dino-park-update-3"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "my-dino-park-codes",
+        "file": "my-dino-park-codes"
+      }
+    ],
+    "dinos": [
+      {
+        "slug": "my-dino-park-best-dinos",
+        "file": "my-dino-park-best-dinos"
+      },
+      {
+        "slug": "my-dino-park-dino-list",
+        "file": "my-dino-park-dino-list"
+      },
+      {
+        "slug": "my-dino-park-dinosaurs",
+        "file": "my-dino-park-dinosaurs"
+      },
+      {
+        "slug": "my-dino-park-epic-dinos",
+        "file": "my-dino-park-epic-dinos"
+      },
+      {
+        "slug": "my-dino-park-gallimimus",
+        "file": "my-dino-park-gallimimus"
+      },
+      {
+        "slug": "my-dino-park-infinite-dinos",
+        "file": "my-dino-park-infinite-dinos"
+      },
+      {
+        "slug": "my-dino-park-mechanical-dragon",
+        "file": "my-dino-park-mechanical-dragon"
+      },
+      {
+        "slug": "my-dino-park-parasaurolophus",
+        "file": "my-dino-park-parasaurolophus"
+      }
+    ],
+    "eggs": [
+      {
+        "slug": "my-dino-park-dino-box",
+        "file": "my-dino-park-dino-box"
+      },
+      {
+        "slug": "my-dino-park-egg-opening",
+        "file": "my-dino-park-egg-opening"
+      },
+      {
+        "slug": "my-dino-park-eggs",
+        "file": "my-dino-park-eggs"
+      },
+      {
+        "slug": "my-dino-park-epic-eggs",
+        "file": "my-dino-park-epic-eggs"
+      },
+      {
+        "slug": "my-dino-park-new-dino-box",
+        "file": "my-dino-park-new-dino-box"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "my-dino-park-beginner-guide",
+        "file": "my-dino-park-beginner-guide"
+      },
+      {
+        "slug": "my-dino-park-game-tips",
+        "file": "my-dino-park-game-tips"
+      },
+      {
+        "slug": "my-dino-park-guide",
+        "file": "my-dino-park-guide"
+      },
+      {
+        "slug": "my-dino-park-how-to-play",
+        "file": "my-dino-park-how-to-play"
+      },
+      {
+        "slug": "my-dino-park-strategy",
+        "file": "my-dino-park-strategy"
+      },
+      {
+        "slug": "my-dino-park-tips",
+        "file": "my-dino-park-tips"
+      },
+      {
+        "slug": "my-dino-park-tutorial",
+        "file": "my-dino-park-tutorial"
+      },
+      {
+        "slug": "my-dino-park-walkthrough",
+        "file": "my-dino-park-walkthrough"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "my-dino-park-level-1",
+        "file": "my-dino-park-level-1"
+      },
+      {
+        "slug": "my-dino-park-level-4-dinos",
+        "file": "my-dino-park-level-4-dinos"
+      },
+      {
+        "slug": "my-dino-park-level-up",
+        "file": "my-dino-park-level-up"
+      },
+      {
+        "slug": "my-dino-park-max-level",
+        "file": "my-dino-park-max-level"
+      },
+      {
+        "slug": "my-dino-park-upgrade",
+        "file": "my-dino-park-upgrade"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "my-dino-park-roblox-codes",
+        "file": "my-dino-park-roblox-codes"
+      },
+      {
+        "slug": "my-dino-park-roblox-gameplay",
+        "file": "my-dino-park-roblox-gameplay"
+      },
+      {
+        "slug": "my-dino-park-roblox-guide",
+        "file": "my-dino-park-roblox-guide"
+      },
+      {
+        "slug": "my-dino-park-roblox-update",
+        "file": "my-dino-park-roblox-update"
+      },
+      {
+        "slug": "my-dino-park-roblox",
+        "file": "my-dino-park-roblox"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "my-dino-park-july-2026-update",
+        "file": "my-dino-park-july-2026-update"
+      },
+      {
+        "slug": "my-dino-park-new-update",
+        "file": "my-dino-park-new-update"
+      },
+      {
+        "slug": "my-dino-park-update-1",
+        "file": "my-dino-park-update-1"
+      },
+      {
+        "slug": "my-dino-park-update-2",
+        "file": "my-dino-park-update-2"
+      },
+      {
+        "slug": "my-dino-park-update-3",
+        "file": "my-dino-park-update-3"
+      }
+    ]
+  }
+}

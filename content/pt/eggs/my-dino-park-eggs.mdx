@@ -1,0 +1,190 @@
+import { Map, Target, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ovos de My Dino Park: Custos, Nascimentos e Guia de Ordem de Compra",
+  description: "Use este guia de ovos de My Dino Park para escolher a melhor ordem de nascimento, comparar custos e renda, e evitar gastos iniciais desperdiçados com ovos fracos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B5E34/fff?text=Egg+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de My Dino Park"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ovos de My Dino Park**: comece com ovos Comuns e só faça upgrade depois que seu fluxo de Cash conseguir se recuperar rapidamente.
+- **Melhor valor inicial**: use os códigos primeiro, especialmente **DINOSLOVESU**, que concede um Ovo Congelado mais Cash.
+- **Progressão inteligente**: compre ovos Incomuns e Raros antes de buscar nascimentos Épicos ou Lendários.
+- **Regra de renda**: coloque cada nascimento imediatamente para que a renda dos visitantes comece a trabalhar para você.
+- **Objetivo do fim de jogo**: guarde os Ovos Lendários para o ponto em que 50.000 de Cash pareça recuperável.
+</Callout>
+
+<Section icon={Map} title="Visão Geral dos Ovos de My Dino Park">
+
+Os ovos de My Dino Park são a base da progressão inicial. A ordem certa de nascimento enche seu parque mais rápido, mantém o Cash em movimento e ajuda você a evoluir para dinossauros mais fortes sem travar sua economia.
+
+<Callout type="tip" title="Regra Inicial dos Ovos">
+Se o seu parque ainda tiver espaço vazio, um ovo mais barato geralmente é melhor do que esperar por um maior.
+</Callout>
+
+| Ovo | Custo | Tempo de Nascimento | Pool | Melhor Uso |
+|---|---:|---:|---|---|
+| Ovo Comum | 500 Cash | Instantâneo | Comum | Primeira compra, preenchimento inicial do terreno |
+| Ovo Incomum | 4.000 Cash | 10 segundos | Comum / Incomum | Primeiro upgrade após a renda inicial |
+| Ovo Raro | 10.000 Cash | 30 segundos | Incomum / Raro | Principal etapa de renda no meio do jogo |
+| Ovo Épico | 25.000 Cash | 1 minuto | Raro / Épico | Impulso de crescimento do meio para o fim do jogo |
+| Ovo Lendário | 50.000 Cash | 2 minutos | Épico / Lendário | Objetivo de renda do fim do jogo |
+| Ovo Congelado | Recompensa de código | Ovo de código | Limitado / apenas por código | Nascimento gratuito inicial de DINOSLOVESU |
+
+<CardGrid cols={3}>
+  <Card title="Escada Inicial">
+    - **Ovo Comum**
+    - **Ovo Incomum**
+    - Preencha o espaço rapidamente
+  </Card>
+  <Card title="Pulo do Meio do Jogo">
+    - **Ovo Raro**
+    - **Ovo Épico**
+    - Forte aumento de renda
+  </Card>
+  <Card title="Objetivo do Fim do Jogo">
+    - **Ovo Lendário**
+    - **Ovo Congelado**
+    - Melhores alvos para a fase final
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Melhor Ordem de Ovos por Progressão">
+
+O caminho mais limpo é simples: resgate as recompensas, compre ovos baratos, coloque cada nascimento e depois avance um nível por vez. Isso mantém seu parque produtivo enquanto você sobe de nível.
+
+<Callout type="warning" title="Não Acelere os Ovos Premium">
+Ovos Épicos e Lendários podem desacelerar sua progressão se seu parque não conseguir reconstruir o Cash após a compra.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Resgate primeiro as recompensas gratuitas">
+    Abra a Loja, reivindique os códigos ativos e use o Cash bônus antes de comprar ovos.
+  </Step>
+  <Step num="2" title="Compre o Ovo Comum">
+    Gaste 500 Cash no seu primeiro nascimento para que seu parque comece a gerar interesse dos visitantes imediatamente.
+  </Step>
+  <Step num="3" title="Passe para os Ovos Incomuns">
+    Troque assim que os dinossauros iniciais estiverem colocados e sua renda puder sustentar gastos de 4.000 Cash.
+  </Step>
+  <Step num="4" title="Desbloqueie os Ovos Raros em seguida">
+    Use os Ovos Raros como o principal salto do meio do jogo quando quiser melhor renda por nascimento.
+  </Step>
+  <Step num="5" title="Guarde os Ovos Épicos e Lendários para runs com recuperação pronta">
+    Compre esses ovos apenas quando um grande gasto não congelar seu progresso por muito tempo.
+  </Step>
+</Steps>
+
+| Estágio de Progressão | Ovo Recomendado | Verificação de Gasto | Por que Funciona |
+|---|---|---|---|
+| Primeira sessão | Ovo Comum | 500 Cash disponível | Início mais barato e confiável |
+| Crescimento inicial | Ovo Incomum | Vários dinos já colocados | Melhor qualidade de nascimento sem uma grande pausa |
+| Meio do jogo | Ovo Raro | Ciclo de Cash estável | Forte salto de renda |
+| Meio/final do jogo | Ovo Épico | Parque já rendendo bem | Maior valor sem risco inicial |
+| Fim do jogo | Ovo Lendário | 50.000 Cash recuperáveis | Maior teto padrão |
+
+<Callout type="tip" title="Regra Prática">
+Se você ainda estiver olhando para terrenos vazios, gaste com cobertura de nascimento antes de gastar com raridade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Valor dos Ovos, Renda e Reinvestimento">
+
+O valor dos ovos em My Dino Park não depende apenas da raridade. Depende de quão rápido um nascimento ajuda você a colocar mais dinossauros, atrair visitantes e desbloquear a próxima faixa de renda.
+
+<Callout type="success" title="Melhor Bônus Grátis">
+DINOSLOVESU dá um Ovo Congelado mais 10.000 de Cash, o que o torna a recompensa inicial mais forte do conjunto atual de códigos.
+</Callout>
+
+| Alvo do Ovo | Resultado Exemplo | Renda Média por Minuto | Prioridade de Substituição |
+|---|---|---:|---|
+| Ovo Comum | Compsognathus, Gallimimus, Dilophosaurus | 75 | Substituir rapidamente |
+| Ovo Incomum | Parasaurolophus, Ankylosaurus, Pterodactyl | 300 | Usar como ponte |
+| Ovo Raro | Velociraptor, Stegosaurus, Brachiosaurus | 600 | Núcleo forte do meio do jogo |
+| Ovo Épico | Spinosaurus, Triceratops | 1.300 | Manter até o fim do jogo |
+| Ovo Lendário | T-Rex | 2.500 | Titular do fim do jogo |
+| Ovo Congelado | Nascimento de recompensa por código | Recompensa de código | Abra imediatamente |
+
+| Problema de Gasto | Melhor Solução | Resultado |
+|---|---|---|
+| Comprar um ovo raro cedo demais | Preencha os espaços com nascimentos Comuns ou Incomuns | Renda dos visitantes mais rápida |
+| Guardar Cash demais para o Lendário | Compre Raros ou Épicos antes | Menos tempo parado |
+| Manter dinos fracos por muito tempo | Substitua por produtores melhores | Maior fluxo de Cash |
+| Ignorar códigos | Resgate primeiro as recompensas ativas | Mais recursos iniciais |
+
+<Checklist
+  id="egg-progress-goals"
+  title="Metas de Progresso dos Ovos:"
+  items={[
+    "Resgatar os códigos ativos antes da sua primeira compra de ovo",
+    "Preencher cada terreno vazio com um dinossauro colocado",
+    "Fazer upgrade de Comum para Incomum depois que a renda começar a girar",
+    "Usar Ovos Raros como o principal salto do meio do jogo",
+    "Guardar os Ovos Épicos e Lendários para runs estáveis de recuperação"
+  ]}
+/>
+
+<Callout type="info" title="Prioridade de Reinvestimento">
+A ordem mais segura é ovos primeiro, depois dinossauros mais fortes, depois melhorias do parque e, por fim, expansão de terreno.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erros Comuns e Links Oficiais">
+
+A maioria dos erros com ovos vem da impaciência. Os melhores jogadores constroem um ciclo constante de nascimento, mantêm o terreno produtivo e evitam prender Cash em uma única compra grande demais.
+
+<Callout type="warning" title="Erros Comuns">
+A maior lentidão é comprar ovos de alto nível antes que os nascimentos de nível mais baixo já estejam funcionando para você.
+</Callout>
+
+| Erro | Melhor Movimento | Por que Ajuda |
+|---|---|---|
+| Pular os Ovos Comuns | Compre o primeiro nascimento barato | Inicia a renda imediatamente |
+| Dar valor demais à raridade | Foque na velocidade de recuperação da renda | Melhor ritmo de progressão |
+| Deixar terrenos vazios | Coloque cada nascimento rapidamente | A renda dos visitantes começa antes |
+| Comprar o Lendário cedo demais | Progrida primeiro por Raros e Épicos | Menor pressão na economia |
+| Ignorar as recompensas de código | Resgate os códigos ativos imediatamente | Cash grátis e um Ovo Congelado |
+
+| Fonte Oficial | O que Ela Oferece | Link |
+|---|---|---|
+| Experiência Roblox | Jogue, confira o título ao vivo e confirme a atualização atual | https://www.roblox.com/games/80701570784699/My-Dino-Park |
+| Comunidade Dino | Grupo oficial da Roblox para o desenvolvedor | https://www.roblox.com/communities/532484073/Dino-Community |
+| Convite do Discord | Códigos, atualizações e ajuda para recuperação | https://discord.com/invite/eQHNk8dGpz |
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor primeiro ovo em My Dino Park?",
+    answer: "O Ovo Comum é a melhor primeira compra porque custa apenas 500 Cash e inicia seu ciclo de renda imediatamente."
+  },
+  {
+    question: "Quando devo comprar Ovos Raros?",
+    answer: "Passe para os Ovos Raros assim que seu parque tiver vários dinossauros colocados e seu Cash conseguir se recuperar sem uma longa pausa."
+  },
+  {
+    question: "Vale a pena usar o Ovo Congelado logo de cara?",
+    answer: "Sim. O Ovo Congelado de DINOSLOVESU é uma recompensa grátis, então é melhor abri-lo cedo em vez de deixá-lo no inventário."
+  },
+  {
+    question: "Devo guardar para os Ovos Lendários o quanto antes?",
+    answer: "Normalmente não. Os Ovos Lendários são fortes, mas a progressão inicial fica mais suave se você construir primeiro com Comuns, Incomuns, Raros e Épicos."
+  }
+]} />
+
+<Callout type="success" title="Conclusão Final">
+Use ovos baratos para preencher espaço, use ovos Raros e Épicos para escalar e guarde as compras Lendárias para quando seu parque puder absorver o custo.
+</Callout>
+
+</Section>

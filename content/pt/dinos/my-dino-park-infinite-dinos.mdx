@@ -1,0 +1,213 @@
+import { Map, Target, Trophy, Sparkles, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "my dino park infinite dinos: Guia de Eclosão Rápida e Crescimento",
+  description: "Aprenda a melhor ordem de ovos, recompensas de códigos, prioridades de melhoria e o loop de reinvestimento para construir mais dinossauros mais rápido em My Dino Park.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b5e34/fff?text=Infinite+Dinos+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de My Dino Park"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **my dino park infinite dinos** é, na verdade, um loop rápido de reinvestimento: chocando cedo, ocupando espaço e melhorando a renda.
+- **O melhor valor inicial** vem de resgatar os códigos ativos antes de gastar Cash em ovos.
+- **A ordem dos ovos importa**: Comum, Incomum, Raro, Épico e, depois, Lendário.
+- **Melhore mais tarde** depois que seu parque tiver dinossauros suficientes para multiplicar.
+- **Substitua dinos fracos** assim que opções com renda maior ficarem acessíveis.
+</Callout>
+
+<Section icon={Map} title="Loop de Crescimento de my dino park infinite dinos">
+my dino park infinite dinos funciona melhor quando você trata cada recompensa, eclosão e melhoria como parte de um único loop. O objetivo não é acumular Cash. O objetivo é transformar Cash em dinossauros, e dinossauros em mais Cash, até que cada espaço do seu parque esteja gerando renda.
+
+<Callout type="tip" title="Melhor Abertura">
+Resgate os códigos atuais primeiro e, depois, compre os ovos mais baratos que mantenham seu parque cheio. Terreno vazio desacelera tudo.
+</Callout>
+
+**Destaques do Vídeo:**
+- Resgate as recompensas antes da sua primeira compra de ovo.
+- Encha o parque com dinossauros de baixo custo no início.
+- Reinvista a renda em ovos melhores em vez de economizar para sempre.
+- Use melhorias depois que o parque já estiver gerando Cash de forma estável.
+
+<CardGrid cols={3}>
+  <Card title="Loop Inicial">
+    - **Resgatar códigos**
+    - Comprar Ovos Comuns
+    - Preencher cada slot vazio
+  </Card>
+  <Card title="Loop do Meio do Jogo">
+    - **Trocar por Ovos Raros**
+    - Substituir dinos fracos
+    - Adicionar melhorias de renda
+  </Card>
+  <Card title="Loop do Final do Jogo">
+    - **Avançar para Épicos e Lendários**
+    - Multiplicar visitantes
+    - Reinvestir mais rápido
+  </Card>
+</CardGrid>
+
+| Código | Recompensa | Melhor Uso | Prioridade |
+|---|---|---|---|
+| UPDATE2 | 20.000 Cash + 200 Teeth | Grande impulso inicial | Melhor no geral |
+| DINOSLOVESU | Frozen Egg + 10.000 Cash | Impulso da primeira sessão | Alta |
+| BESTDINOGAME | 300 Teeth | Impulso de moeda premium | Alta |
+| WELCOME | 1.000 Cash | Reserva inicial | Média |
+| THX4PLAYING | 650 Cash | Cash extra no começo | Média |
+
+</Section>
+
+<Section icon={Sparkles} title="Melhor Ordem de Ovos e Prioridades de Cash">
+A escolha dos ovos é o coração da rota de crescimento. O caminho mais limpo é comprar apenas o que ajuda a manter o parque cheio e, então, subir um tier por vez. É assim que você evita gastar cedo demais em ovos caros que atrasam sua recuperação de renda.
+
+<Callout type="warning" title="Erro de Gastos a Evitar">
+Não corra para comprar o Legendary Egg antes de o seu parque conseguir recuperar rapidamente o custo de 50.000 Cash. Esse atraso pode travar tudo.
+</Callout>
+
+| Ovo | Custo | Tempo de Eclosão | Melhor Uso |
+|---|---|---|---|
+| Common Egg | 500 Cash | Instantâneo | Primeira compra, preenchimento inicial |
+| Uncommon Egg | 4.000 Cash | 10 segundos | Primeira melhoria a partir dos dinos iniciais |
+| Rare Egg | 10.000 Cash | 30 segundos | Principal etapa de renda do meio do jogo |
+| Epic Egg | 25.000 Cash | 1 minuto | Crescimento do meio para o fim do jogo |
+| Legendary Egg | 50.000 Cash | 2 minutos | Objetivo do fim do jogo |
+| Frozen Egg | Recompensa de código | Ovo de código | Eclosão bônus grátis |
+
+<CardGrid cols={4}>
+  <Card title="Common">
+    - Menor risco
+    - Começo rápido
+    - Preenche terreno vazio
+  </Card>
+  <Card title="Uncommon">
+    - Melhor renda
+    - Boa tier de transição
+    - Ainda acessível
+  </Card>
+  <Card title="Rare">
+    - Forte salto de valor
+    - Ovo central do meio do jogo
+    - Melhor escalonamento inicial
+  </Card>
+  <Card title="Epic/Legendary">
+    - Grandes picos de renda
+    - Use após estabilizar
+    - Foco no fim do jogo
+  </Card>
+</CardGrid>
+
+| Dinossauro | Raridade | Custo | Renda/Min | Manter ou Substituir |
+|---|---|---|---|---|
+| Compsognathus | Comum | 500 Cash | 50 | Substituir rápido |
+| Gallimimus | Comum | 1.000 Cash | 75 | Preenchimento inicial |
+| Dilophosaurus | Comum | 1.500 Cash | 100 | Manter por curto prazo |
+| Velociraptor | Raro | 8.000 Cash | 500 | Melhoria forte |
+| Stegosaurus | Raro | 10.000 Cash | 600 | Forte no meio do jogo |
+| Brachiosaurus | Raro | 12.000 Cash | 700 | Alto valor |
+| Spinosaurus | Épico | 25.000 Cash | 1.400 | Manter no fim do jogo |
+| T-Rex | Lendário | 50.000 Cash | 2.500 | Manter no fim do jogo |
+
+</Section>
+
+<Section icon={Target} title="Rota de Reinvestimento Passo a Passo">
+A rota mais rápida é simples: resgatar, chocar, posicionar, ganhar e melhorar nessa ordem. Siga o loop exatamente uma vez e, depois, repita com compras mais fortes. Isso mantém seu parque em movimento em vez de travar enquanto você espera uma compra gigante.
+
+<Callout type="success" title="Melhor Regra de Reforço">
+Quando você puder pagar um tier mais alto sem quebrar seu fluxo de renda, troque. Substitua primeiro os que menos rendem.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Resgate os Códigos Ativos">
+    Abra a Loja, insira a lista de códigos ativos e resgate as recompensas antes de gastar com ovos. Isso dá o maior impulso inicial.
+  </Step>
+  <Step num="2" title="Compre Primeiro os Ovos Comuns">
+    Use o Cash inicial em Common Eggs para que cada slot vazio comece a gerar interesse dos visitantes imediatamente.
+  </Step>
+  <Step num="3" title="Passe para Uncommon e Rare">
+    Quando a renda básica estiver estável, avance para Uncommon Eggs e, depois, para Rare Eggs quando conseguir sustentar o custo.
+  </Step>
+  <Step num="4" title="Adicione Melhorias Depois que o Parque Funcionar">
+    Compre Visitor Booth, Food Court, Dino Hotel e Helicopter Tour somente depois de já ter uma base de dinossauros funcionando.
+  </Step>
+</Steps>
+
+| Melhoria | Custo | Função | Quando Comprar |
+|---|---|---|---|
+| Visitor Booth | 2.000 Cash | 1,2x renda de visitantes | Bem cedo |
+| Food Court | 8.000 Cash | 1,5x renda de visitantes | Início-meio |
+| Dino Hotel | 20.000 Cash | 2x renda de visitantes | Meio do jogo |
+| Helicopter Tour | 50.000 Cash | 3x renda de visitantes | Fim do jogo |
+
+</Section>
+
+<Section icon={Shield} title="Alvos de Substituição e Marcos de Progresso">
+Um parque forte não é construído mantendo cada dinossauro para sempre. Os melhores parques substituem os que rendem pouco assim que opções melhores se tornam viáveis. Essa é a maneira mais fácil de manter sua curva de renda subindo.
+
+<Callout type="tip" title="Regra Inteligente de Substituição">
+Mantenha dinossauros baratos apenas enquanto eles ajudam você a alcançar o próximo tier. Quando eles deixarem de acelerar o progresso, substitua-os.
+</Callout>
+
+<Checklist
+  id="my-dino-park-goals"
+  title="Marcos de Progresso:"
+  items={[
+    "Resgatar todos os códigos ativos antes da primeira compra de ovo",
+    "Preencher o parque cedo com dinossauros Comuns ou Incomuns",
+    "Melhorar para Ovos Raros quando o Cash estiver estável",
+    "Comprar melhorias do parque depois que a base de dinossauros estiver produtiva",
+    "Substituir dinos de baixa renda por opções Raras, Épicas e Lendárias"
+  ]}
+/>
+
+| Marco | Alvo | Por que Importa |
+|---|---|---|
+| Preenchimento inicial | Dinos Comuns / Incomuns | Faz a renda começar rápido |
+| Primeiro salto de escala | Ovos Raros | Maior impulso do meio do jogo |
+| Base forte do parque | Vários geradores Raros | Faz as melhorias valerem a pena |
+| Crescimento tardio | Épicos e Lendários | Empurra para renda máxima |
+| Ciclo de reconstrução | Reinvestimento repetido | Mantém os dinos crescendo |
+
+| Link Oficial | O Que É | Para Que Serve |
+|---|---|---|
+| Roblox Experience | Página oficial do jogo | Jogar o jogo |
+| Dino Community | Grupo do Roblox | Atualizações do desenvolvedor |
+| Discord | Servidor da comunidade | Códigos e anúncios |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+<Callout type="info" title="Respostas Rápidas">
+Estas respostas focam no mesmo loop de reinvestimento usado ao longo deste guia.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que my dino park infinite dinos significa na prática?",
+    answer: "Significa construir um loop infinito de crescimento: resgatar códigos, comprar ovos, chocar dinossauros, preencher o parque e reinvestir Cash em geradores mais fortes."
+  },
+  {
+    question: "Qual é a melhor primeira compra em My Dino Park?",
+    answer: "Resgate os códigos ativos primeiro e, depois, compre Common Eggs. Isso dá Cash inicial e uma maneira fácil de preencher slots vazios."
+  },
+  {
+    question: "Quando devo comprar Rare ou Epic Eggs?",
+    answer: "Passe para Rare Eggs quando seu fluxo de Cash estiver estável e, depois, use Epic Eggs quando o parque conseguir suportar gastos maiores sem desacelerar."
+  },
+  {
+    question: "Devo comprar melhorias antes de mais dinossauros?",
+    answer: "Não. Compre melhorias depois que o parque já tiver dinossauros suficientes para aproveitar o multiplicador."
+  }
+]} />
+
+<Callout type="warning" title="Apenas Links Oficiais">
+Use a experiência oficial do Roblox, o grupo Dino Community e o convite do Discord para códigos, atualizações e ajuda de restauração. Evite links aleatórios de terceiros.
+</Callout>
+
+</Section>

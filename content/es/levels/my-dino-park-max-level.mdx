@@ -1,0 +1,209 @@
+import { Map, Target, Sparkles, Trophy, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "My Dino Park Nivel Máximo: límites de nivel, crecimiento y mejoras",
+  description: "Sigue el progreso del nivel máximo en My Dino Park con el orden de mejoras más rápido, prioridades de ingresos y preparación para el día del límite para un parque más fuerte.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Max+Level+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de my dino park"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El nivel máximo de My Dino Park** trata de la estabilidad de ingresos, no solo de un número en un medidor.
+- **Compra huevos primero** para llenar los terrenos vacíos, luego reemplaza a los dinos débiles por otros que generen más.
+- **Mejora después de colocar** para que cada multiplicador potencie un parque ya productivo.
+- **Deja de acumular Cash** en cuanto un huevo o una mejora nueva se amortice más rápido que esperar.
+</Callout>
+
+<Section icon={Map} title="My Dino Park Nivel Máximo: qué significa realmente el límite">
+
+En la planificación del **nivel máximo de My Dino Park**, el objetivo real es llevar tu parque a un estado estable y de altos ingresos lo más rápido posible. Por lo general, eso significa que ya no piensas como un jugador principiante. Estás viendo el valor de los huevos, la densidad de dinosaurios y el momento de las mejoras como un solo ciclo.
+
+<Callout type="tip" title="Regla básica">
+Un parque más fuerte suele venir de un **mejor orden de gasto**, no de guardar cada moneda para una compra cara.
+</Callout>
+
+| Stage | What you are building | What “max level” looks like | Main priority |
+|---|---|---|---|
+| Early | Starter income loop | Los espacios vacíos se llenan con dinos baratos | Eggs |
+| Mid | Stronger earnings base | Los dinos débiles se reemplazan por eclosiones de mayor nivel | Rare and Epic value |
+| Late | Multipliers and scaling | El ingreso de visitantes empieza a rendir de verdad | Upgrades |
+| Endgame | Stable optimization | Menos ranuras muertas, mejores retornos por compra | Reinvest and refine |
+
+Lo importante es que el progreso no es lineal. Un parque con muchos dinosaurios de bajo valor puede parecer activo, pero aun así pierde contra una configuración más compacta con mejores generadores de ingresos y mejoras más inteligentes. Por eso, el nivel máximo debe tratarse como un **objetivo de gestión**, no solo como un número.
+
+| Signal | Meaning | What to do next |
+|---|---|---|
+| Cash builds slowly | Tu ingreso base es demasiado débil | Compra más huevos y llena el terreno vacío |
+| New upgrades feel small | Mejoraste antes de que el parque estuviera listo | Añade más dinosaurios primero |
+| Better eggs take too long to afford | Estás ahorrando con demasiada agresividad | Gasta en el siguiente nivel eficiente |
+| Visitors are steady but not scaling | El diseño necesita limpieza | Reubica y elimina el espacio muerto |
+
+<Callout type="warning" title="Evita este error">
+No persigas la opción más cara demasiado pronto. En los juegos de tycoon, un **buen retorno ahora** suele superar a un **gran retorno más tarde**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La ruta más rápida para alcanzar tu parque más fuerte">
+
+La ruta más rápida es simple: llena el espacio, aumenta la calidad y luego multiplica el resultado. Ese orden importa más que el momento exacto, porque cada paso alimenta al siguiente. Si te saltas la base inicial, las mejoras posteriores tendrán menos que potenciar.
+
+<Callout type="info" title="Enfoque de progreso">
+Piensa en este orden: **espacios libres, mejores eclosiones, multiplicadores más fuertes, diseño más limpio**.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Starter Phase">
+    - **Llena cada espacio vacío**
+    - Usa primero huevos baratos
+    - Construye pronto el flujo de visitantes
+  </Card>
+  <Card title="Growth Phase">
+    - **Reemplaza dinos débiles**
+    - Avanza hacia valor Rare
+    - Mantén el ciclo de Cash
+  </Card>
+  <Card title="Scaling Phase">
+    - **Compra multiplicadores más tarde**
+    - Expande solo después de estabilizar los ingresos
+    - Reduce el espacio muerto
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Abre el parque y completa el flujo inicial">
+    Entra en el juego, completa las acciones iniciales del tutorial y desbloquea los menús principales antes de gastar mucho.
+  </Step>
+  <Step num="2" title="Gasta el Cash inicial en los huevos útiles más baratos">
+    Usa huevos de bajo costo para llenar tus primeros espacios. Un parque lleno con generadores modestos es más fuerte que uno a medio llenar esperando una compra soñada.
+  </Step>
+  <Step num="3" title="Reemplaza los dinos iniciales por mejores ingresos por espacio">
+    Una vez que funcione tu ciclo básico, avanza hacia eclosiones más fuertes para que cada parcela aporte más Cash por minuto.
+  </Step>
+  <Step num="4" title="Añade mejoras cuando el parque ya sea productivo">
+    Compra potenciadores de visitantes e ingresos cuando tu base de dinosaurios sea lo bastante fuerte como para justificarlos.
+  </Step>
+</Steps>
+
+| Purchase order | Best use case | Why it works |
+|---|---|---|
+| Common egg tier | First filling pass | La forma más barata de empezar a generar ingresos |
+| Uncommon egg tier | Early improvement | Mejor valor sin frenar demasiado el crecimiento |
+| Rare egg tier | Main mid-game step | Gran salto en eficiencia por espacio |
+| Visitor upgrades | After dinosaurs are placed | Multiplica un parque que ya gana |
+| Expansion | When current land is full | El nuevo espacio importa más cuando se usará de inmediato |
+
+<Callout type="success" title="Mejor hábito">
+Cada vez que consigas un pico importante de Cash, hazte una pregunta: **¿esta compra llena un espacio, mejora un espacio o multiplica los ingresos existentes?**
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejor orden de gasto para huevos, dinos y mejoras">
+
+Una vez que tu parque está en marcha, el mayor error es mezclar todos los tipos de compra. Mantén tus gastos ordenados. Los huevos aportan cuerpos, los dinosaurios aportan ingresos visibles y las mejoras aportan multiplicadores. El mejor orden es fortalecer una capa antes de pasar a la siguiente.
+
+<Callout type="tip" title="Prioridad de gasto">
+Si dos compras cuestan más o menos lo mismo, elige primero la que mejore los **ingresos por espacio**.
+</Callout>
+
+| Priority | Buy when | Avoid when | Example outcome |
+|---|---|---|---|
+| 1. Eggs | Tienes terreno libre | Aún no tienes espacio para colocar eclosiones | Nuevos dinosaurios inician el ciclo de ingresos |
+| 2. Dinos | Una mejor eclosión reemplaza a una más débil | Estás ahorrando sin motivo | Sube el Cash por minuto |
+| 3. Upgrades | Tu parque ya tiene suficientes generadores | Tienes demasiadas parcelas vacías | Los multiplicadores se vuelven relevantes |
+| 4. Expansion | El terreno actual es productivo | Tu terreno existente sigue medio vacío | El nuevo espacio amplía tu configuración |
+
+| Tier | What it means | Practical use |
+|---|---|---|
+| Common | Starter filler | Bueno para la primera expansión |
+| Uncommon | Early bridge | Útil mientras el Cash sigue siendo limitado |
+| Rare | Main growth tier | Mejor equilibrio entre costo y recompensa para muchos parques |
+| Epic | Strong mid-to-late tier | Vale la pena buscarlo una vez que el ingreso básico es estable |
+| Legendary | Endgame anchor | Mejor cuando tu parque puede recuperarse rápido |
+
+Un parque inteligente suele seguir un patrón simple:
+- Llena los espacios vacíos con eclosiones asequibles.
+- Reemplaza a los generadores débiles en cuanto el siguiente nivel tenga sentido.
+- Retrasa los multiplicadores caros hasta que el parque pueda soportarlos.
+- Expande el terreno solo cuando el terreno actual ya sea productivo.
+
+<Callout type="warning" title="Aviso sobre el momento">
+Si compras expansión demasiado pronto, quizá solo crees más espacio vacío. El espacio vacío se ve impresionante, pero no genera Cash.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cuando alcanzas el límite: qué hacer después">
+
+Llegar al nivel máximo práctico no es un callejón sin salida. Normalmente significa que tu parque ha llegado al punto en que las mejoras son menores, las decisiones son más ajustadas y la optimización importa más que los desbloqueos brutos. Ahí es cuando el juego se convierte en un problema de **limpieza y eficiencia**.
+
+<Callout type="success" title="Mentalidad del día del límite">
+En la etapa alta, tu trabajo es convertir un parque bueno en un **parque compacto**.
+</Callout>
+
+<Checklist
+  id="max-level-actions"
+  title="Lista de comprobación del día del límite:"
+  items={[
+    "Reemplaza los dinosaurios iniciales que queden por generadores de nivel superior",
+    "Elimina o replantea cualquier parcela vacía o de bajo valor",
+    "Confirma que las mejoras se compran después de que los ingresos estén estables",
+    "Reinvierte el Cash en la siguiente compra eficiente en lugar de acumularlo demasiado tiempo",
+    "Mantén la expansión ligada al uso real, no solo al espacio disponible"
+  ]}
+/>
+
+| Problem at the cap | Likely cause | Best fix |
+|---|---|---|
+| Income growth slows | Demasiados dinos débiles siguen presentes | Reemplázalos por niveles más fuertes |
+| New purchases feel small | El parque ya está poco optimizado | Rehaz el diseño para mejorar el valor por espacio |
+| Cash piles up unused | Estás esperando demasiado | Gasta en el siguiente nivel eficiente |
+| Expansion adds little value | El nuevo terreno no se está usando lo bastante rápido | Llena el terreno actual antes de comprar más |
+
+| Official resource | Date | Link |
+|---|---|---|
+| Roblox experience page | 2026-07-05 | https://www.roblox.com/games/80701570784699/My-Dino-Park |
+| Dino Community group | 2026-07-05 | https://www.roblox.com/communities/532484073/Dino-Community |
+| Official Discord invite | 2026-07-05 | https://discord.com/invite/eQHNk8dGpz |
+
+<Callout type="info" title="Seguimiento útil">
+Si quieres seguir avanzando después del límite, revisa de nuevo tu **orden de huevos, orden de mejoras y separación del diseño** antes de buscar más compras.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<Callout type="info" title="Notas de la FAQ">
+Estas respuestas se centran en el **progreso práctico del nivel máximo**: mejor orden de gasto, mejor valor por espacio y mejor momento para mejorar.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué suele significar el nivel máximo de My Dino Park?",
+    answer: "Suele significar el punto en el que tu parque deja de necesitar decisiones básicas de crecimiento y empieza a necesitar optimización. Ya no solo desbloqueas contenido; estás mejorando los ingresos por espacio, el momento de las mejoras y el uso del terreno."
+  },
+  {
+    question: "¿Debo guardar Cash para el huevo más caro?",
+    answer: "No suele ser lo mejor. Una mejor jugada es comprar la siguiente mejora eficiente que impulse antes tu flujo de ingresos. En la mayoría de los parques, los huevos asequibles y los reemplazos oportunos superan a las largas rachas de ahorro."
+  },
+  {
+    question: "¿Cuándo debería comprar mejoras?",
+    answer: "Compra mejoras después de que tu parque ya tenga una base sólida de dinosaurios. Así, el multiplicador potencia los ingresos existentes en lugar de amplificar espacio vacío."
+  },
+  {
+    question: "¿Cómo sigo progresando después de alcanzar el límite?",
+    answer: "Sigue reemplazando dinos débiles, limpiando el espacio muerto y reinvirtiendo en el siguiente nivel eficiente. El nivel máximo en My Dino Park trata menos de esperar y más de mantener el parque productivo."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,15 @@
       "twitterDescription": "Build faster with My Dino Park codes, dinosaur tier lists, egg costs, income tips, park upgrades, and beginner guides for the Roblox tycoon."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "dinos": "Dinos",
+    "eggs": "Eggs",
+    "levels": "Levels",
+    "updates": "Updates",
+    "roblox": "Roblox"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -512,11 +520,26 @@
           "description": "Start with the free rewards from the Store code box, then use the Cash to speed up early egg purchases. Codes are case-sensitive, so enter them exactly as posted.",
           "action": "Open My Dino Park, press Store, scroll to Redeem a gift code, enter the code, and claim the reward.",
           "rewards": [
-            { "code": "UPDATE2", "reward": "20,000 Cash + 200 Teeth" },
-            { "code": "BESTDINOGAME", "reward": "300 Teeth" },
-            { "code": "DINOSLOVESU", "reward": "Frozen Egg + 10,000 Cash" },
-            { "code": "THX4PLAYING", "reward": "650 Cash" },
-            { "code": "WELCOME", "reward": "1,000 Cash" }
+            {
+              "code": "UPDATE2",
+              "reward": "20,000 Cash + 200 Teeth"
+            },
+            {
+              "code": "BESTDINOGAME",
+              "reward": "300 Teeth"
+            },
+            {
+              "code": "DINOSLOVESU",
+              "reward": "Frozen Egg + 10,000 Cash"
+            },
+            {
+              "code": "THX4PLAYING",
+              "reward": "650 Cash"
+            },
+            {
+              "code": "WELCOME",
+              "reward": "1,000 Cash"
+            }
           ]
         },
         {
@@ -524,9 +547,21 @@
           "description": "Early income depends on having dinosaurs placed, not on saving for a dream T-Rex while your park sits empty. Buy Common-tier eggs first so every open space starts producing visitor income.",
           "priority": "Use Common Egg dinosaurs to start the income loop, then move into Uncommon and Rare eggs once the park has steady Cash flow.",
           "bestEarlyTargets": [
-            { "dinosaur": "Compsognathus", "cost": "500 Cash", "income": "50 Cash/min" },
-            { "dinosaur": "Gallimimus", "cost": "1,000 Cash", "income": "75 Cash/min" },
-            { "dinosaur": "Dilophosaurus", "cost": "1,500 Cash", "income": "100 Cash/min" }
+            {
+              "dinosaur": "Compsognathus",
+              "cost": "500 Cash",
+              "income": "50 Cash/min"
+            },
+            {
+              "dinosaur": "Gallimimus",
+              "cost": "1,000 Cash",
+              "income": "75 Cash/min"
+            },
+            {
+              "dinosaur": "Dilophosaurus",
+              "cost": "1,500 Cash",
+              "income": "100 Cash/min"
+            }
           ]
         },
         {
@@ -545,19 +580,50 @@
           "title": "Replace weak dinosaurs with Rare earners",
           "description": "Once your park is producing, stop overbuying the lowest tier and start replacing weak dinosaurs with higher-income species. Velociraptor is the strongest early upgrade target because it gives a major jump in income without needing endgame Cash.",
           "replacementTargets": [
-            { "dinosaur": "Velociraptor", "rarity": "Rare", "cost": "8,000 Cash", "income": "500 Cash/min" },
-            { "dinosaur": "Stegosaurus", "rarity": "Rare", "cost": "10,000 Cash", "income": "600 Cash/min" },
-            { "dinosaur": "Brachiosaurus", "rarity": "Rare", "cost": "12,000 Cash", "income": "700 Cash/min" }
+            {
+              "dinosaur": "Velociraptor",
+              "rarity": "Rare",
+              "cost": "8,000 Cash",
+              "income": "500 Cash/min"
+            },
+            {
+              "dinosaur": "Stegosaurus",
+              "rarity": "Rare",
+              "cost": "10,000 Cash",
+              "income": "600 Cash/min"
+            },
+            {
+              "dinosaur": "Brachiosaurus",
+              "rarity": "Rare",
+              "cost": "12,000 Cash",
+              "income": "700 Cash/min"
+            }
           ]
         },
         {
           "title": "Buy park upgrades after the dinosaur base is working",
           "description": "Park upgrades multiply the value of a park that already has dinosaurs. Buy them after you have a stable set of placed dinosaurs, not before, because an empty upgraded park adds no income on its own.",
           "upgradeOrder": [
-            { "upgrade": "Visitor Booth", "cost": "2,000 Cash", "role": "Early visitor income boost" },
-            { "upgrade": "Food Court", "cost": "8,000 Cash", "role": "Mid-early income multiplier" },
-            { "upgrade": "Dino Hotel", "cost": "20,000 Cash", "role": "Mid-game park value upgrade" },
-            { "upgrade": "Helicopter Tour", "cost": "50,000 Cash", "role": "Late-game attraction upgrade" }
+            {
+              "upgrade": "Visitor Booth",
+              "cost": "2,000 Cash",
+              "role": "Early visitor income boost"
+            },
+            {
+              "upgrade": "Food Court",
+              "cost": "8,000 Cash",
+              "role": "Mid-early income multiplier"
+            },
+            {
+              "upgrade": "Dino Hotel",
+              "cost": "20,000 Cash",
+              "role": "Mid-game park value upgrade"
+            },
+            {
+              "upgrade": "Helicopter Tour",
+              "cost": "50,000 Cash",
+              "role": "Late-game attraction upgrade"
+            }
           ]
         },
         {
@@ -579,7 +645,13 @@
       "intro": "The standard collection currently spans 12 dinosaurs across Common, Uncommon, Rare, Epic, and Legendary rarity tiers. Higher-rarity dinosaurs cost more to hatch but bring much stronger visitor income, so the best collection path is to fill the park early, then replace low earners with stronger species.",
       "searchPlaceholder": "Search dinosaurs by name...",
       "allRarities": "All",
-      "rarityFilters": ["Common", "Uncommon", "Rare", "Epic", "Legendary"],
+      "rarityFilters": [
+        "Common",
+        "Uncommon",
+        "Rare",
+        "Epic",
+        "Legendary"
+      ],
       "columns": {
         "dinosaur": "Dinosaur",
         "tier": "Tier",
@@ -592,18 +664,126 @@
       },
       "noResults": "No dinosaurs match your search.",
       "dinosaurs": [
-        { "dinosaur": "T-Rex", "rarity": "Legendary", "tier": "S", "sourceEgg": "Legendary Egg", "cost": "50,000 Cash", "income": "2,500 Cash/min", "visitorValue": "Best park attraction and highest standard income", "replacementNote": "Endgame keeper; replace only for duplicates or future stronger limited dinosaurs" },
-        { "dinosaur": "Spinosaurus", "rarity": "Epic", "tier": "A", "sourceEgg": "Epic Egg", "cost": "25,000 Cash", "income": "1,400 Cash/min", "visitorValue": "Excellent mid-to-late game income", "replacementNote": "Keep until Legendary upgrades are affordable" },
-        { "dinosaur": "Triceratops", "rarity": "Epic", "tier": "A", "sourceEgg": "Epic Egg", "cost": "20,000 Cash", "income": "1,200 Cash/min", "visitorValue": "Strong balanced visitor appeal", "replacementNote": "Keep as a strong mid-to-late game earner" },
-        { "dinosaur": "Brachiosaurus", "rarity": "Rare", "tier": "B", "sourceEgg": "Rare Egg", "cost": "12,000 Cash", "income": "700 Cash/min", "visitorValue": "High early-to-mid crowd attraction", "replacementNote": "Replace only after Epic dinosaurs become affordable" },
-        { "dinosaur": "Stegosaurus", "rarity": "Rare", "tier": "B", "sourceEgg": "Rare Egg", "cost": "10,000 Cash", "income": "600 Cash/min", "visitorValue": "Reliable early-to-mid income", "replacementNote": "Good stable earner before Epic upgrades" },
-        { "dinosaur": "Velociraptor", "rarity": "Rare", "tier": "B", "sourceEgg": "Rare Egg", "cost": "8,000 Cash", "income": "500 Cash/min", "visitorValue": "Best early upgrade target", "replacementNote": "Keep through early-mid game; replace with Epic dinosaurs later" },
-        { "dinosaur": "Pterodactyl", "rarity": "Uncommon", "tier": "C", "sourceEgg": "Uncommon Egg", "cost": "6,000 Cash", "income": "350 Cash/min", "visitorValue": "Good early variety and filler income", "replacementNote": "Replace with Rare dinosaurs when park slots become valuable" },
-        { "dinosaur": "Ankylosaurus", "rarity": "Uncommon", "tier": "C", "sourceEgg": "Uncommon Egg", "cost": "5,000 Cash", "income": "300 Cash/min", "visitorValue": "Low-maintenance filler income", "replacementNote": "Use as a bridge into Rare eggs" },
-        { "dinosaur": "Parasaurolophus", "rarity": "Uncommon", "tier": "C", "sourceEgg": "Uncommon Egg", "cost": "4,000 Cash", "income": "250 Cash/min", "visitorValue": "Low-investment early income", "replacementNote": "Replace after your Rare egg income loop starts" },
-        { "dinosaur": "Dilophosaurus", "rarity": "Common", "tier": "D", "sourceEgg": "Common Egg", "cost": "1,500 Cash", "income": "100 Cash/min", "visitorValue": "Starter income", "replacementNote": "Replace with Uncommon or Rare dinosaurs once Cash flow improves" },
-        { "dinosaur": "Gallimimus", "rarity": "Common", "tier": "D", "sourceEgg": "Common Egg", "cost": "1,000 Cash", "income": "75 Cash/min", "visitorValue": "Budget starter income", "replacementNote": "Use early, then replace as soon as higher-tier eggs are affordable" },
-        { "dinosaur": "Compsognathus", "rarity": "Common", "tier": "D", "sourceEgg": "Common Egg", "cost": "500 Cash", "income": "50 Cash/min", "visitorValue": "Cheapest starter filler", "replacementNote": "Good only for filling empty early space; replace quickly" }
+        {
+          "dinosaur": "T-Rex",
+          "rarity": "Legendary",
+          "tier": "S",
+          "sourceEgg": "Legendary Egg",
+          "cost": "50,000 Cash",
+          "income": "2,500 Cash/min",
+          "visitorValue": "Best park attraction and highest standard income",
+          "replacementNote": "Endgame keeper; replace only for duplicates or future stronger limited dinosaurs"
+        },
+        {
+          "dinosaur": "Spinosaurus",
+          "rarity": "Epic",
+          "tier": "A",
+          "sourceEgg": "Epic Egg",
+          "cost": "25,000 Cash",
+          "income": "1,400 Cash/min",
+          "visitorValue": "Excellent mid-to-late game income",
+          "replacementNote": "Keep until Legendary upgrades are affordable"
+        },
+        {
+          "dinosaur": "Triceratops",
+          "rarity": "Epic",
+          "tier": "A",
+          "sourceEgg": "Epic Egg",
+          "cost": "20,000 Cash",
+          "income": "1,200 Cash/min",
+          "visitorValue": "Strong balanced visitor appeal",
+          "replacementNote": "Keep as a strong mid-to-late game earner"
+        },
+        {
+          "dinosaur": "Brachiosaurus",
+          "rarity": "Rare",
+          "tier": "B",
+          "sourceEgg": "Rare Egg",
+          "cost": "12,000 Cash",
+          "income": "700 Cash/min",
+          "visitorValue": "High early-to-mid crowd attraction",
+          "replacementNote": "Replace only after Epic dinosaurs become affordable"
+        },
+        {
+          "dinosaur": "Stegosaurus",
+          "rarity": "Rare",
+          "tier": "B",
+          "sourceEgg": "Rare Egg",
+          "cost": "10,000 Cash",
+          "income": "600 Cash/min",
+          "visitorValue": "Reliable early-to-mid income",
+          "replacementNote": "Good stable earner before Epic upgrades"
+        },
+        {
+          "dinosaur": "Velociraptor",
+          "rarity": "Rare",
+          "tier": "B",
+          "sourceEgg": "Rare Egg",
+          "cost": "8,000 Cash",
+          "income": "500 Cash/min",
+          "visitorValue": "Best early upgrade target",
+          "replacementNote": "Keep through early-mid game; replace with Epic dinosaurs later"
+        },
+        {
+          "dinosaur": "Pterodactyl",
+          "rarity": "Uncommon",
+          "tier": "C",
+          "sourceEgg": "Uncommon Egg",
+          "cost": "6,000 Cash",
+          "income": "350 Cash/min",
+          "visitorValue": "Good early variety and filler income",
+          "replacementNote": "Replace with Rare dinosaurs when park slots become valuable"
+        },
+        {
+          "dinosaur": "Ankylosaurus",
+          "rarity": "Uncommon",
+          "tier": "C",
+          "sourceEgg": "Uncommon Egg",
+          "cost": "5,000 Cash",
+          "income": "300 Cash/min",
+          "visitorValue": "Low-maintenance filler income",
+          "replacementNote": "Use as a bridge into Rare eggs"
+        },
+        {
+          "dinosaur": "Parasaurolophus",
+          "rarity": "Uncommon",
+          "tier": "C",
+          "sourceEgg": "Uncommon Egg",
+          "cost": "4,000 Cash",
+          "income": "250 Cash/min",
+          "visitorValue": "Low-investment early income",
+          "replacementNote": "Replace after your Rare egg income loop starts"
+        },
+        {
+          "dinosaur": "Dilophosaurus",
+          "rarity": "Common",
+          "tier": "D",
+          "sourceEgg": "Common Egg",
+          "cost": "1,500 Cash",
+          "income": "100 Cash/min",
+          "visitorValue": "Starter income",
+          "replacementNote": "Replace with Uncommon or Rare dinosaurs once Cash flow improves"
+        },
+        {
+          "dinosaur": "Gallimimus",
+          "rarity": "Common",
+          "tier": "D",
+          "sourceEgg": "Common Egg",
+          "cost": "1,000 Cash",
+          "income": "75 Cash/min",
+          "visitorValue": "Budget starter income",
+          "replacementNote": "Use early, then replace as soon as higher-tier eggs are affordable"
+        },
+        {
+          "dinosaur": "Compsognathus",
+          "rarity": "Common",
+          "tier": "D",
+          "sourceEgg": "Common Egg",
+          "cost": "500 Cash",
+          "income": "50 Cash/min",
+          "visitorValue": "Cheapest starter filler",
+          "replacementNote": "Good only for filling empty early space; replace quickly"
+        }
       ]
     },
     "myDinoParkUpdateLog": {
@@ -625,9 +805,18 @@
           "status": "Latest update",
           "summary": "Update 2 adds three new reward codes, introduces a Frozen Egg through code redemption, and includes bug fixes, server stability improvements, and Teeth economy adjustments.",
           "newCodes": [
-            { "code": "UPDATE2", "reward": "20,000 Cash + 200 Teeth" },
-            { "code": "BESTDINOGAME", "reward": "300 Teeth" },
-            { "code": "DINOSLOVESU", "reward": "Frozen Egg + 10,000 Cash" }
+            {
+              "code": "UPDATE2",
+              "reward": "20,000 Cash + 200 Teeth"
+            },
+            {
+              "code": "BESTDINOGAME",
+              "reward": "300 Teeth"
+            },
+            {
+              "code": "DINOSLOVESU",
+              "reward": "Frozen Egg + 10,000 Cash"
+            }
           ],
           "newContent": [
             "Frozen Egg added as a code reward through DINOSLOVESU"
@@ -652,8 +841,14 @@
           "status": "Launch update",
           "summary": "The launch version introduced the core park tycoon loop: buy eggs, hatch dinosaurs, attract visitors, earn Cash, upgrade the park, and grow toward the top park ranking.",
           "newCodes": [
-            { "code": "WELCOME", "reward": "1,000 Cash" },
-            { "code": "THX4PLAYING", "reward": "650 Cash" }
+            {
+              "code": "WELCOME",
+              "reward": "1,000 Cash"
+            },
+            {
+              "code": "THX4PLAYING",
+              "reward": "650 Cash"
+            }
           ],
           "newContent": [
             "12 standard dinosaur species across Common, Uncommon, Rare, Epic, and Legendary tiers",
@@ -780,5 +975,146 @@
     "copyright": "© 2026 My Dino Park Wiki. Not affiliated with the developers of My Dino Park or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "codes": {
+      "title": "My Dino Park Codes",
+      "description": "Latest working My Dino Park codes for free Cash, Teeth, and a Frozen Egg. Redeem them in the Store and spend rewards on cheap eggs and early park growth.",
+      "metaTitle": "My Dino Park Codes - Free Cash, Teeth & Eggs (Updated Daily)",
+      "metaDescription": "Get free Cash, Teeth, and Frozen Eggs with active My Dino Park codes. Updated daily with verified working codes and redeem steps.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "My Dino Park codes are free redeem strings released by the developer Dino Community. Enter them in the in-game Store to claim Cash, Teeth, and rare eggs that accelerate your park growth.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free starter resources",
+        "step1Description": "Active codes grant thousands of Cash and Teeth, giving you a head start on eggs and upgrades without grinding.",
+        "step2Title": "Exclusive rare eggs",
+        "step2Description": "Some codes reward a Frozen Egg and other premium eggs that hatch into strong early-game dinosaurs.",
+        "step3Title": "Updated every release",
+        "step3Description": "New codes drop with each game update, so checking back daily keeps your reward stream running."
+      },
+      "featured": "Featured Codes",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "My Dino Park Guide",
+      "description": "Complete My Dino Park beginner guide and walkthroughs: opening moves, first eggs, park layout, and a stable income loop for new players.",
+      "metaTitle": "My Dino Park Guide - Beginner Walkthrough & Tips",
+      "metaDescription": "Learn how to play My Dino Park with beginner guides, walkthroughs, and tips covering first eggs, park layout, and a stable Cash income loop.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is the Guide section?",
+      "whatIsDescription": "The My Dino Park guide hub covers everything a new park owner needs: opening steps, the first 30 minutes, core gameplay loops, and common mistakes to avoid while building your dinosaur park.",
+      "why": "Why read the guides?",
+      "whySteps": {
+        "step1Title": "Fast first 30 minutes",
+        "step1Description": "Step-by-step walkthroughs get you from a blank plot to a stable Cash income without wasted spending.",
+        "step2Title": "Avoid rookie mistakes",
+        "step2Description": "Guides flag the common traps—wrong egg purchases, bad layout, and over-spending—before they stall your progress.",
+        "step3Title": "Core loop mastery",
+        "step3Description": "Understand how eggs, dinosaurs, visitors, and upgrades connect so every decision compounds your income."
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "dinos": {
+      "title": "My Dino Park Dinos",
+      "description": "My Dino Park dinosaur list and tier rankings: rarity, income strength, and the best dinosaurs to keep or replace at each park stage.",
+      "metaTitle": "My Dino Park Dinos - Dinosaur Tier List & Best Picks",
+      "metaDescription": "Browse the full My Dino Park dinosaur list with tier rankings, rarity, income stats, and the best dinosaurs for early, mid, and late park stages.",
+      "categoryLabel": "DINOSAURS",
+      "whatIs": "What are Dinos?",
+      "whatIsDescription": "Dinosaurs are the heart of My Dino Park. Each species hatches from an egg, attracts visitors, and generates income. The Dinos section ranks every species by rarity and earning power so you know which to keep and which to replace.",
+      "why": "Why study the dino list?",
+      "whySteps": {
+        "step1Title": "Tier-ranked income",
+        "step1Description": "See which dinosaurs earn the most Cash per minute so you can prioritize your egg and upgrade budget.",
+        "step2Title": "Rarity and growth",
+        "step2Description": "Understand rarity tiers and how each dinosaur scales as your park and visitor count grow.",
+        "step3Title": "Smart replacements",
+        "step3Description": "Know exactly when a weaker dinosaur should be replaced by a stronger hatch to keep income climbing."
+      },
+      "featured": "Featured Dinos",
+      "all": "All Dinos"
+    },
+    "eggs": {
+      "title": "My Dino Park Eggs",
+      "description": "My Dino Park egg types, costs, hatch rates, and the best buy order for every park stage to maximize your dinosaur roster and income.",
+      "metaTitle": "My Dino Park Eggs - Egg Costs, Types & Buy Order",
+      "metaDescription": "Compare My Dino Park egg types, costs, and hatch rates, and follow the best egg buy order for early, mid, and late park stages.",
+      "categoryLabel": "EGGS",
+      "whatIs": "What are Eggs?",
+      "whatIsDescription": "Eggs are how you grow your dinosaur roster in My Dino Park. Each egg type has a different cost, hatch pool, and rarity chance. The Eggs section breaks down every option so you spend Cash and Teeth on the right eggs at the right time.",
+      "why": "Why plan egg purchases?",
+      "whySteps": {
+        "step1Title": "Cost-effective hatching",
+        "step1Description": "Compare egg costs and value so every purchase moves your income upward instead of draining Cash.",
+        "step2Title": "Rarity and odds",
+        "step2Description": "Learn the hatch rates for rare and epic dinosaurs before you commit to expensive eggs.",
+        "step3Title": "Stage-by-stage buy order",
+        "step3Description": "Follow a clear purchase order for early, mid, and late game to build a balanced, high-earning park."
+      },
+      "featured": "Featured Eggs",
+      "all": "All Eggs"
+    },
+    "levels": {
+      "title": "My Dino Park Levels",
+      "description": "My Dino Park level-up guide: park upgrades, expansion order, facility priorities, and the fastest route to max level and the #1 park spot.",
+      "metaTitle": "My Dino Park Levels - Upgrade Order & Max Level Guide",
+      "metaDescription": "Level up your My Dino Park with upgrade order, park expansion, facility priorities, and the fastest route to max level.",
+      "categoryLabel": "LEVELS & UPGRADES",
+      "whatIs": "What are Levels & Upgrades?",
+      "whatIsDescription": "Levels track your overall park progress in My Dino Park. Upgrading park buildings, expanding land, and improving facilities raises your level and unlocks stronger dinosaurs, more visitors, and higher income. The Levels section maps the most efficient upgrade path.",
+      "why": "Why plan your upgrades?",
+      "whySteps": {
+        "step1Title": "Efficient level-ups",
+        "step1Description": "Prioritize the upgrades that return the most income per Cash spent so you level up without stalling.",
+        "step2Title": "Smart expansion",
+        "step2Description": "Know when to expand land versus upgrading facilities, keeping visitor flow and income balanced.",
+        "step3Title": "Max level roadmap",
+        "step3Description": "Follow a clear route from early levels to max level and the top park ranking."
+      },
+      "featured": "Featured Level Guides",
+      "all": "All Level Guides"
+    },
+    "updates": {
+      "title": "My Dino Park Updates",
+      "description": "My Dino Park update log and patch notes: new dinosaurs, new eggs, new codes, and what to do first after each version lands.",
+      "metaTitle": "My Dino Park Updates - Patch Notes & New Content",
+      "metaDescription": "Track every My Dino Park update with patch notes covering new dinosaurs, eggs, codes, and the best first moves after each version.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "The Updates section logs every My Dino Park version, from Update 1 to the latest patch, covering new dinosaurs, new eggs, balance changes, and fresh codes. Use it to adapt your strategy the moment new content drops.",
+      "why": "Why follow updates?",
+      "whySteps": {
+        "step1Title": "New content first",
+        "step1Description": "See new dinosaurs, eggs, and features the day they ship so you can plan eggs and upgrades around them.",
+        "step2Title": "Fresh codes",
+        "step2Description": "Each update ships with new redeem codes, so catch them here before they expire.",
+        "step3Title": "Adapt your strategy",
+        "step3Description": "Patch notes flag balance changes and new mechanics so your park stays optimized after every release."
+      },
+      "featured": "Featured Updates",
+      "all": "All Updates"
+    },
+    "roblox": {
+      "title": "My Dino Park Roblox",
+      "description": "My Dino Park on Roblox: how to play, the official game page, community links, and platform tips for new and returning park owners.",
+      "metaTitle": "My Dino Park Roblox - How to Play & Official Links",
+      "metaDescription": "Play My Dino Park on Roblox with the official game page, community links, gameplay tips, and platform basics for new park owners.",
+      "categoryLabel": "ROBLOX",
+      "whatIs": "What is the Roblox section?",
+      "whatIsDescription": "My Dino Park is a Roblox tycoon experience developed by Dino Community. The Roblox section gathers the official game page, developer community, platform-specific tips, and everything you need to start playing and stay connected.",
+      "why": "Why use this section?",
+      "whySteps": {
+        "step1Title": "Official game page",
+        "step1Description": "Jump straight to the official Roblox experience page to launch the game and check the latest version.",
+        "step2Title": "Community connection",
+        "step2Description": "Reach the official Dino Community group and social channels for announcements, codes, and support.",
+        "step3Title": "Platform tips",
+        "step3Description": "Get Roblox-specific advice on controls, performance, and cross-device play for a smoother park-building session."
+      },
+      "featured": "Featured Roblox Guides",
+      "all": "All Roblox Guides"
+    }
+  }
 }

@@ -1,0 +1,192 @@
+import { Map, Trophy, Sparkles, Shield, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "lista de dinossauros de my dino park: classificações por tier e guia de ovos",
+  description: "Compare todos os dinossauros de My Dino Park por raridade, custo e renda, e depois siga a melhor ordem de ovos e melhorias para acelerar o crescimento do parque.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/7c4a21/fff?text=Dino+List+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de My Dino Park"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **my dino park dino list** ajuda você a classificar 12 dinossauros por custo, renda e prioridade de substituição.
+- **Velociraptor** é o melhor alvo de melhoria inicial para a maioria dos jogadores depois dos dinos iniciais.
+- **Ovo Raro** é o salto limpo do meio do jogo quando os espaços de Comum e Incomum estão preenchidos.
+- **T-Rex** e **Ovo Lendário** são objetivos do fim do jogo, não compras da primeira sessão.
+- **Compre melhorias por último** a menos que seu parque já tenha dinossauros suficientes gerando dinheiro.
+</Callout>
+
+<Section icon={Map} title="Como Ler a Lista de Dinossauros">
+
+A formação padrão atual tem 12 dinossauros distribuídos entre os tiers de raridade Comum, Incomum, Raro, Épico e Lendário. Use esta lista para comparar **custo, renda e timing** juntos, em vez de comprar o ovo mais caro no impulso. Os parques mais rápidos geralmente começam barato, preenchem o terreno livre e depois trocam dinos fracos por geradores mais fortes.
+
+<Callout type="tip" title="Fontes Oficiais que Valem Salvar nos Favoritos">
+Use a [experiência oficial no Roblox](https://www.roblox.com/games/80701570784699/My-Dino-Park), o [grupo Dino Community](https://www.roblox.com/communities/532484073/Dino-Community) e o [convite do Discord](https://discord.com/invite/eQHNk8dGpz) para acessar o jogo e receber atualizações.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Fase Inicial">
+    - **Objetivo:** Preencher o terreno rápido
+    - **Melhores compras:** Ovo Comum, Ovo Incomum
+    - **Foco:** Espaços baratos de renda
+  </Card>
+  <Card title="Meio do Jogo">
+    - **Objetivo:** Aumentar o dinheiro por minuto
+    - **Melhores compras:** Ovo Raro, Velociraptor
+    - **Foco:** Resultados de hatch mais fortes
+  </Card>
+  <Card title="Fim do Jogo">
+    - **Objetivo:** Maximizar o valor do parque
+    - **Melhores compras:** Ovo Épico, Ovo Lendário
+    - **Foco:** Dinossauros de alto nível
+  </Card>
+</CardGrid>
+
+| Fase | O que Mais Importa | Melhor Resultado |
+| --- | --- | --- |
+| Inicial | Baixo custo, colocação rápida | Loop de dinheiro inicial mais rápido |
+| Meio do jogo | Melhor renda por espaço | Reinvestimento mais suave |
+| Fim do jogo | Dinos de alto valor e multiplicadores | Forte crescimento do parque |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Dinossauros de My Dino Park por Valor">
+
+<Callout type="warning" title="Regra de Classificação">
+Não julgue a lista apenas pela raridade. Um dinossauro mais barato que preenche espaço cedo pode superar um hatch raro se isso fizer você chegar à próxima compra mais rápido.
+</Callout>
+
+| Dino | Raridade | Ovo de Origem | Custo | Renda/Min | Prioridade |
+| --- | --- | --- | --- | --- | --- |
+| T-Rex | Lendário | Ovo Lendário | 50.000 Cash | 2.500 Cash/min | Guardado para o fim do jogo |
+| Spinosaurus | Épico | Ovo Épico | 25.000 Cash | 1.400 Cash/min | Escolha forte do meio para o fim |
+| Triceratops | Épico | Ovo Épico | 20.000 Cash | 1.200 Cash/min | Âncora confiável |
+| Brachiosaurus | Raro | Ovo Raro | 12.000 Cash | 700 Cash/min | Raro de alto valor |
+| Stegosaurus | Raro | Ovo Raro | 10.000 Cash | 600 Cash/min | Sólido no geral |
+| Velociraptor | Raro | Ovo Raro | 8.000 Cash | 500 Cash/min | Melhor melhoria inicial |
+| Pterodactyl | Incomum | Ovo Incomum | 6.000 Cash | 350 Cash/min | Bom preenchimento |
+| Ankylosaurus | Incomum | Ovo Incomum | 5.000 Cash | 300 Cash/min | Ponte inicial |
+| Parasaurolophus | Incomum | Ovo Incomum | 4.000 Cash | 250 Cash/min | Preenchedor econômico |
+| Dilophosaurus | Comum | Ovo Comum | 1.500 Cash | 100 Cash/min | Melhoria inicial |
+| Gallimimus | Comum | Ovo Comum | 1.000 Cash | 75 Cash/min | Início barato |
+| Compsognathus | Comum | Ovo Comum | 500 Cash | 50 Cash/min | Preenchedor do primeiro espaço |
+
+| Tier | Manter ou substituir? | Melhor uso |
+| --- | --- | --- |
+| Lendário | Manter | Espaço do parque no fim do jogo |
+| Épico | Manter até o Lendário ficar acessível | Renda forte do meio para o fim |
+| Raro | Manter no começo e no meio do jogo | Melhor ponte de crescimento |
+| Incomum | Substituir quando o Raro estiver estável | Preencher e escalar |
+| Comum | Substituir rapidamente | Início de caixa |
+
+O caminho mais eficiente é simples: **Compsognathus e Gallimimus** fazem você começar, **Velociraptor** se torna o primeiro salto de verdade, e **T-Rex** fecha o ciclo quando seu fluxo de caixa consegue absorver um gasto de 50.000.
+
+</Section>
+
+<Section icon={Sparkles} title="Guia de Ovos e Melhor Ordem de Compra">
+
+<Callout type="success" title="Melhor Hábito de Compra">
+Compre ovos com base no seu ciclo de renda atual, não na formação dos seus sonhos. Um parque forte é construído com melhorias repetidas, não com uma compra cara que trava o crescimento.
+</Callout>
+
+| Ovo | Custo | Tempo de Hatch | Melhor Uso | Observações |
+| --- | --- | --- | --- | --- |
+| Ovo Comum | 500 Cash | Instantâneo | Primeira compra | Começo barato, colocação rápida |
+| Ovo Incomum | 4.000 Cash | 10 segundos | Melhoria inicial | Melhor preenchimento depois dos dinos iniciais |
+| Ovo Raro | 10.000 Cash | 30 segundos | Salto do meio do jogo | Melhor pico de valor para a maioria dos parques |
+| Ovo Épico | 25.000 Cash | 1 minuto | Crescimento do meio para o fim | Formação de elenco mais forte |
+| Ovo Lendário | 50.000 Cash | 2 minutos | Objetivo do fim do jogo | Guarde para quando a recuperação de caixa for rápida |
+| Ovo Congelado | Recompensa de código | Recompensa de código | Valor bônus grátis | Resgate antes dos ovos pagos |
+
+| Ordem de Compra | O Que Fazer | Por Que Funciona |
+| --- | --- | --- |
+| 1 | Preencha o terreno vazio com hatches de Ovo Comum | Começa a renda imediatamente |
+| 2 | Passe para o Ovo Incomum | Aumenta o retorno médio por espaço |
+| 3 | Junte para o Ovo Raro | Grande salto sem exagerar nos gastos |
+| 4 | Adicione Ovo Épico depois que a renda do Raro estabilizar | Melhora a escala do fim do jogo |
+| 5 | Deixe o Ovo Lendário por último | Melhor quando a reconstrução de caixa é rápida |
+
+Uma boa regra é manter seu parque **produtivo primeiro e caro depois**. Se o terreno ainda estiver meio vazio, outro hatch barato muitas vezes é melhor do que esperar por um ovo premium.
+
+</Section>
+
+<Section icon={Shield} title="Melhor Rota de Gastos para Crescimento Rápido">
+
+<Callout type="info" title="Prioridade de Crescimento">
+Seu dinheiro normalmente deve ir para ovos, depois para dinossauros mais fortes, depois para melhorias do parque e só então para expansão de terreno. Essa ordem dá a curva de renda mais segura.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Resgate as recompensas grátis primeiro">
+    Abra o jogo, reivindique qualquer recompensa de código disponível e transforme esse dinheiro grátis em hatches iniciais mais rápidos.
+  </Step>
+  <Step num="2" title="Compre hatches de Ovo Comum">
+    Use ovos baratos para colocar dinossauros suficientes para que os visitantes comecem a gerar renda constante imediatamente.
+  </Step>
+  <Step num="3" title="Faça upgrade para o território Raro">
+    Mire primeiro no Velociraptor, depois em Stegosaurus e Brachiosaurus quando seu fluxo de caixa puder sustentar espaços melhores.
+  </Step>
+  <Step num="4" title="Adicione melhorias do parque depois que a base estiver viva">
+    Visitor Booth, Food Court, Dino Hotel e Helicopter Tour funcionam melhor quando você já tem dinos que valem o reforço.
+  </Step>
+  <Step num="5" title="Expanda o terreno apenas quando a área atual estiver produtiva">
+    O novo espaço é mais forte quando você consegue preenchê-lo rapidamente com hatches e posicionamento, não quando ele fica vazio.
+  </Step>
+</Steps>
+
+| Melhoria | Custo | Melhor Momento |
+| --- | --- | --- |
+| Visitor Booth | 2.000 Cash | Muito cedo |
+| Food Court | 8.000 Cash | Depois dos dinos iniciais |
+| Dino Hotel | 20.000 Cash | Meio do jogo |
+| Helicopter Tour | 50.000 Cash | Fim do jogo |
+
+Essa rota mantém o dinheiro em movimento. O parque cresce mais rápido quando cada compra adiciona um dinossauro, aumenta a renda ou desbloqueia a próxima compra eficiente.
+
+</Section>
+
+<Section icon={Target} title="Checklist e FAQ">
+
+<Callout type="tip" title="Revisão Rápida">
+Se você quer o checklist útil mais curto, lembre-se disto: preencha os espaços, faça upgrade para Raro e depois compre multiplicadores. Essa sequência combina bem com a curva de progressão atual de My Dino Park.
+</Callout>
+
+<Checklist
+  id="my-dino-park-dino-list-goals"
+  title="O Que Fazer Depois:"
+  items={[
+    "Comece com hatches de Ovo Comum e preencha o terreno vazio",
+    "Substitua os dinos iniciais por Velociraptor assim que puder",
+    "Use o Ovo Raro como principal salto do meio do jogo",
+    "Adie o Ovo Lendário até o caixa se recuperar rapidamente",
+    "Compre melhorias do parque apenas depois que os dinos já estiverem rendendo"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor dinossauro na lista de dinossauros de my dino park?",
+    answer: "T-Rex é a melhor escolha do fim do jogo porque tem a maior renda listada, mas Velociraptor normalmente é a melhor melhoria inicial para a maioria dos jogadores."
+  },
+  {
+    question: "Devo comprar o Ovo Raro antes de preencher os espaços Comuns?",
+    answer: "Normalmente não. Preencha primeiro espaços baratos suficientes para o seu parque começar a ganhar mais rápido e, depois, avance para o Ovo Raro quando o ciclo de renda estiver estável."
+  },
+  {
+    question: "Quando devo comprar o Ovo Lendário?",
+    answer: "Compre o Ovo Lendário quando seu parque conseguir se recuperar do gasto de 50.000 Cash sem desacelerar o resto da progressão."
+  },
+  {
+    question: "Vale a pena resgatar o Ovo Congelado primeiro?",
+    answer: "Sim. É uma recompensa grátis, então entrega valor extra antes de você gastar Cash em ovos pagos."
+  }
+]} />
+
+</Section>

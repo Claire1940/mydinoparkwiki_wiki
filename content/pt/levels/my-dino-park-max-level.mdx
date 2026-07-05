@@ -1,0 +1,209 @@
+import { Map, Target, Sparkles, Trophy, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "My Dino Park Nível Máximo: Limites de Nível, Crescimento e Melhorias",
+  description: "Acompanhe o progresso do nível máximo em My Dino Park com a ordem de melhorias mais rápida, prioridades de renda e preparação para o dia do limite para um parque mais forte.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Max+Level+Guide",
+  date: "2026-07-05",
+  author: "Equipe do Wiki de My Dino Park"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O nível máximo de My Dino Park** tem mais a ver com estabilidade de renda do que com apenas um número no medidor.
+- **Compre ovos primeiro** para preencher os lotes vazios e depois troque dinossauros fracos por geradores de renda melhores.
+- **Melhore depois de posicionar** para que cada multiplicador fortaleça um parque que já esteja produzindo bem.
+- **Pare de acumular Cash** assim que um novo ovo ou melhoria se pagar mais rápido do que esperar.
+</Callout>
+
+<Section icon={Map} title="My Dino Park Nível Máximo: O Que o Limite Realmente Significa">
+
+No planejamento do **nível máximo de My Dino Park**, o verdadeiro objetivo é levar seu parque o mais rápido possível para um estado estável e de alta renda. Normalmente isso significa que você já não pensa mais como um jogador iniciante. Você passa a avaliar valor dos ovos, densidade de dinossauros e tempo das melhorias como um único ciclo.
+
+<Callout type="tip" title="Regra Central">
+Um parque mais forte geralmente vem de uma **ordem de gastos melhor**, e não de guardar cada moeda para uma compra cara.
+</Callout>
+
+| Etapa | O que você está construindo | Como se parece o “nível máximo” | Prioridade principal |
+|---|---|---|---|
+| Inicial | Loop de renda básico | Lotes vazios passam a ser preenchidos com dinossauros baratos | Ovos |
+| Intermediária | Base de ganhos mais forte | Dinossauros fracos são substituídos por eclosões de nível superior | Valor Raro e Épico |
+| Final | Multiplicadores e escala | A renda de visitantes começa a fazer trabalho real | Melhorias |
+| Endgame | Otimização estável | Menos espaços mortos, retornos mais fortes por compra | Reinvestir e refinar |
+
+A parte importante é que o progresso não é linear. Um parque com muitos dinossauros de baixo valor pode parecer ativo, mas ainda perde para uma configuração mais enxuta com geradores de renda mais fortes e melhorias mais inteligentes. Por isso o nível máximo deve ser tratado como um **objetivo de gerenciamento**, e não apenas como um número.
+
+| Sinal | Significado | O que fazer em seguida |
+|---|---|---|
+| O Cash cresce devagar | Sua renda base está fraca demais | Compre mais ovos e preencha a terra vazia |
+| As novas melhorias parecem pequenas | Você melhorou antes de o parque estar pronto | Adicione mais dinossauros primeiro |
+| Os ovos melhores demoram demais para ficar acessíveis | Você está economizando agressivamente demais | Gaste na próxima faixa eficiente |
+| Os visitantes são constantes, mas não escalam | O layout precisa de limpeza | Reposicione e remova espaços mortos |
+
+<Callout type="warning" title="Evite Este Erro">
+Não persiga a opção mais cara cedo demais. Em jogos de tycoon, um **bom retorno agora** muitas vezes vence um **ótimo retorno depois**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota Mais Rápida para Chegar ao Seu Parque Mais Forte">
+
+A rota mais rápida é simples: preencher espaço, aumentar a qualidade e depois multiplicar o resultado. Essa ordem importa mais do que o tempo exato, porque cada passo alimenta o próximo. Se você pular a base inicial, as melhorias posteriores terão menos coisa para amplificar.
+
+<Callout type="info" title="Foco da Progressão">
+Pense nesta ordem: **espaços abertos, melhores eclosões, multiplicadores mais fortes, layout mais limpo**.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Fase Inicial">
+    - **Preencha cada espaço vazio**
+    - Use ovos baratos primeiro
+    - Construa o fluxo de visitantes cedo
+  </Card>
+  <Card title="Fase de Crescimento">
+    - **Troque dinossauros fracos**
+    - Passe para valor Raro
+    - Mantenha o Cash circulando
+  </Card>
+  <Card title="Fase de Escala">
+    - **Compre multiplicadores mais tarde**
+    - Expanda só depois que a renda estabilizar
+    - Corte espaços mortos
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Abra o parque e conclua o fluxo inicial">
+    Entre no jogo, conclua as ações iniciais do tutorial e desbloqueie os menus principais antes de gastar pesado.
+  </Step>
+  <Step num="2" title="Gaste o Cash inicial nos ovos úteis mais baratos">
+    Use ovos de baixo custo para ocupar seus primeiros espaços. Um parque cheio com ganhos modestos é mais forte do que um parque meio vazio esperando uma compra dos sonhos.
+  </Step>
+  <Step num="3" title="Substitua os dinossauros iniciais por mais renda por espaço">
+    Assim que seu loop básico funcionar, avance para eclosões mais fortes para que cada lote contribua com mais Cash por minuto.
+  </Step>
+  <Step num="4" title="Adicione melhorias depois que o parque já estiver produtivo">
+    Compre reforços de visitantes e de renda quando sua base de dinossauros estiver forte o suficiente para justificá-los.
+  </Step>
+</Steps>
+
+| Ordem de compra | Melhor caso de uso | Por que funciona |
+|---|---|---|
+| Nível comum de ovo | Primeira passagem de preenchimento | Forma mais barata de começar a renda |
+| Nível incomum de ovo | Melhoria inicial | Melhor valor sem desacelerar demais o crescimento |
+| Nível raro de ovo | Principal passo do meio do jogo | Grande salto na eficiência por espaço |
+| Melhorias de visitantes | Depois que os dinossauros já estão colocados | Multiplica um parque que já gera renda |
+| Expansão | Quando a área atual está cheia | Novo espaço importa mais quando será usado imediatamente |
+
+<Callout type="success" title="Melhor Hábito">
+Sempre que você ganhar um pico significativo de Cash, faça uma pergunta: **esta compra preenche um espaço, melhora um espaço ou multiplica a renda existente?**
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Melhor Ordem de Gastos para Ovos, Dinossauros e Melhorias">
+
+Quando seu parque já está andando, o maior erro é misturar todos os tipos de compra. Mantenha seus gastos organizados. Os ovos dão corpo, os dinossauros geram renda visível e as melhorias dão multiplicadores. A melhor ordem é fortalecer uma camada antes de passar para a próxima.
+
+<Callout type="tip" title="Prioridade de Gastos">
+Se duas compras custarem quase o mesmo, escolha primeiro a que melhora a **renda por espaço**.
+</Callout>
+
+| Prioridade | Compre quando | Evite quando | Resultado de exemplo |
+|---|---|---|---|
+| 1. Ovos | Você tem terra livre | Ainda não há espaço para colocar eclosões | Novos dinossauros iniciam o loop de renda |
+| 2. Dinossauros | Uma eclosão melhor substitui uma mais fraca | Você está economizando sem motivo | O Cash por minuto aumenta |
+| 3. Melhorias | Seu parque já tem geradores de renda suficientes | Você ainda tem lotes demais vazios | Os multiplicadores passam a fazer diferença |
+| 4. Expansão | A área atual é produtiva | Sua área existente ainda está pela metade | O novo espaço escala sua configuração |
+
+| Faixa | O que significa | Uso prático |
+|---|---|---|
+| Comum | Preenchimento inicial | Bom para a primeira montagem |
+| Incomum | Ponte inicial | Útil enquanto o Cash ainda é limitado |
+| Raro | Faixa principal de crescimento | Melhor equilíbrio entre custo e retorno para muitos parques |
+| Épico | Faixa forte do meio para o fim do jogo | Vale buscar depois que a renda básica estiver estável |
+| Lendário | Âncora do endgame | Melhor quando seu parque consegue se recuperar rapidamente |
+
+Um parque inteligente normalmente segue um padrão simples:
+- Preencha os lotes vazios com eclosões acessíveis.
+- Troque os geradores de renda fracos assim que a próxima faixa fizer sentido.
+- Adie multiplicadores caros até o parque conseguir sustentá-los.
+- Expanda a terra apenas quando a área atual já estiver produtiva.
+
+<Callout type="warning" title="Aviso de Tempo">
+Se você comprar expansão cedo demais, pode acabar criando apenas mais espaço vazio. Espaço vazio parece impressionante, mas não gera Cash.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Quando Você Atinge o Limite: O Que Fazer em Seguida">
+
+Atingir o nível máximo prático não é um beco sem saída. Normalmente significa que seu parque chegou ao ponto em que as melhorias ficam menores, as escolhas ficam mais apertadas e a otimização passa a importar mais do que desbloqueios brutos. É aí que o jogo vira um problema de **limpeza e eficiência**.
+
+<Callout type="success" title="Estado de Espírito no Dia do Limite">
+No nível mais alto, sua função é transformar um bom parque em um **parque enxuto**.
+</Callout>
+
+<Checklist
+  id="max-level-actions"
+  title="Checklist do Dia do Limite:"
+  items={[
+    "Substitua os dinossauros iniciais restantes por geradores de renda de nível superior",
+    "Remova ou repense quaisquer lotes vazios ou de baixo valor",
+    "Confirme que as melhorias estão sendo compradas depois que a renda estabiliza",
+    "Reinvista o Cash na próxima compra eficiente em vez de acumular por tempo demais",
+    "Mantenha a expansão ligada ao uso real, e não apenas ao espaço disponível"
+  ]}
+/>
+
+| Problema no limite | Causa provável | Melhor solução |
+|---|---|---|
+| O crescimento da renda desacelera | Dinossauros fracos demais ainda permanecem | Troque-os por faixas mais fortes |
+| As novas compras parecem pequenas | O parque já está pouco otimizado | Refaça o layout para melhorar o valor por espaço |
+| O Cash se acumula sem uso | Você está esperando tempo demais | Gaste na próxima faixa eficiente |
+| A expansão agrega pouco valor | A nova área não está sendo usada rápido o suficiente | Preencha a área atual antes de comprar mais |
+
+| Recurso oficial | Data | Link |
+|---|---|---|
+| Página da experiência Roblox | 2026-07-05 | https://www.roblox.com/games/80701570784699/My-Dino-Park |
+| Grupo Dino Community | 2026-07-05 | https://www.roblox.com/communities/532484073/Dino-Community |
+| Convite oficial do Discord | 2026-07-05 | https://discord.com/invite/eQHNk8dGpz |
+
+<Callout type="info" title="Seguimento Útil">
+Se você quiser continuar avançando depois do limite, reveja sua **ordem de ovos, ordem de melhorias e espaçamento do layout** antes de correr atrás de mais compras.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<Callout type="info" title="Notas do FAQ">
+Estas respostas focam no **progresso prático do nível máximo**: melhor ordem de gastos, melhor valor por espaço e melhor timing de melhorias.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que normalmente significa o nível máximo de My Dino Park?",
+    answer: "Normalmente significa o ponto em que seu parque deixa de precisar de escolhas básicas de crescimento e passa a precisar de otimização. Você não está mais apenas desbloqueando conteúdo; está melhorando a renda por espaço, o timing das melhorias e o uso da terra."
+  },
+  {
+    question: "Devo guardar Cash para o ovo mais caro?",
+    answer: "Normalmente, não. Um movimento melhor é comprar a próxima melhoria eficiente que aumente seu fluxo de renda mais cedo. Na maioria dos parques, ovos acessíveis e substituições bem-timed vencem longas sequências de economia."
+  },
+  {
+    question: "Quando devo comprar melhorias?",
+    answer: "Compre melhorias depois que seu parque já tiver uma base forte de dinossauros. Assim, o multiplicador fortalece a renda existente em vez de amplificar espaço vazio."
+  },
+  {
+    question: "Como continuar progredindo depois de atingir o limite?",
+    answer: "Continue trocando dinossauros fracos, limpando espaços mortos e reinvestindo na próxima faixa eficiente. O nível máximo em My Dino Park tem menos a ver com esperar e mais a ver com manter o parque produtivo."
+  }
+]} />
+
+</Section>

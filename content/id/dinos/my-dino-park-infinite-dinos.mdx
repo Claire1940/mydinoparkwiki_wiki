@@ -1,0 +1,213 @@
+import { Map, Target, Trophy, Sparkles, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "my dino park infinite dinos: Panduan Menetas Cepat & Pertumbuhan",
+  description: "Pelajari urutan telur terbaik, hadiah kode, prioritas upgrade, dan loop reinvestasi untuk membangun lebih banyak dinosaurus lebih cepat di My Dino Park.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/8b5e34/fff?text=Infinite+Dinos+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki my dino park"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **my dino park infinite dinos** sebenarnya adalah loop reinvestasi cepat: menetas lebih awal, mengisi ruang, dan meningkatkan pendapatan.
+- **Nilai awal terbaik** didapat dengan menukarkan kode aktif sebelum menghabiskan Cash untuk telur.
+- **Urutan telur penting**: Common, Uncommon, Rare, Epic, lalu Legendary.
+- **Tingkatkan nanti** setelah tamanmu punya cukup dinosaurus untuk memberi efek pengganda.
+- **Ganti dinosaurus yang lemah** segera setelah opsi pendapatan yang lebih kuat bisa dibeli.
+</Callout>
+
+<Section icon={Map} title="Loop Pertumbuhan my dino park infinite dinos">
+my dino park infinite dinos bekerja paling baik ketika kamu menganggap setiap hadiah, penetasan, dan peningkatan sebagai bagian dari satu loop. Tujuannya bukan menimbun Cash. Tujuannya adalah mengubah Cash menjadi dinosaurus, dan dinosaurus menjadi lebih banyak Cash, sampai setiap ruang di tamanmu menghasilkan pendapatan.
+
+<Callout type="tip" title="Langkah Awal Terbaik">
+Tukarkan kode yang tersedia terlebih dahulu, lalu beli telur termurah yang bisa menjaga tamanmu tetap penuh. Lahan kosong memperlambat semuanya.
+</Callout>
+
+**Sorotan Video:**
+- Tukarkan hadiah sebelum pembelian telur pertama.
+- Isi taman dengan dinosaurus berbiaya rendah di awal.
+- Investasikan ulang pendapatan ke telur yang lebih baik daripada menabung selamanya.
+- Gunakan upgrade setelah taman sudah menghasilkan Cash yang stabil.
+
+<CardGrid cols={3}>
+  <Card title="Loop Pemula">
+    - **Tukarkan kode**
+    - Beli Telur Common
+    - Isi setiap slot kosong
+  </Card>
+  <Card title="Loop Pertengahan Game">
+    - **Beralih ke Telur Rare**
+    - Ganti dinosaurus yang lemah
+    - Tambahkan upgrade pendapatan
+  </Card>
+  <Card title="Loop Akhir Game">
+    - **Dorong Epic dan Legendary**
+    - Gandakan pengunjung
+    - Reinvestasi lebih cepat
+  </Card>
+</CardGrid>
+
+| Kode | Hadiah | Penggunaan Terbaik | Prioritas |
+|---|---|---|---|
+| UPDATE2 | 20.000 Cash + 200 Teeth | Dorongan awal yang kuat | Terbaik secara keseluruhan |
+| DINOSLOVESU | Frozen Egg + 10.000 Cash | Pendorong sesi pertama | Tinggi |
+| BESTDINOGAME | 300 Teeth | Dorongan mata uang premium | Tinggi |
+| WELCOME | 1.000 Cash | Penyangga awal | Sedang |
+| THX4PLAYING | 650 Cash | Cash ekstra di awal | Sedang |
+
+</Section>
+
+<Section icon={Sparkles} title="Urutan Telur Terbaik dan Prioritas Cash">
+Pemilihan telur adalah inti dari jalur pertumbuhan. Jalur yang paling efisien adalah membeli hanya yang membantu menjaga taman tetap penuh, lalu naik satu tier pada satu waktu. Itulah cara untuk menghindari pengeluaran terlalu cepat pada telur mahal yang memperlambat pemulihan pendapatanmu.
+
+<Callout type="warning" title="Kesalahan Pengeluaran yang Harus Dihindari">
+Jangan terburu-buru membeli Legendary Egg sebelum tamanmu bisa dengan cepat menutup biaya 50.000 Cash. Penundaan itu bisa membuat semuanya macet.
+</Callout>
+
+| Telur | Biaya | Waktu Menetas | Penggunaan Terbaik |
+|---|---|---|---|
+| Common Egg | 500 Cash | Instan | Pembelian pertama, pengisian awal |
+| Uncommon Egg | 4.000 Cash | 10 detik | Upgrade awal dari dinosaurus pemula |
+| Rare Egg | 10.000 Cash | 30 detik | Langkah utama pendapatan pertengahan game |
+| Epic Egg | 25.000 Cash | 1 menit | Pertumbuhan pertengahan hingga akhir game |
+| Legendary Egg | 50.000 Cash | 2 menit | Target akhir game |
+| Frozen Egg | Hadiah kode | Telur kode | Bonus menetas gratis |
+
+<CardGrid cols={4}>
+  <Card title="Common">
+    - Risiko terendah
+    - Awal yang cepat
+    - Mengisi lahan kosong
+  </Card>
+  <Card title="Uncommon">
+    - Pendapatan lebih baik
+    - Tier jembatan yang bagus
+    - Tetap terjangkau
+  </Card>
+  <Card title="Rare">
+    - Lonjakan nilai yang kuat
+    - Telur inti pertengahan game
+    - Scaling awal terbaik
+  </Card>
+  <Card title="Epic/Legendary">
+    - Lonjakan pendapatan besar
+    - Gunakan setelah stabil
+    - Fokus akhir game
+  </Card>
+</CardGrid>
+
+| Dinosaurus | Kelangkaan | Biaya | Pendapatan/Menit | Pertahankan atau Ganti |
+|---|---|---|---|---|
+| Compsognathus | Common | 500 Cash | 50 | Ganti cepat |
+| Gallimimus | Common | 1.000 Cash | 75 | Pengisi awal |
+| Dilophosaurus | Common | 1.500 Cash | 100 | Pertahankan sementara |
+| Velociraptor | Rare | 8.000 Cash | 500 | Upgrade kuat |
+| Stegosaurus | Rare | 10.000 Cash | 600 | Kuat untuk pertengahan game |
+| Brachiosaurus | Rare | 12.000 Cash | 700 | Nilai tinggi |
+| Spinosaurus | Epic | 25.000 Cash | 1.400 | Pertahankan akhir game |
+| T-Rex | Legendary | 50.000 Cash | 2.500 | Pertahankan akhir game |
+
+</Section>
+
+<Section icon={Target} title="Jalur Reinvestasi Langkah demi Langkah">
+Jalur tercepat itu sederhana: tukarkan, menetas, tempatkan, hasilkan, dan tingkatkan secara berurutan. Ikuti loop ini satu kali dengan tepat, lalu ulangi dengan pembelian yang lebih kuat. Ini membuat tamanmu terus bergerak, bukan macet sambil menunggu satu pembelian besar.
+
+<Callout type="success" title="Aturan Penguatan Terbaik">
+Saat kamu mampu membeli tier yang lebih tinggi tanpa merusak aliran pendapatan, lakukan pergantian. Ganti dulu penghasil terlemah.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Tukarkan Kode Aktif">
+    Buka Store, masukkan daftar kode aktif, dan klaim hadiahnya sebelum menghabiskan Cash untuk telur. Ini memberi dorongan awal terbesar.
+  </Step>
+  <Step num="2" title="Beli Telur Common Lebih Dulu">
+    Gunakan Cash awal untuk Telur Common agar setiap slot kosong langsung mulai menghasilkan minat pengunjung.
+  </Step>
+  <Step num="3" title="Beralih ke Uncommon dan Rare">
+    Setelah pendapatan dasar stabil, pindah ke Telur Uncommon, lalu Telur Rare saat kamu sudah sanggup menanggung biayanya.
+  </Step>
+  <Step num="4" title="Tambahkan Upgrade Setelah Taman Berfungsi">
+    Beli Visitor Booth, Food Court, Dino Hotel, dan Helicopter Tour hanya setelah kamu sudah punya basis dinosaurus yang berjalan.
+  </Step>
+</Steps>
+
+| Upgrade | Biaya | Peran | Beli Saat |
+|---|---|---|---|
+| Visitor Booth | 2.000 Cash | Pendapatan pengunjung 1,2x | Sangat awal |
+| Food Court | 8.000 Cash | Pendapatan pengunjung 1,5x | Awal-pertengahan |
+| Dino Hotel | 20.000 Cash | Pendapatan pengunjung 2x | Pertengahan game |
+| Helicopter Tour | 50.000 Cash | Pendapatan pengunjung 3x | Akhir game |
+
+</Section>
+
+<Section icon={Shield} title="Target Penggantian dan Milestone Progres">
+Taman yang kuat tidak dibangun dengan mempertahankan setiap dinosaurus selamanya. Taman terbaik mengganti penghasil lemah segera setelah opsi yang lebih baik menjadi masuk akal. Itulah cara termudah untuk menjaga kurva pendapatanmu terus naik.
+
+<Callout type="tip" title="Aturan Penggantian Cerdas">
+Pertahankan dinosaurus murah hanya selama mereka membantumu mencapai tier berikutnya. Begitu mereka berhenti mempercepat progres, gantilah.
+</Callout>
+
+<Checklist
+  id="my-dino-park-goals"
+  title="Milestone Progres:"
+  items={[
+    "Tukarkan semua kode aktif sebelum pembelian telur pertama",
+    "Isi taman dengan dinosaurus Common atau Uncommon di awal",
+    "Upgrade ke Telur Rare begitu Cash mulai stabil",
+    "Beli upgrade taman setelah basis dinosaurus produktif",
+    "Ganti dinosaurus berpendapatan rendah dengan pilihan Rare, Epic, dan Legendary"
+  ]}
+/>
+
+| Milestone | Target | Mengapa Penting |
+|---|---|---|
+| Pengisian awal | Dinosaurus Common / Uncommon | Memulai pendapatan dengan cepat |
+| Lonjakan scaling pertama | Telur Rare | Dorongan pertengahan game terbesar |
+| Basis taman yang kuat | Beberapa penghasil Rare | Membuat upgrade terasa sepadan |
+| Pertumbuhan akhir | Epic dan Legendary | Mendorong pendapatan ke level atas |
+| Siklus bangun ulang | Reinvestasi berulang | Membuat dinosaurus terus tumbuh |
+
+| Tautan Resmi | Apa Itu | Untuk Apa |
+|---|---|---|
+| Roblox Experience | Halaman game resmi | Mainkan game |
+| Dino Community | Grup Roblox | Pembaruan dari developer |
+| Discord | Server komunitas | Kode dan pengumuman |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+<Callout type="info" title="Jawaban Cepat">
+Jawaban ini berfokus pada loop reinvestasi yang sama yang digunakan di seluruh panduan ini.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa arti my dino park infinite dinos dalam praktik?",
+    answer: "Artinya membangun loop pertumbuhan tanpa akhir: tukarkan kode, beli telur, menetas dinosaurus, isi taman, dan investasikan kembali Cash ke penghasil yang lebih kuat."
+  },
+  {
+    question: "Apa pembelian pertama terbaik di My Dino Park?",
+    answer: "Tukarkan kode aktif terlebih dahulu, lalu beli Telur Common. Itu memberimu Cash awal dan cara mudah untuk mengisi slot kosong."
+  },
+  {
+    question: "Kapan sebaiknya saya membeli Telur Rare atau Epic?",
+    answer: "Beralih ke Telur Rare begitu aliran Cash kamu stabil, lalu gunakan Telur Epic setelah tamanmu bisa menopang pengeluaran lebih besar tanpa melambat."
+  },
+  {
+    question: "Haruskah saya membeli upgrade sebelum menambah dinosaurus?",
+    answer: "Tidak. Beli upgrade setelah taman sudah punya cukup dinosaurus untuk memanfaatkan pengganda."
+  }
+]} />
+
+<Callout type="warning" title="Hanya Tautan Resmi">
+Gunakan pengalaman Roblox resmi, grup Dino Community, dan undangan Discord untuk kode, pembaruan, dan bantuan pemulihan. Hindari tautan pihak ketiga yang acak.
+</Callout>
+
+</Section>

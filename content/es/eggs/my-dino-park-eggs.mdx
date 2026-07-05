@@ -1,0 +1,190 @@
+import { Map, Target, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Huevos de My Dino Park: costos, eclosiones y guía de orden de compra",
+  description: "Usa esta guía de huevos de My Dino Park para elegir el mejor orden de eclosión, comparar costos e ingresos y evitar gastar de forma inútil al principio en huevos débiles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B5E34/fff?text=Egg+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de My Dino Park"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Huevos de My Dino Park**: Empieza con huevos Comunes y luego mejora solo cuando tu flujo de Cash pueda recuperarse rápido.
+- **Mejor valor inicial**: Usa primero los códigos, especialmente **DINOSLOVESU**, que otorga un Huevo Helado además de Cash.
+- **Progresión inteligente**: Compra huevos Inusuales y Raros antes de ir a por eclosiones Épicas o Legendarias.
+- **Regla de ingreso**: Coloca cada eclosión de inmediato para que el ingreso de visitantes empiece a trabajar para ti.
+- **Objetivo de final de partida**: Guarda los Huevos Legendarios para el punto en el que 50,000 Cash se sienta recuperable.
+</Callout>
+
+<Section icon={Map} title="Resumen de los huevos de My Dino Park">
+
+Los huevos de My Dino Park son la base de la progresión temprana. El orden correcto de eclosión llena tu parque más rápido, mantiene el Cash en movimiento y te ayuda a escalar hacia dinosaurios más fuertes sin frenar tu economía.
+
+<Callout type="tip" title="Regla temprana de los huevos">
+Si tu parque todavía tiene espacio vacío, un huevo más barato suele ser mejor que esperar por uno más grande.
+</Callout>
+
+| Huevo | Coste | Tiempo de eclosión | Grupo | Mejor uso |
+|---|---:|---:|---|---|
+| Huevo Común | 500 Cash | Instantáneo | Común | Primera compra, llenar terreno al inicio |
+| Huevo Inusual | 4,000 Cash | 10 segundos | Común / Inusual | Primera mejora tras el ingreso inicial |
+| Huevo Raro | 10,000 Cash | 30 segundos | Inusual / Raro | Principal paso de ingresos en mitad de partida |
+| Huevo Épico | 25,000 Cash | 1 minuto | Raro / Épico | Impulso de crecimiento de mitad a final de partida |
+| Huevo Legendario | 50,000 Cash | 2 minutos | Épico / Legendario | Objetivo de ingresos al final de partida |
+| Huevo Helado | Recompensa de código | Huevo de código | Limitado / solo de código | Eclosión gratuita temprana de DINOSLOVESU |
+
+<CardGrid cols={3}>
+  <Card title="Escalera inicial">
+    - **Huevo Común**
+    - **Huevo Inusual**
+    - Llena el espacio rápido
+  </Card>
+  <Card title="Salto de mitad de partida">
+    - **Huevo Raro**
+    - **Huevo Épico**
+    - Fuerte aumento de ingresos
+  </Card>
+  <Card title="Objetivo final">
+    - **Huevo Legendario**
+    - **Huevo Helado**
+    - Los mejores objetivos de la fase tardía
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Mejor orden de huevos según la progresión">
+
+La ruta más limpia es simple: canjea recompensas, compra huevos baratos, coloca cada eclosión y luego sube un nivel cada vez. Esto mantiene tu parque productivo mientras avanzas.
+
+<Callout type="warning" title="No te apresures con los huevos premium">
+Los huevos Épicos y Legendarios pueden ralentizar tu progreso si tu parque no puede reconstruir el Cash después de la compra.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Canjea primero las recompensas gratuitas">
+    Abre la Tienda, reclama los códigos activos y usa el Cash extra antes de comprar huevos.
+  </Step>
+  <Step num="2" title="Compra el Huevo Común">
+    Gasta 500 Cash en tu primera eclosión para que tu parque empiece a generar interés de visitantes de inmediato.
+  </Step>
+  <Step num="3" title="Pásate a los Huevos Inusuales">
+    Haz el cambio una vez que los dinosaurios iniciales estén colocados y tus ingresos puedan soportar gastos de 4,000 Cash.
+  </Step>
+  <Step num="4" title="Desbloquea después los Huevos Raros">
+    Usa los Huevos Raros como el principal salto de mitad de partida cuando quieras mejor ingreso por eclosión.
+  </Step>
+  <Step num="5" title="Guarda los Huevos Épicos y Legendarios para partidas con recuperación lista">
+    Compra estos solo cuando un gran gasto no vaya a frenar tu crecimiento durante demasiado tiempo.
+  </Step>
+</Steps>
+
+| Etapa de progresión | Huevo recomendado | Comprobación del gasto | Por qué funciona |
+|---|---|---|---|
+| Primera sesión | Huevo Común | 500 Cash disponibles | Inicio fiable y más barato |
+| Crecimiento temprano | Huevo Inusual | Varios dinos ya colocados | Mejor calidad de eclosión sin una gran pausa |
+| Mitad de partida | Huevo Raro | Bucle de Cash estable | Fuerte salto de ingresos |
+| Mitad tardía | Huevo Épico | El parque ya gana bien | Más valor sin riesgo temprano |
+| Final de partida | Huevo Legendario | 50,000 Cash recuperables | Techo estándar más alto |
+
+<Callout type="tip" title="Regla práctica">
+Si todavía estás mirando terreno vacío, gasta en cubrir eclosiones antes de gastar en rareza.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Valor de los huevos, ingresos y reinversión">
+
+El valor de los huevos en My Dino Park no depende solo de la rareza. Se trata de qué tan rápido una eclosión te ayuda a colocar más dinosaurios, atraer visitantes y desbloquear el siguiente nivel de ingresos.
+
+<Callout type="success" title="Mejor impulso gratis">
+DINOSLOVESU da un Huevo Helado más 10,000 Cash, lo que lo convierte en la recompensa inicial más fuerte del grupo de códigos actual.
+</Callout>
+
+| Objetivo del huevo | Resultado de ejemplo | Ingreso medio por minuto | Prioridad de reemplazo |
+|---|---|---:|---|
+| Huevo Común | Compsognathus, Gallimimus, Dilophosaurus | 75 | Reemplazar pronto |
+| Huevo Inusual | Parasaurolophus, Ankylosaurus, Pterodactyl | 300 | Usar como puente |
+| Huevo Raro | Velociraptor, Stegosaurus, Brachiosaurus | 600 | Núcleo fuerte de mitad de partida |
+| Huevo Épico | Spinosaurus, Triceratops | 1,300 | Mantener hasta el final de partida |
+| Huevo Legendario | T-Rex | 2,500 | Conservador de final de partida |
+| Huevo Helado | Eclosión de recompensa de código | Recompensa de código | Abrir de inmediato |
+
+| Problema de gasto | Mejor solución | Resultado |
+|---|---|---|
+| Comprar un huevo raro demasiado pronto | Llena los huecos con eclosiones Comunes o Inusuales | Ingresos de visitantes más rápidos |
+| Esperar demasiado para el Legendario | Compra antes Huevos Raros o Épicos | Menos tiempo muerto |
+| Mantener dinos débiles demasiado tiempo | Reemplázalos por generadores de dinero mejores | Mayor flujo de Cash |
+| Ignorar los códigos | Canjea primero las recompensas activas | Más recursos iniciales |
+
+<Checklist
+  id="egg-progress-goals"
+  title="Objetivos de progreso de los huevos:"
+  items={[
+    "Canjea los códigos activos antes de tu primera compra de huevos",
+    "Llena cada parcela vacía con un dinosaurio colocado",
+    "Mejora de Huevo Común a Huevo Inusual una vez que el ingreso empiece a moverse",
+    "Usa los Huevos Raros como el principal salto de mitad de partida",
+    "Guarda los Huevos Épicos y Legendarios para partidas con recuperación estable"
+  ]}
+/>
+
+<Callout type="info" title="Prioridad de reinversión">
+El orden más seguro es primero los huevos, luego dinosaurios más fuertes, después mejoras del parque y, por último, expansión del terreno.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Errores comunes y enlaces oficiales">
+
+La mayoría de los errores con los huevos vienen de la impaciencia. Los mejores jugadores construyen un ciclo estable de eclosión, mantienen el terreno productivo y evitan bloquear Cash en una sola compra demasiado grande.
+
+<Callout type="warning" title="Errores comunes">
+La mayor ralentización es comprar huevos de alto nivel antes de que tus eclosiones de nivel inferior ya estén trabajando para ti.
+</Callout>
+
+| Error | Mejor movimiento | Por qué ayuda |
+|---|---|---|
+| Saltarse los Huevos Comunes | Compra la primera eclosión barata | Inicia ingresos de inmediato |
+| Sobrevalorar la rareza | Concéntrate en la velocidad de recuperación de ingresos | Mejor ritmo de progresión |
+| Dejar parcelas vacías | Coloca cada eclosión rápido | Los ingresos de visitantes empiezan antes |
+| Comprar Legendarios demasiado pronto | Avanza primero con Raros y Épicos | Menor presión sobre la economía |
+| Ignorar las recompensas de código | Canjea los códigos activos enseguida | Cash gratis y un Huevo Helado |
+
+| Fuente oficial | Qué te ofrece | Enlace |
+|---|---|---|
+| Experiencia de Roblox | Jugar al juego, comprobar el título en vivo y confirmar la actualización actual | https://www.roblox.com/games/80701570784699/My-Dino-Park |
+| Comunidad Dino | Grupo oficial de Roblox para el desarrollador | https://www.roblox.com/communities/532484073/Dino-Community |
+| Invitación a Discord | Códigos, actualizaciones y ayuda para restauración | https://discord.com/invite/eQHNk8dGpz |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor primer huevo en My Dino Park?",
+    answer: "El Huevo Común es la mejor primera compra porque solo cuesta 500 Cash y activa tu ciclo de ingresos de inmediato."
+  },
+  {
+    question: "¿Cuándo debería comprar Huevos Raros?",
+    answer: "Pásate a los Huevos Raros una vez que tu parque tenga varios dinosaurios colocados y tu Cash pueda recuperarse sin una pausa larga."
+  },
+  {
+    question: "¿Vale la pena usar el Huevo Helado enseguida?",
+    answer: "Sí. El Huevo Helado de DINOSLOVESU es una recompensa gratuita, así que conviene abrirlo pronto en lugar de dejarlo en el inventario."
+  },
+  {
+    question: "¿Debería ahorrar para Huevos Legendarios lo antes posible?",
+    answer: "Normalmente no. Los Huevos Legendarios son fuertes, pero la progresión temprana es más fluida si primero avanzas por Común, Inusual, Raro y Épico."
+  }
+]} />
+
+<Callout type="success" title="Conclusión final">
+Usa huevos baratos para llenar el espacio, usa huevos Raros y Épicos para escalar y guarda las compras Legendarias para cuando tu parque pueda absorber el coste.
+</Callout>
+
+</Section>

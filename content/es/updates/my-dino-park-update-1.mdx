@@ -1,0 +1,243 @@
+import { Map, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "My Dino Park update 1: notas del parche, códigos y rutas",
+  description: "Sigue la actualización 1 de My Dino Park con códigos activos, prioridades de huevos, orden de mejoras y una ruta inicial rápida para un flujo de Cash más fuerte.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/92400e/fff?text=My+Dino+Park+Update+1",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de My Dino Park"
+}
+
+<Callout type="info" title="Guía rápida">
+- **my dino park update 1** añade el bucle central del parque, y luego la actualización 2 amplía las recompensas y la estabilidad.
+- **Canjea primero los códigos** para que tu Cash y Teeth iniciales vayan a huevos, no a compras retrasadas.
+- La progresión de **Common a Rare** es la ruta más segura hasta que tus ingresos puedan absorber costos de huevos más altos.
+- Las **mejoras para visitantes** importan después de tener dinos en el mapa, no antes.
+</Callout>
+
+<Section icon={Sparkles} title="My Dino Park update 1 de un vistazo">
+
+My Dino Park update 1 estableció el bucle base del tycoon: comprar huevos, incubar dinosaurios, atraer visitantes, ganar Cash y reinvertir. La actualización 2 construye sobre esa base con nuevas recompensas, un código de Frozen Egg, correcciones de errores y ajustes de la economía. Si quieres avanzar más rápido, trata la versión de lanzamiento como la fase de preparación y la actualización 2 como la primera ventana real de impulso.
+
+<Callout type="success" title="Lo que más cambió">
+La actualización 1 define la economía, mientras que la actualización 2 te da poder inicial directo a través de códigos, especialmente **UPDATE2** y **DINOSLOVESU**.
+</Callout>
+
+| Actualización | Fecha | Impacto principal | Prioridad del jugador |
+|---|---|---|---|
+| UPD 1 | 2026-07-01 | Bucle de lanzamiento, 12 dinos estándar, niveles de huevos, ingresos de visitantes | Construir tu primera base de ingresos |
+| UPD 2 | 2026-07-04 | Nuevos códigos, recompensa de Frozen Egg, correcciones de errores, ajustes de Teeth | Canjear recompensas antes de gastar |
+
+<CardGrid cols={3}>
+  <Card title="Bucle de lanzamiento">
+    - Comprar huevos
+    - Incubar dinos
+    - Colocarlos rápido
+  </Card>
+  <Card title="Impulso de la actualización 2">
+    - Recompensas de Cash
+    - Recompensas de Teeth
+    - Valor de huevo gratis
+  </Card>
+  <Card title="La mejor mentalidad">
+    - Llena el espacio primero
+    - Multiplica los ingresos después
+    - Deja las compras de lujo para más adelante
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Códigos activos y orden de canje">
+
+Usa la caja de códigos al principio, antes de comprar huevos de mayor costo. Los códigos distinguen mayúsculas y minúsculas, así que introduce cada recompensa exactamente como está escrita. La ruta inicial más limpia es sencilla: canjea todo, incuba la recompensa del huevo gratis y luego gasta el Cash en los huevos útiles más baratos.
+
+<Callout type="warning" title="El momento del código importa">
+Reclama **primero todos los códigos activos**. Si gastas demasiado pronto tu Cash inicial, ralentizas el mejor retorno de la fase temprana del grupo de recompensas.
+</Callout>
+
+| Código | Recompensa | Mejor uso | Estado |
+|---|---|---|---|
+| UPDATE2 | 20,000 Cash + 200 Teeth | Mejor impulso general | Activo |
+| BESTDINOGAME | 300 Teeth | Aumento de progreso estilo premium | Activo |
+| DINOSLOVESU | Frozen Egg + 10,000 Cash | La mejor recompensa inicial | Activo |
+| WELCOME | 1,000 Cash | Cash rápido para empezar | Activo |
+| THX4PLAYING | 650 Cash | Cash extra de apertura | Activo |
+
+<Steps>
+  <Step num="1" title="Abre el menú de la tienda">
+    Inicia My Dino Park, completa el tutorial y abre Store para que esté disponible la caja de canje.
+  </Step>
+  <Step num="2" title="Introduce el código exactamente">
+    Pega un código a la vez, mantén la ortografía exacta y canjéalo antes de comprar cualquier huevo de pago.
+  </Step>
+  <Step num="3" title="Reclama primero la mejor recompensa">
+    Empieza con UPDATE2 y DINOSLOVESU, y luego termina las recompensas menores de Cash y la recompensa de Teeth.
+  </Step>
+  <Step num="4" title="Gasta las recompensas en progreso">
+    Usa el nuevo Cash en huevos tempranos y guarda Teeth para cualquier presión de progreso que cree la actualización actual.
+  </Step>
+</Steps>
+
+<Checklist
+  id="code-checklist"
+  title="Lista de verificación para canjear códigos"
+  items={[
+    "Termina primero el tutorial",
+    "Abre Store y encuentra la caja de códigos de regalo",
+    "Canjea primero UPDATE2 y DINOSLOVESU",
+    "Reclama las recompensas restantes de Cash y Teeth",
+    "Gasta el Cash extra en huevos iniciales"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Ruta de progresión temprana y orden de reinversión">
+
+La ruta inicial más segura no es glamorosa, pero funciona: llena el parque, empieza a generar ingresos de visitantes y solo entonces pasa a huevos y mejoras más fuertes. El espacio vacío no gana nada. Un parque lleno de dinos de menor nivel suele superar a un parque medio vacío con una sola incubación cara.
+
+<Callout type="tip" title="Regla de la fase temprana">
+Si una decisión no aumenta tus ingresos de visitantes ni desbloquea un mejor ciclo de incubación, pospónla.
+</Callout>
+
+| Prioridad | Acción | Por qué funciona | Enfoque de costo |
+|---|---|---|---|
+| 1 | Canjear códigos | Los recursos gratis aceleran el primer ciclo de compra | Ninguno |
+| 2 | Comprar dinos de Common Egg | La forma más barata de llenar espacio | Primero 500 Cash |
+| 3 | Añadir dinos de Uncommon Egg | Mejor ingreso una vez que el parque empieza a moverse | 4,000 Cash |
+| 4 | Pasar a dinos de Rare Egg | Gran salto de ingresos para el crecimiento de mitad de partida | 10,000 Cash |
+| 5 | Comprar mejoras para visitantes | Los multiplicadores importan después de tener dinos | 2,000 a 50,000 Cash |
+
+<Steps>
+  <Step num="1" title="Llena las casillas vacías">
+    Compra primero huevos de bajo costo para que cada espacio libre empiece a generar interés de visitantes.
+  </Step>
+  <Step num="2" title="Reemplaza los puntos débiles">
+    Cambia a los starters más débiles una vez que las opciones Uncommon o Rare sean asequibles.
+  </Step>
+  <Step num="3" title="Añade mejoras multiplicadoras">
+    Compra Visitor Booth, luego Food Court, y después mejoras más fuertes cuando el parque tenga suficientes dinos.
+  </Step>
+  <Step num="4" title="Expande solo después de la densidad">
+    La expansión de terreno es más fuerte cuando tu terreno actual ya está generando Cash de forma constante.
+  </Step>
+</Steps>
+
+<Checklist
+  id="progression-checklist"
+  title="Objetivos de la primera sesión"
+  items={[
+    "Coloca tu primer dinosaurio de inmediato",
+    "Mantén ganando todas las casillas visibles",
+    "Mejora a Uncommon antes de ahorrar para siempre",
+    "Llega a compras de Rare Egg como objetivo principal",
+    "Retrasa las grandes mejoras del parque hasta que los ingresos sean estables"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridades de huevos y dinosaurios">
+
+La elección del huevo impulsa toda la economía. Los Common Eggs son para velocidad, los Uncommon Eggs sirven de puente temprano, los Rare Eggs son el primer paso serio de ingresos, y las compras Epic o Legendary solo son eficientes cuando el parque puede recuperarse rápidamente. La regla más fuerte es simple: gasta para densidad de ingresos, no para presumir tu colección.
+
+<Callout type="info" title="Orden de gasto">
+Compra el nivel de huevo que aumente los ingresos más rápido para tu flujo actual de Cash, no el que tenga el nombre más llamativo.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Common">
+    - Mejor primera compra
+    - Herramienta para llenar rápido
+    - Ingreso inicial barato
+  </Card>
+  <Card title="Uncommon">
+    - Nivel puente temprano
+    - Mejor retorno por casilla
+    - Bueno después de los primeros ingresos
+  </Card>
+  <Card title="Rare">
+    - Mejora principal de mitad de partida
+    - Gran salto de ingresos
+    - Nivel de mejor valor temprano
+  </Card>
+  <Card title="Epic+">
+    - Objetivo de crecimiento a largo plazo
+    - Mayor carga de Cash
+    - Comprar después de la estabilidad
+  </Card>
+</CardGrid>
+
+| Huevo | Costo | Ritmo de incubación | Etapa ideal | Notas |
+|---|---|---|---|---|
+| Common Egg | 500 Cash | Instantáneo | Inicio | Mejor primera compra |
+| Uncommon Egg | 4,000 Cash | 10 segundos | Temprana | Mejor nivel puente |
+| Rare Egg | 10,000 Cash | 30 segundos | Mitad de partida | Primer gran salto |
+| Epic Egg | 25,000 Cash | 1 minuto | Media-tardía | Fuerte paso de crecimiento |
+| Legendary Egg | 50,000 Cash | 2 minutos | Tardía | Objetivo final |
+| Frozen Egg | Recompensa de código | Según código | Impulso temprano | Valor extra gratis |
+
+| Dinosaurio | Rareza | Ingreso/Min | Mejor uso |
+|---|---|---|---|
+| Compsognathus | Common | 50 Cash | Relleno más barato |
+| Gallimimus | Common | 75 Cash | Ingreso inicial |
+| Dilophosaurus | Common | 100 Cash | Mejor nivel Common |
+| Velociraptor | Rare | 500 Cash | Primera gran mejora |
+| Stegosaurus | Rare | 600 Cash | Buena opción de mitad de partida |
+| Brachiosaurus | Rare | 700 Cash | Mejor opción Rare |
+| Triceratops | Epic | 1,200 Cash | Poder equilibrado |
+| Spinosaurus | Epic | 1,400 Cash | Objetivo Epic fuerte |
+| T-Rex | Legendary | 2,500 Cash | Ancla de la etapa final |
+
+<Callout type="success" title="La mejor regla práctica">
+Si puedes comprar dos dinos más baratos o uno llamativo y caro, los dos dinos más baratos suelen construir un mejor bucle a corto plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Enlaces oficiales y FAQ del registro de actualizaciones">
+
+Mantén la navegación simple: juega a través de la experiencia oficial de Roblox, únete a la comunidad oficial y usa Discord para las publicaciones de códigos o ayuda para restaurar progreso. Eso te mantiene cerca del ciclo de actualizaciones actual y evita enlaces de fans desactualizados.
+
+<Callout type="warning" title="Seguridad de los enlaces">
+Usa la experiencia oficial de Roblox, la página oficial de la comunidad y el Discord oficial. Los espejos aleatorios y las wikis no verificadas pueden ir por detrás del estado actual de la actualización.
+</Callout>
+
+| Enlace oficial | Propósito | URL |
+|---|---|---|
+| Experiencia de Roblox | Jugar el juego | https://www.roblox.com/games/80701570784699/My-Dino-Park |
+| Dino Community | Grupo del desarrollador | https://www.roblox.com/communities/532484073/Dino-Community |
+| Invitación de Discord | Códigos y anuncios | https://discord.com/invite/eQHNk8dGpz |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de empezar en my dino park update 1?",
+    answer: "Completa el tutorial, canjea todos los códigos activos, compra primero dinos de Common Egg y usa las recompensas gratis para acelerar tu primer bucle de ingresos."
+  },
+  {
+    question: "¿Qué código da el mejor valor temprano?",
+    answer: "DINOSLOVESU destaca como la mejor recompensa inicial porque da tanto un Frozen Egg como 10,000 Cash."
+  },
+  {
+    question: "¿Debería ahorrar para Epic Eggs de inmediato?",
+    answer: "Normalmente no. Los Rare Eggs y las mejoras de ingresos más baratas son mejores primero porque construyen el flujo de Cash que hace más seguras las compras Epic."
+  },
+  {
+    question: "¿Cuándo debería comprar mejoras del parque?",
+    answer: "Compra mejoras después de que tu parque ya tenga varios dinosaurios colocados. Los multiplicadores funcionan mejor cuando amplifican ingresos existentes."
+  }
+]} />
+
+<Callout type="info" title="Conclusión final">
+My Dino Park recompensa una estructura rápida, no el acaparamiento lento. Canjea códigos, llena el terreno, pasa a ingresos de Rare y solo entonces persigue el nivel de lujo.
+</Callout>
+
+</Section>

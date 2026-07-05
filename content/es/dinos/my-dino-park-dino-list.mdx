@@ -1,0 +1,192 @@
+import { Map, Trophy, Sparkles, Shield, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Lista de dinosaurios de My Dino Park: rangos por nivel y guía de huevos",
+  description: "Compara cada dinosaurio de My Dino Park por rareza, coste e ingresos, y luego sigue el mejor orden de huevos y mejoras para hacer crecer tu parque más rápido.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c4a21/fff?text=Dino+List+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de My Dino Park"
+}
+
+<Callout type="info" title="Guía rápida">
+- **my dino park dino list** te ayuda a clasificar 12 dinosaurios por coste, ingresos y prioridad de reemplazo.
+- **Velociraptor** es el mejor objetivo de mejora temprana para la mayoría de los jugadores después de los dinos iniciales.
+- **Rare Egg** es el salto ideal de mitad de partida cuando las ranuras de Common y Uncommon están llenas.
+- **T-Rex** y **Legendary Egg** son objetivos de final de partida, no compras para la primera sesión.
+- **Compra mejoras al final** salvo que tu parque ya tenga suficientes dinosaurios generando dinero.
+</Callout>
+
+<Section icon={Map} title="Cómo leer la lista de dinosaurios">
+
+La alineación estándar actual tiene 12 dinosaurios repartidos entre los niveles de rareza Common, Uncommon, Rare, Epic y Legendary. Usa esta lista para comparar **coste, ingresos y momento** en conjunto, en lugar de comprar el huevo más caro sin pensarlo. Los parques más rápidos suelen empezar con opciones baratas, llenar el terreno libre y luego reemplazar dinos débiles por otros que generen más.
+
+<Callout type="tip" title="Fuentes oficiales que vale la pena guardar">
+Usa la [experiencia oficial de Roblox](https://www.roblox.com/games/80701570784699/My-Dino-Park), el [grupo Dino Community](https://www.roblox.com/communities/532484073/Dino-Community) y la [invitación de Discord](https://discord.com/invite/eQHNk8dGpz) para acceder al juego y recibir actualizaciones.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Fase inicial">
+    - **Objetivo:** Llenar el terreno rápido
+    - **Mejores compras:** Common Egg, Uncommon Egg
+    - **Enfoque:** Ranuras de ingresos baratas
+  </Card>
+  <Card title="Mitad de partida">
+    - **Objetivo:** Aumentar el dinero por minuto
+    - **Mejores compras:** Rare Egg, Velociraptor
+    - **Enfoque:** Resultados de eclosión más fuertes
+  </Card>
+  <Card title="Final de partida">
+    - **Objetivo:** Maximizar el valor del parque
+    - **Mejores compras:** Epic Egg, Legendary Egg
+    - **Enfoque:** Dinosaurios de primer nivel
+  </Card>
+</CardGrid>
+
+| Etapa | Lo más importante | Mejor resultado |
+| --- | --- | --- |
+| Inicial | Bajo coste, colocación rápida | Primer ciclo de dinero más rápido |
+| Mitad de partida | Mejor ingreso por ranura | Reinversión fluida |
+| Final de partida | Dinos de alto valor y multiplicadores | Crecimiento sólido del parque |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de dinosaurios de My Dino Park por valor">
+
+<Callout type="warning" title="Regla de clasificación">
+No juzgues la lista solo por la rareza. Un dinosaurio más barato que ocupe espacio al principio puede rendir mejor que una eclosión rara si te acerca antes a la siguiente compra.
+</Callout>
+
+| Dino | Rareza | Huevo de origen | Coste | Ingresos/Min | Prioridad |
+| --- | --- | --- | --- | --- | --- |
+| T-Rex | Legendary | Legendary Egg | 50,000 Cash | 2,500 Cash/min | Conservación para el final de partida |
+| Spinosaurus | Epic | Epic Egg | 25,000 Cash | 1,400 Cash/min | Opción fuerte de mitad-final |
+| Triceratops | Epic | Epic Egg | 20,000 Cash | 1,200 Cash/min | Ancla confiable |
+| Brachiosaurus | Rare | Rare Egg | 12,000 Cash | 700 Cash/min | Rare de alto valor |
+| Stegosaurus | Rare | Rare Egg | 10,000 Cash | 600 Cash/min | Sólido en general |
+| Velociraptor | Rare | Rare Egg | 8,000 Cash | 500 Cash/min | La mejor mejora temprana |
+| Pterodactyl | Uncommon | Uncommon Egg | 6,000 Cash | 350 Cash/min | Buen relleno |
+| Ankylosaurus | Uncommon | Uncommon Egg | 5,000 Cash | 300 Cash/min | Puente temprano |
+| Parasaurolophus | Uncommon | Uncommon Egg | 4,000 Cash | 250 Cash/min | Relleno económico |
+| Dilophosaurus | Common | Common Egg | 1,500 Cash | 100 Cash/min | Mejora inicial |
+| Gallimimus | Common | Common Egg | 1,000 Cash | 75 Cash/min | Inicio barato |
+| Compsognathus | Common | Common Egg | 500 Cash | 50 Cash/min | Relleno de la primera ranura |
+
+| Nivel | ¿Conservar o reemplazar? | Mejor uso |
+| --- | --- | --- |
+| Legendary | Conservar | Ranura de parque al final del juego |
+| Epic | Conservar hasta que Legendary sea asequible | Ingresos fuertes de mitad-final |
+| Rare | Conservar durante la mitad temprana y media | Mejor puente de crecimiento |
+| Uncommon | Reemplazar una vez que Rare sea estable | Llenar y escalar |
+| Common | Reemplazar rápidamente | Inicio temprano de dinero |
+
+La ruta más eficiente es simple: **Compsognathus y Gallimimus** te ponen en marcha, **Velociraptor** se convierte en el primer salto real, y **T-Rex** cierra el ciclo una vez que tu flujo de dinero pueda absorber un gasto de 50,000.
+
+</Section>
+
+<Section icon={Sparkles} title="Guía de huevos y mejor orden de compra">
+
+<Callout type="success" title="Mejor hábito de compra">
+Compra huevos según tu ciclo de ingresos actual, no según tu plantilla soñada. Un parque fuerte se construye con mejoras repetidas, no con una sola compra cara que frene el crecimiento.
+</Callout>
+
+| Huevo | Coste | Tiempo de eclosión | Mejor uso | Notas |
+| --- | --- | --- | --- | --- |
+| Common Egg | 500 Cash | Instantáneo | Primera compra | Inicio barato, colocación rápida |
+| Uncommon Egg | 4,000 Cash | 10 segundos | Mejora temprana | Mejor relleno después de los dinos iniciales |
+| Rare Egg | 10,000 Cash | 30 segundos | Salto de mitad de partida | El mejor pico de valor para la mayoría de parques |
+| Epic Egg | 25,000 Cash | 1 minuto | Crecimiento de mitad-final | Construcción de una plantilla más fuerte |
+| Legendary Egg | 50,000 Cash | 2 minutos | Objetivo de final de partida | Guárdalo para cuando la recuperación de dinero sea rápida |
+| Frozen Egg | Recompensa por código | Recompensa por código | Valor extra gratuito | Canjéalo antes que los huevos de pago |
+
+| Orden de compra | Qué hacer | Por qué funciona |
+| --- | --- | --- |
+| 1 | Llena el terreno vacío con eclosiones de Common Egg | Empieza a generar ingresos de inmediato |
+| 2 | Pasa a Uncommon Egg | Aumenta el retorno promedio por ranura |
+| 3 | Ahorra para Rare Egg | Gran salto sin sobreextenderte |
+| 4 | Añade Epic Egg después de que los ingresos de Rare se estabilicen | Mejora la escalabilidad de final de partida |
+| 5 | Deja Legendary Egg para el final | Es mejor cuando la recuperación de dinero es rápida |
+
+Una buena regla es mantener tu parque **productivo primero, caro después**. Si tu terreno sigue medio vacío, otra eclosión barata suele ser mejor que esperar un huevo premium.
+
+</Section>
+
+<Section icon={Shield} title="Mejor ruta de gasto para crecer rápido">
+
+<Callout type="info" title="Prioridad de crecimiento">
+Tu dinero normalmente debería ir primero a huevos, luego a dinosaurios más fuertes, después a mejoras del parque y solo al final a la expansión de terreno. Ese orden te da la curva de ingresos más segura.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Canjea primero las recompensas gratis">
+    Abre el juego, reclama cualquier recompensa de código que funcione y convierte ese dinero gratis en eclosiones tempranas más rápidas.
+  </Step>
+  <Step num="2" title="Compra eclosiones de Common Egg">
+    Usa huevos baratos para colocar suficientes dinosaurios y que los visitantes empiecen a generar ingresos constantes de inmediato.
+  </Step>
+  <Step num="3" title="Mejora hacia territorio Rare">
+    Apunta primero a Velociraptor, luego a Stegosaurus y Brachiosaurus cuando tu flujo de dinero pueda sostener mejores ranuras.
+  </Step>
+  <Step num="4" title="Añade mejoras del parque después de que la base esté activa">
+    Visitor Booth, Food Court, Dino Hotel y Helicopter Tour funcionan mejor una vez que ya tienes dinos que merezca la pena potenciar.
+  </Step>
+  <Step num="5" title="Amplía el terreno solo cuando el terreno actual sea productivo">
+    El nuevo espacio rinde más cuando puedes llenarlo rápido con eclosiones y colocación, no cuando se queda vacío.
+  </Step>
+</Steps>
+
+| Mejora | Coste | Mejor momento |
+| --- | --- | --- |
+| Visitor Booth | 2,000 Cash | Muy temprano |
+| Food Court | 8,000 Cash | Después de los dinos iniciales |
+| Dino Hotel | 20,000 Cash | Mitad de partida |
+| Helicopter Tour | 50,000 Cash | Final de partida |
+
+Esta ruta mantiene el dinero en movimiento. El parque crece más rápido cuando cada compra añade un dinosaurio, aumenta los ingresos o desbloquea la siguiente compra eficiente.
+
+</Section>
+
+<Section icon={Target} title="Lista de verificación y FAQ">
+
+<Callout type="tip" title="Revisión rápida">
+Si quieres la lista de verificación más corta y útil, recuerda esto: llena ranuras, mejora a Rare y luego compra multiplicadores. Esa secuencia encaja muy bien con la curva de progresión actual de My Dino Park.
+</Callout>
+
+<Checklist
+  id="my-dino-park-dino-list-goals"
+  title="Qué hacer después:"
+  items={[
+    "Empieza con eclosiones de Common Egg y llena el terreno vacío",
+    "Reemplaza los dinos iniciales por Velociraptor en cuanto puedas",
+    "Usa Rare Egg como el principal salto de mitad de partida",
+    "Retrasa Legendary Egg hasta que el dinero se recupere rápido",
+    "Compra mejoras del parque solo después de que los dinos ya estén generando ingresos"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor dinosaurio de mi lista de dinosaurios de My Dino Park?",
+    answer: "T-Rex es la mejor opción de final de partida porque tiene los ingresos más altos de la lista, pero Velociraptor suele ser la mejor mejora temprana para la mayoría de los jugadores."
+  },
+  {
+    question: "¿Debería comprar Rare Egg antes de llenar las ranuras Common?",
+    answer: "Normalmente no. Llena primero suficientes ranuras baratas para que tu parque empiece a ganar más rápido, y luego pasa a Rare Egg cuando el ciclo de ingresos ya esté estable."
+  },
+  {
+    question: "¿Cuándo debería comprar Legendary Egg?",
+    answer: "Compra Legendary Egg cuando tu parque pueda recuperarse del gasto de 50,000 Cash sin frenar el resto de tu progresión."
+  },
+  {
+    question: "¿Vale la pena canjear Frozen Egg primero?",
+    answer: "Sí. Es una recompensa gratis, así que aporta valor extra antes de gastar dinero en huevos de pago."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Trophy, Sparkles, Shield, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Daftar Dino My Dino Park: Peringkat Tier dan Panduan Telur",
+  description: "Bandingkan setiap dinosaurus My Dino Park berdasarkan kelangkaan, biaya, dan penghasilan, lalu ikuti urutan telur dan upgrade terbaik untuk pertumbuhan taman yang lebih cepat.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/7c4a21/fff?text=Dino+List+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki my dino park"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **daftar dino my dino park** membantu Anda memberi peringkat 12 dinosaurus berdasarkan biaya, penghasilan, dan prioritas penggantian.
+- **Velociraptor** adalah target upgrade awal terbaik bagi sebagian besar pemain setelah dinosaurus starter.
+- **Rare Egg** adalah loncatan mid-game yang paling rapi ketika slot Common dan Uncommon sudah terisi.
+- **T-Rex** dan **Legendary Egg** adalah tujuan late-game, bukan pembelian di sesi pertama.
+- **Beli upgrade terakhir** kecuali taman Anda sudah punya cukup dinosaurus penghasil uang.
+</Callout>
+
+<Section icon={Map} title="Cara Membaca Daftar Dino">
+
+Roster standar saat ini memiliki 12 dinosaurus di tier kelangkaan Common, Uncommon, Rare, Epic, dan Legendary. Gunakan daftar ini untuk membandingkan **biaya, penghasilan, dan timing** secara bersamaan, bukan langsung membeli telur termahal. Taman yang tumbuh paling cepat biasanya memulai dari yang murah, mengisi lahan kosong, lalu mengganti dino lemah dengan penghasil uang yang lebih kuat.
+
+<Callout type="tip" title="Sumber Resmi yang Layak Disimpan">
+Gunakan [pengalaman Roblox](https://www.roblox.com/games/80701570784699/My-Dino-Park) resmi, [grup Dino Community](https://www.roblox.com/communities/532484073/Dino-Community), dan [undangan Discord](https://discord.com/invite/eQHNk8dGpz) untuk akses bermain dan pembaruan.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tahap Awal">
+    - **Tujuan:** Mengisi lahan dengan cepat
+    - **Pembelian terbaik:** Common Egg, Uncommon Egg
+    - **Fokus:** Slot penghasilan murah
+  </Card>
+  <Card title="Mid Game">
+    - **Tujuan:** Meningkatkan cash per menit
+    - **Pembelian terbaik:** Rare Egg, Velociraptor
+    - **Fokus:** Hasil penetasan yang lebih kuat
+  </Card>
+  <Card title="Late Game">
+    - **Tujuan:** Memaksimalkan nilai taman
+    - **Pembelian terbaik:** Epic Egg, Legendary Egg
+    - **Fokus:** Dinosaurus tier atas
+  </Card>
+</CardGrid>
+
+| Tahap | Hal yang Paling Penting | Hasil Terbaik |
+| --- | --- | --- |
+| Awal | Biaya rendah, penempatan cepat | Siklus cash pertama lebih cepat |
+| Mid Game | Penghasilan per slot lebih baik | Reinvestasi yang mulus |
+| Late Game | Dinosaurus bernilai tinggi dan multiplier | Pertumbuhan taman yang kuat |
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Dino My Dino Park Berdasarkan Nilai">
+
+<Callout type="warning" title="Aturan Peringkat">
+Jangan menilai daftar ini hanya dari kelangkaan. Dinosaurus yang lebih murah dan mengisi ruang lebih awal bisa mengalahkan penetasan langka jika itu membuat Anda mencapai pembelian berikutnya lebih cepat.
+</Callout>
+
+| Dino | Kelangkaan | Telur Sumber | Biaya | Penghasilan/Menit | Prioritas |
+| --- | --- | --- | --- | --- | --- |
+| T-Rex | Legendary | Legendary Egg | 50,000 Cash | 2,500 Cash/min | Dipertahankan di late game |
+| Spinosaurus | Epic | Epic Egg | 25,000 Cash | 1,400 Cash/min | Pilihan mid-late yang kuat |
+| Triceratops | Epic | Epic Egg | 20,000 Cash | 1,200 Cash/min | Andalan yang stabil |
+| Brachiosaurus | Rare | Rare Egg | 12,000 Cash | 700 Cash/min | Rare bernilai tinggi |
+| Stegosaurus | Rare | Rare Egg | 10,000 Cash | 600 Cash/min | Solid untuk semua situasi |
+| Velociraptor | Rare | Rare Egg | 8,000 Cash | 500 Cash/min | Upgrade awal terbaik |
+| Pterodactyl | Uncommon | Uncommon Egg | 6,000 Cash | 350 Cash/min | Pengisi yang bagus |
+| Ankylosaurus | Uncommon | Uncommon Egg | 5,000 Cash | 300 Cash/min | Jembatan awal |
+| Parasaurolophus | Uncommon | Uncommon Egg | 4,000 Cash | 250 Cash/min | Pengisi hemat |
+| Dilophosaurus | Common | Common Egg | 1,500 Cash | 100 Cash/min | Upgrade starter |
+| Gallimimus | Common | Common Egg | 1,000 Cash | 75 Cash/min | Starter murah |
+| Compsognathus | Common | Common Egg | 500 Cash | 50 Cash/min | Pengisi slot pertama |
+
+| Tier | Pertahankan Atau Ganti? | Penggunaan Terbaik |
+| --- | --- | --- |
+| Legendary | Pertahankan | Slot taman endgame |
+| Epic | Pertahankan sampai Legendary terjangkau | Penghasilan mid-late yang kuat |
+| Rare | Pertahankan sepanjang early-mid game | Jembatan pertumbuhan terbaik |
+| Uncommon | Ganti setelah Rare sudah stabil | Mengisi dan meningkatkan skala |
+| Common | Ganti dengan cepat | Starter cash awal |
+
+Jalur paling efisien itu sederhana: **Compsognathus dan Gallimimus** membuat Anda mulai bergerak, **Velociraptor** menjadi lompatan nyata pertama, dan **T-Rex** menutup siklus ketika arus kas Anda sudah bisa menyerap pengeluaran 50,000.
+
+</Section>
+
+<Section icon={Sparkles} title="Panduan Telur dan Urutan Pembelian Terbaik">
+
+<Callout type="success" title="Kebiasaan Membeli Terbaik">
+Beli telur berdasarkan siklus penghasilan Anda saat ini, bukan roster impian Anda. Taman yang kuat dibangun lewat upgrade berulang, bukan satu pembelian mahal yang justru memperlambat pertumbuhan.
+</Callout>
+
+| Telur | Biaya | Waktu Menetas | Penggunaan Terbaik | Catatan |
+| --- | --- | --- | --- | --- |
+| Common Egg | 500 Cash | Instan | Pembelian pertama | Awal murah, penempatan cepat |
+| Uncommon Egg | 4,000 Cash | 10 detik | Upgrade awal | Pengisi yang lebih baik setelah dinosaurus starter |
+| Rare Egg | 10,000 Cash | 30 detik | Lonjakan mid-game | Lonjakan nilai terbaik untuk sebagian besar taman |
+| Epic Egg | 25,000 Cash | 1 menit | Pertumbuhan mid-late | Membangun roster yang lebih kuat |
+| Legendary Egg | 50,000 Cash | 2 menit | Tujuan endgame | Simpan saat pemulihan cash sudah cepat |
+| Frozen Egg | Hadiah kode | Hadiah kode | Nilai bonus gratis | Tukarkan sebelum telur berbayar |
+
+| Urutan Beli | Yang Harus Dilakukan | Mengapa Ini Efektif |
+| --- | --- | --- |
+| 1 | Isi lahan kosong dengan penetasan Common Egg | Langsung mulai menghasilkan income |
+| 2 | Beralih ke Uncommon Egg | Menaikkan rata-rata penghasilan per slot |
+| 3 | Menabung untuk Rare Egg | Lonjakan besar tanpa terlalu memaksakan diri |
+| 4 | Tambahkan Epic Egg setelah penghasilan Rare stabil | Meningkatkan skala late-game |
+| 5 | Targetkan Legendary Egg terakhir | Paling baik saat pemulihan cash cepat |
+
+Aturan yang baik adalah menjaga taman Anda **produktif dulu, mahal belakangan**. Jika lahan Anda masih setengah kosong, satu penetasan murah lagi sering kali lebih baik daripada menunggu telur premium.
+
+</Section>
+
+<Section icon={Shield} title="Jalur Pengeluaran Terbaik untuk Pertumbuhan Cepat">
+
+<Callout type="info" title="Prioritas Pertumbuhan">
+Uang Anda biasanya sebaiknya digunakan untuk telur, lalu dinosaurus yang lebih kuat, lalu upgrade taman, dan baru setelah itu perluasan lahan. Urutan itu memberi kurva penghasilan yang paling aman.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Tukar hadiah gratis terlebih dahulu">
+    Buka game, klaim hadiah kode yang masih aktif, lalu ubah cash gratis itu menjadi penetasan awal yang lebih cepat.
+  </Step>
+  <Step num="2" title="Beli penetasan Common Egg">
+    Gunakan telur murah untuk menempatkan cukup dinosaurus agar pengunjung segera mulai menghasilkan income yang stabil.
+  </Step>
+  <Step num="3" title="Naik ke wilayah Rare">
+    Bidik Velociraptor terlebih dahulu, lalu Stegosaurus dan Brachiosaurus saat arus kas Anda sudah mampu mendukung slot yang lebih baik.
+  </Step>
+  <Step num="4" title="Tambahkan upgrade taman setelah basisnya hidup">
+    Visitor Booth, Food Court, Dino Hotel, dan Helicopter Tour bekerja paling baik setelah Anda sudah punya dinosaurus yang layak ditingkatkan.
+  </Step>
+  <Step num="5" title="Perluas lahan hanya ketika lahan saat ini produktif">
+    Ruang baru paling kuat saat Anda bisa mengisinya cepat dengan penetasan dan penempatan, bukan saat dibiarkan kosong.
+  </Step>
+</Steps>
+
+| Upgrade | Biaya | Waktu Terbaik |
+| --- | --- | --- |
+| Visitor Booth | 2,000 Cash | Sangat awal |
+| Food Court | 8,000 Cash | Setelah dinosaurus starter |
+| Dino Hotel | 20,000 Cash | Mid game |
+| Helicopter Tour | 50,000 Cash | Late game |
+
+Jalur ini menjaga cash tetap bergerak. Taman tumbuh paling cepat ketika setiap pembelian menambah dinosaurus, menaikkan income, atau membuka pembelian efisien berikutnya.
+
+</Section>
+
+<Section icon={Target} title="Checklist dan FAQ">
+
+<Callout type="tip" title="Tinjauan Cepat">
+Jika Anda ingin checklist singkat yang tetap berguna, ingat ini: isi slot, upgrade ke Rare, lalu beli multiplier. Urutan itu sangat cocok dengan kurva progres My Dino Park saat ini.
+</Callout>
+
+<Checklist
+  id="my-dino-park-dino-list-goals"
+  title="Apa yang Harus Dilakukan Selanjutnya:"
+  items={[
+    "Mulai dengan penetasan Common Egg dan isi lahan kosong",
+    "Ganti dinosaurus starter dengan Velociraptor secepat mungkin",
+    "Gunakan Rare Egg sebagai lonjakan utama mid-game",
+    "Tunda Legendary Egg sampai cash pulih dengan cepat",
+    "Beli upgrade taman hanya setelah dinosaurus sudah menghasilkan"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Apa dinosaurus terbaik di daftar dino my dino park?",
+    answer: "T-Rex adalah pilihan terbaik di late game karena memiliki penghasilan tertinggi yang tercantum, tetapi Velociraptor biasanya adalah upgrade awal terbaik untuk sebagian besar pemain."
+  },
+  {
+    question: "Haruskah saya membeli Rare Egg sebelum mengisi slot Common?",
+    answer: "Biasanya tidak. Isi dulu cukup slot murah agar taman Anda mulai menghasilkan lebih cepat, lalu masuk ke Rare Egg setelah siklus penghasilan stabil."
+  },
+  {
+    question: "Kapan saya harus membeli Legendary Egg?",
+    answer: "Beli Legendary Egg saat taman Anda bisa pulih dari pengeluaran 50,000 Cash tanpa memperlambat progres lainnya."
+  },
+  {
+    question: "Apakah Frozen Egg layak ditukar terlebih dahulu?",
+    answer: "Ya. Itu hadiah gratis, jadi memberi nilai tambahan sebelum Anda menghabiskan cash untuk telur berbayar."
+  }
+]} />
+
+</Section>

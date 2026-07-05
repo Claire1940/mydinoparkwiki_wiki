@@ -1,0 +1,233 @@
+import { Map, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "my dino park upgrade: Melhor Ordem, Custos e Guia de Melhorias",
+  description: "Construa renda mais rápido em My Dino Park com a melhor ordem de melhorias, pontos de parada de Cash e rota de gastos da Bilheteria de Visitantes ao Passeio de Helicóptero.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/7c5c3b/fff?text=Upgrade+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki do my dino park"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **my dino park upgrade** funciona melhor depois que você preenche os slots iniciais de dinossauros e resgata as recompensas atuais de Cash.
+- **Visitor Booth** é o primeiro alvo real de melhoria em **2.000 Cash** porque aumenta cedo a renda dos visitantes.
+- **Food Court**, **Dino Hotel** e **Helicopter Tour** escalam melhor quando o seu parque já ganha dinheiro de forma constante.
+- **Compre ovos antes das melhorias** se o seu parque ainda tiver slots vazios, porque espaço parado não gera valor.
+- **Em 5 de julho de 2026**, os códigos atuais podem encurtar o primeiro ciclo de melhorias e acelerar o crescimento do seu parque.
+</Callout>
+
+<Section icon={Map} title="prioridades de melhoria do my dino park">
+
+Em My Dino Park, melhorias são um sistema de multiplicadores, não um sistema de início. A rota mais rápida é construir primeiro uma pequena base de dinossauros e, depois, adicionar boosts de renda quando cada slot estiver trabalhando.
+
+Essa ordem importa porque as melhorias só compensam quando os visitantes já têm algo pelo que vale a pena pagar. Se o seu parque estiver pela metade, os ovos geralmente superam uma compra prematura de melhoria.
+
+<Callout type="tip" title="Regra Principal">
+Preencha primeiro os slots baratos de dinossauros, depois compre o primeiro multiplicador de renda e só então avance para melhorias maiores do parque.
+</Callout>
+
+| Fase do jogo | Melhor gasto | Meta de Cash | Por que funciona |
+| --- | --- | --- | --- |
+| Início | Ovo Comum / Ovo Incomum | **500-4.000 Cash** | Preenche o terreno vazio e inicia o ciclo de renda |
+| Crescimento inicial | Visitor Booth | **2.000 Cash** | Primeiro multiplicador, custo de entrada baixo |
+| Meio de jogo | Food Court | **8.000 Cash** | Boost mais forte depois que os slots básicos estão preenchidos |
+| Pico de crescimento | Dino Hotel | **20.000 Cash** | Melhor valor quando o parque já está ativo |
+| Fim de jogo | Helicopter Tour | **50.000 Cash** | Maior multiplicador, mas só depois que o parque consegue se recuperar rápido |
+
+| Recompensa ativa | Recompensa | Melhor uso para melhorias |
+| --- | --- | --- |
+| **UPDATE2** | 20.000 Cash + 200 Dentes | Avance direto para melhorias de meio de jogo |
+| **DINOSLOVESU** | Ovo Congelado + 10.000 Cash | Abra primeiro, depois compre uma melhoria |
+| **WELCOME** | 1.000 Cash | Pequeno impulso inicial |
+| **THX4PLAYING** | 650 Cash | Reforço cedo |
+| **BESTDINOGAME** | 300 Dentes | Moeda secundária de progresso |
+
+Um bom plano de melhorias sempre começa pelo próprio parque. Se você não tiver dinossauros visíveis, a melhor “melhoria” muitas vezes é comprar o próximo ovo.
+
+</Section>
+
+<Section icon={Sparkles} title="Melhor ordem de melhorias por fase do jogo">
+
+A escada de melhorias é simples no papel, mas a ordem de compra muda conforme a fase. As duas primeiras melhorias tratam de ritmo. As duas últimas tratam de escala.
+
+Use esta seção como sua lista de prioridades ao decidir se deve gastar em mais ovos ou avançar para boosts de todo o parque.
+
+<CardGrid cols={4}>
+  <Card title="Visitor Booth">
+    - **Custo:** 2.000 Cash
+    - **Boost:** 1,2x renda de visitantes
+    - Primeiro multiplicador ideal
+  </Card>
+  <Card title="Food Court">
+    - **Custo:** 8.000 Cash
+    - **Boost:** 1,5x renda de visitantes
+    - Salto forte do início ao meio de jogo
+  </Card>
+  <Card title="Dino Hotel">
+    - **Custo:** 20.000 Cash
+    - **Boost:** 2x renda de visitantes
+    - Melhor quando o parque já está ativo
+  </Card>
+  <Card title="Helicopter Tour">
+    - **Custo:** 50.000 Cash
+    - **Boost:** 3x renda de visitantes
+    - Ferramenta de escala de fim de jogo
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Não Se Apressar">
+Uma melhoria grande cedo demais pode desacelerar o progresso se deixar você com poucos dinossauros. Mantenha o parque gerando renda primeiro.
+</Callout>
+
+| Melhoria | Custo | Boost | Melhor momento |
+| --- | --- | --- | --- |
+| Visitor Booth | **2.000 Cash** | **1,2x** renda de visitantes | Logo após colocar os primeiros dinos |
+| Food Court | **8.000 Cash** | **1,5x** renda de visitantes | Depois que o parque tiver tráfego constante |
+| Dino Hotel | **20.000 Cash** | **2x** renda de visitantes | Quando você ainda consegue reconstruir o Cash rápido |
+| Helicopter Tour | **50.000 Cash** | **3x** renda de visitantes | Quando o seu parque já tiver bons geradores de renda |
+
+| Estado do parque | Escolha de gasto | Motivo |
+| --- | --- | --- |
+| Ainda há slots vazios | Ovos | Novos dinossauros criam a renda base |
+| Slots básicos estão cheios | Visitor Booth | Multiplicador barato com retorno rápido |
+| Renda estável no meio de jogo | Food Court | Melhor retorno sem exagerar no gasto |
+| Base forte no fim de jogo | Dino Hotel / Helicopter Tour | Multiplica um parque já saudável |
+
+A principal lição é clara: a melhor melhoria é aquela que aperfeiçoa um parque que já está ganhando dinheiro. É por isso que o primeiro multiplicador importa mais do que o maior.
+
+</Section>
+
+<Section icon={Shield} title="Custos, boosts e estratégia de retorno">
+
+O valor de uma melhoria não depende só do preço. Depende de o boost chegar antes do seu próximo grande gasto em ovos ou terreno.
+
+Na prática, você quer que as melhorias apoiem o crescimento dos dinossauros, e não substituam esse crescimento. Isso significa usar pequenos boosts de renda para avançar para ovos mais fortes e, depois, usar esses ovos mais fortes para fazer as melhorias maiores valerem a pena.
+
+<Callout type="info" title="Verificação de Valor">
+Se uma melhoria atrasar demais a sua próxima compra de ovo, provavelmente ela ainda é cedo demais para o estado atual do seu parque.
+</Callout>
+
+| Opção | Gasto | Valor imediato | Melhor uso |
+| --- | --- | --- | --- |
+| Ovo Comum | **500 Cash** | Preenche um slot rapidamente | Primeiros minutos de jogo |
+| Ovo Incomum | **4.000 Cash** | Melhor renda inicial | Depois de alguns dinos comuns |
+| Ovo Raro | **10.000 Cash** | Grande salto de renda | Avanço estável no meio de jogo |
+| Visitor Booth | **2.000 Cash** | 1,2x renda de visitantes | Primeira compra de multiplicador |
+| Food Court | **8.000 Cash** | 1,5x renda de visitantes | Escala no meio de jogo |
+| Dino Hotel | **20.000 Cash** | 2x renda de visitantes | Parque forte, retorno mais forte |
+
+| Decisão | Compre isto primeiro | Por quê |
+| --- | --- | --- |
+| Parque vazio | Ovos | Sem dinossauros, a renda dos visitantes é fraca |
+| Parque pequeno com movimento | Visitor Booth | Boost mais barato com retorno claro |
+| Parque de meio de jogo | Food Court | Multiplicador melhor depois que os slots estão cheios |
+| Parque de fim de jogo | Dino Hotel / Helicopter Tour | Melhor quando você consegue recuperar o Cash rapidamente |
+
+Uma forma simples de pensar nisso: ovos criam o motor, melhorias adicionam o turbo e a expansão de terreno dá ao motor mais espaço para respirar.
+
+</Section>
+
+<Section icon={Target} title="Rota de gastos passo a passo">
+
+Esta é a rota mais simples para manter seu Cash circulando sem forçar um grind lento. Siga a ordem e só pule uma etapa se a sua renda atual já estiver acima dela.
+
+<Callout type="success" title="Rota Recomendada">
+Use os códigos primeiro, preencha os slots baratos de dinossauros, compre o primeiro multiplicador e depois guarde para o próximo nível de melhoria.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Resgatar as recompensas atuais">
+    Abra a Loja, insira a lista de códigos ativos e reivindique o Cash grátis antes de comprar qualquer coisa.
+  </Step>
+  <Step num="2" title="Compre seus primeiros ovos">
+    Gaste o Cash inicial em Ovos Comuns e Incomuns para que cada slot vazio comece a gerar valor de visitantes.
+  </Step>
+  <Step num="3" title="Coloque cada ovo imediatamente após chocar">
+    Um dinossauro colocado ajuda mais do que um ovo guardado, porque os visitantes só pagam pelo crescimento visível do parque.
+  </Step>
+  <Step num="4" title="Compre Visitor Booth em 2.000 Cash">
+    Esta é a primeira melhoria que normalmente se paga rápido sem exigir uma reserva enorme.
+  </Step>
+  <Step num="5" title="Avance para Food Court e, depois, para os tiers mais altos">
+    Depois que o parque estiver ativo, guarde para o Food Court, depois para o Dino Hotel e só então avance em direção ao Helicopter Tour.
+  </Step>
+</Steps>
+
+| Marco de Cash | Melhor ação | Resultado |
+| --- | --- | --- |
+| **500** | Ovo Comum | Inicia o ciclo do parque |
+| **2.000** | Visitor Booth | Primeiro multiplicador |
+| **4.000** | Ovo Incomum | Melhor renda inicial |
+| **8.000** | Food Court | Crescimento mais forte no meio de jogo |
+| **10.000-12.000** | Ovo Raro ou melhoria | Depende dos slots vazios |
+| **20.000** | Dino Hotel | Grande boost de visitantes |
+| **25.000** | Ovo Épico | Se o seu parque puder sustentar |
+| **50.000** | Helicopter Tour | Escala de fim de jogo |
+
+Se você precisar de uma regra rígida, use esta: ovos primeiro quando houver slots vazios, melhorias primeiro quando o parque estiver cheio o bastante para se beneficiar.
+
+</Section>
+
+<Section icon={Trophy} title="Erros comuns, checklist e FAQ">
+
+A maioria dos erros em melhorias vem de comprar cedo demais ou guardar dinheiro por tempo demais. Ambos desaceleram a mesma coisa: seu crescimento de Cash por minuto.
+
+O objetivo não é ter a melhoria mais cara. O objetivo é criar o ciclo mais rápido entre renda e reinvestimento.
+
+<Callout type="tip" title="Evite Esta Armadilha">
+Não fique segurando Cash esperando pela maior melhoria se o seu parque ainda tiver espaços vazios. Reinvestimentos pequenos muitas vezes crescem mais rápido.
+</Callout>
+
+| Erro | Problema | Correção |
+| --- | --- | --- |
+| Comprar melhorias antes de preencher os slots | Retorno fraco sobre o Cash | Compre ovos primeiro |
+| Guardar dinheiro só para a maior melhoria | Crescimento inicial lento | Use boosts menores agora |
+| Ignorar códigos ativos | Progresso grátis perdido | Resgate antes de gastar |
+| Substituir dinos cedo demais | Recursos desperdiçados | Melhore em etapas |
+| Expandir rápido demais | Base de renda fraca | Construa ganhos primeiro |
+
+<Checklist
+  id="upgrade-checklist"
+  title="Checklist de Prontidão para Melhorias"
+  items={[
+    "Resgatar as recompensas atuais de Cash e Dentes",
+    "Preencher os slots iniciais do parque com dinossauros Comuns ou Incomuns",
+    "Comprar Visitor Booth assim que o parque já estiver ativo",
+    "Guardar para o Food Court antes de correr atrás de melhorias caras de fim de jogo",
+    "Comprar o Helicopter Tour somente quando sua renda puder se recuperar rápido"
+  ]}
+/>
+
+| Recurso oficial | Link | Uso |
+| --- | --- | --- |
+| Experiência Roblox | https://www.roblox.com/games/80701570784699/My-Dino-Park | Jogue o game e confira o título atual |
+| Grupo da comunidade Dino | https://www.roblox.com/communities/532484073/Dino-Community | Fonte da comunidade do desenvolvedor |
+| Convite do Discord | https://discord.com/invite/eQHNk8dGpz | Códigos, atualizações e ajuda para restauração |
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor melhoria do my dino park para comprar primeiro?",
+    answer: "Visitor Booth é a primeira melhoria a buscar, mas só depois que o seu parque tiver dinossauros suficientes colocados para se beneficiar dela."
+  },
+  {
+    question: "Devo comprar melhorias ou ovos primeiro?",
+    answer: "Compre ovos primeiro quando o parque tiver slots vazios. Compre melhorias primeiro apenas quando o parque já estiver gerando renda constante."
+  },
+  {
+    question: "Vale a pena guardar para o Helicopter Tour?",
+    answer: "Sim, mas mais tarde. Os 3x de renda de visitantes dele são mais fortes quando o parque consegue recuperar o Cash rapidamente após a compra."
+  },
+  {
+    question: "Os códigos atuais importam para as melhorias?",
+    answer: "Sim. As recompensas de Cash de UPDATE2, DINOSLOVESU, WELCOME e THX4PLAYING podem levar você à primeira melhoria mais rápido."
+  }
+]} />
+
+</Section>

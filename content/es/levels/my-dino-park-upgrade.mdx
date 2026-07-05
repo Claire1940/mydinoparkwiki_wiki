@@ -1,0 +1,233 @@
+import { Map, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "my dino park upgrade: Mejor orden, costos y guía de mejoras",
+  description: "Genera ingresos más rápido en My Dino Park con el mejor orden de mejoras, los puntos de ruptura de dinero y la ruta de gasto desde Visitor Booth hasta Helicopter Tour.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c5c3b/fff?text=Upgrade+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de my dino park"
+}
+
+<Callout type="info" title="Guía rápida">
+- **my dino park upgrade** funciona mejor después de llenar los primeros espacios de dinosaurios y reclamar las recompensas de dinero actuales.
+- **Visitor Booth** es el primer objetivo real de mejora por **2,000 Cash** porque impulsa los ingresos de visitantes desde temprano.
+- **Food Court**, **Dino Hotel** y **Helicopter Tour** escalan mejor una vez que tu parque ya genera ingresos de forma constante.
+- **Compra huevos antes que mejoras** si tu parque todavía tiene espacios vacíos, porque el espacio inactivo no genera valor.
+- **A partir del 5 de julio de 2026**, los códigos actuales pueden acortar el primer ciclo de mejoras y acelerar el crecimiento de tu parque.
+</Callout>
+
+<Section icon={Map} title="Prioridades de mejora de my dino park">
+
+En My Dino Park, las mejoras son un sistema de multiplicadores, no un sistema de inicio. La ruta más rápida es construir primero una pequeña base de dinosaurios y luego añadir aumentos de ingresos una vez que cada espacio esté trabajando.
+
+Ese orden importa porque las mejoras solo rinden cuando los visitantes ya tienen algo por lo que pagar. Si tu parque está a medias, los huevos suelen rendir más que comprar una mejora demasiado pronto.
+
+<Callout type="tip" title="Regla principal">
+Llena primero los espacios baratos de dinosaurios, luego compra el primer multiplicador de ingresos y después pasa a mejoras más grandes del parque.
+</Callout>
+
+| Fase del juego | Mejor gasto | Objetivo de dinero | Por qué funciona |
+| --- | --- | --- | --- |
+| Inicio | Common Egg / Uncommon Egg | **500-4,000 Cash** | Llena el terreno vacío y comienza el ciclo de ingresos |
+| Crecimiento temprano | Visitor Booth | **2,000 Cash** | Primer multiplicador, bajo costo de entrada |
+| Mitad de partida | Food Court | **8,000 Cash** | Aumento más fuerte después de llenar los espacios básicos |
+| Pico de crecimiento | Dino Hotel | **20,000 Cash** | Mejor valor una vez que el parque ya está activo |
+| Final | Helicopter Tour | **50,000 Cash** | Mayor multiplicador, pero solo después de que tu parque pueda recuperarse rápido |
+
+| Recompensa activa | Recompensa | Mejor uso para mejoras |
+| --- | --- | --- |
+| **UPDATE2** | 20,000 Cash + 200 Teeth | Salta directamente a las mejoras de mitad de partida |
+| **DINOSLOVESU** | Frozen Egg + 10,000 Cash | Incuba primero y luego compra una mejora |
+| **WELCOME** | 1,000 Cash | Pequeño impulso inicial |
+| **THX4PLAYING** | 650 Cash | Refuerzo temprano |
+| **BESTDINOGAME** | 300 Teeth | Moneda secundaria de progreso |
+
+Un buen plan de mejoras siempre empieza por el propio parque. Si no tienes dinosaurios visibles, la mejor “mejora” suele ser comprar el siguiente huevo.
+
+</Section>
+
+<Section icon={Sparkles} title="Mejor orden de mejoras por fase de juego">
+
+La escalera de mejoras es simple en el papel, pero el orden de compra cambia según la etapa. Las dos primeras mejoras se centran en el impulso. Las dos últimas, en la escalabilidad.
+
+Usa esta sección como tu lista de prioridades cuando decidas si gastar en más huevos o pasar a mejoras para todo el parque.
+
+<CardGrid cols={4}>
+  <Card title="Visitor Booth">
+    - **Coste:** 2,000 Cash
+    - **Aumento:** 1.2x ingresos de visitantes
+    - Mejor primer multiplicador
+  </Card>
+  <Card title="Food Court">
+    - **Coste:** 8,000 Cash
+    - **Aumento:** 1.5x ingresos de visitantes
+    - Gran salto temprano-medio
+  </Card>
+  <Card title="Dino Hotel">
+    - **Coste:** 20,000 Cash
+    - **Aumento:** 2x ingresos de visitantes
+    - Mejor una vez que el parque está activo
+  </Card>
+  <Card title="Helicopter Tour">
+    - **Coste:** 50,000 Cash
+    - **Aumento:** 3x ingresos de visitantes
+    - Herramienta de escalado para el final de partida
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="No te apresures">
+Una gran mejora demasiado pronto puede ralentizar tu progreso si te deja con muy pocos dinosaurios. Primero mantén el parque generando ingresos.
+</Callout>
+
+| Mejora | Coste | Aumento | Momento ideal |
+| --- | --- | --- | --- |
+| Visitor Booth | **2,000 Cash** | **1.2x** ingresos de visitantes | Justo después de colocar los primeros dinos |
+| Food Court | **8,000 Cash** | **1.5x** ingresos de visitantes | Cuando el parque ya tiene tráfico constante |
+| Dino Hotel | **20,000 Cash** | **2x** ingresos de visitantes | Cuando todavía puedas recuperar dinero rápido |
+| Helicopter Tour | **50,000 Cash** | **3x** ingresos de visitantes | Cuando tu parque ya tenga buenos generadores |
+
+| Estado del parque | Qué gastar | Motivo |
+| --- | --- | --- |
+| Quedan espacios vacíos | Huevos | Los nuevos dinosaurios crean la base de ingresos |
+| Los espacios básicos están llenos | Visitor Booth | Multiplicador barato con retorno rápido |
+| Ingresos estables de mitad de partida | Food Court | Mejor retorno sin sobreextenderte |
+| Base fuerte de final de partida | Dino Hotel / Helicopter Tour | Multiplican un parque ya saludable |
+
+La idea principal es clara: la mejor mejora es la que potencia un parque que ya está ganando dinero. Por eso el primer multiplicador importa más que el más grande.
+
+</Section>
+
+<Section icon={Shield} title="Costos, aumentos y estrategia de retorno">
+
+El valor de una mejora no depende solo del precio. Depende de si el aumento llega antes de tu próximo gran gasto en huevos o terreno.
+
+En la práctica, quieres que las mejoras apoyen el crecimiento de dinosaurios, no que lo reemplacen. Eso significa usar pequeños aumentos de ingresos para avanzar hacia huevos más fuertes y luego usar esos huevos más fuertes para que las mejoras grandes valgan la pena.
+
+<Callout type="info" title="Comprobación de valor">
+Si una mejora retrasa demasiado tu siguiente compra de huevos, probablemente sea demasiado pronto para el estado actual de tu parque.
+</Callout>
+
+| Opción | Gasto | Valor inmediato | Mejor uso |
+| --- | --- | --- | --- |
+| Common Egg | **500 Cash** | Llena un espacio rápido | Primeros minutos de juego |
+| Uncommon Egg | **4,000 Cash** | Mejor ingreso inicial | Después de unos pocos dinos Common |
+| Rare Egg | **10,000 Cash** | Gran salto de ingresos | Impulso estable de mitad de partida |
+| Visitor Booth | **2,000 Cash** | 1.2x ingresos de visitantes | Primera compra de multiplicador |
+| Food Court | **8,000 Cash** | 1.5x ingresos de visitantes | Escalado de mitad de partida |
+| Dino Hotel | **20,000 Cash** | 2x ingresos de visitantes | Parque fuerte, mejores retornos |
+
+| Decisión | Compra esto primero | Por qué |
+| --- | --- | --- |
+| Parque vacío | Huevos | Sin dinosaurios, los ingresos de visitantes son débiles |
+| Parque pequeño con tráfico | Visitor Booth | El aumento más barato con retorno claro |
+| Parque de mitad de partida | Food Court | Mejor multiplicador cuando los espacios ya están llenos |
+| Parque de final de partida | Dino Hotel / Helicopter Tour | Mejor cuando puedes recuperar dinero rápido |
+
+Una forma clara de verlo: los huevos crean el motor, las mejoras añaden el turbo y la expansión del terreno le da al motor más espacio para respirar.
+
+</Section>
+
+<Section icon={Target} title="Ruta de gasto paso a paso">
+
+Esta es la ruta más simple para mantener el dinero fluyendo sin obligarte a una gran rutina de farmeo. Síguela en orden y solo salta un paso si tus ingresos actuales ya lo superan.
+
+<Callout type="success" title="Ruta recomendada">
+Usa primero los códigos, llena los espacios baratos de dinosaurios, compra el primer multiplicador y luego ahorra para el siguiente nivel de mejora.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Canjea las recompensas actuales">
+    Abre la tienda, introduce la lista de códigos activos y reclama el Cash gratis antes de comprar cualquier otra cosa.
+  </Step>
+  <Step num="2" title="Compra tus primeros huevos">
+    Gasta el Cash inicial en Common y Uncommon Eggs para que cada espacio libre empiece a generar valor de visitantes.
+  </Step>
+  <Step num="3" title="Coloca cada eclosión de inmediato">
+    Un dinosaurio colocado ayuda más que un huevo guardado, porque los visitantes solo pagan por el crecimiento visible del parque.
+  </Step>
+  <Step num="4" title="Compra Visitor Booth por 2,000 Cash">
+    Esta es la primera mejora que suele recuperarse rápido sin exigir una gran reserva.
+  </Step>
+  <Step num="5" title="Pasa a Food Court y luego a los niveles superiores">
+    Después de que el parque esté activo, ahorra para Food Court, luego Dino Hotel y solo entonces apunta a Helicopter Tour.
+  </Step>
+</Steps>
+
+| Punto de control de Cash | Mejor acción | Resultado |
+| --- | --- | --- |
+| **500** | Common Egg | Inicia el ciclo del parque |
+| **2,000** | Visitor Booth | Primer multiplicador |
+| **4,000** | Uncommon Egg | Mejor ingreso inicial |
+| **8,000** | Food Court | Crecimiento más fuerte de mitad de partida |
+| **10,000-12,000** | Rare Egg o mejora | Depende de los espacios vacíos |
+| **20,000** | Dino Hotel | Gran impulso a visitantes |
+| **25,000** | Epic Egg | Si tu parque puede soportarlo |
+| **50,000** | Helicopter Tour | Escalado al final de partida |
+
+Si necesitas una regla estricta, usa esta: primero huevos cuando haya espacios vacíos, y primero mejoras cuando el parque ya esté lo bastante lleno como para beneficiarse.
+
+</Section>
+
+<Section icon={Trophy} title="Errores comunes, lista de verificación y FAQ">
+
+La mayoría de los errores con las mejoras vienen de comprar demasiado pronto o ahorrar durante demasiado tiempo. Ambas cosas ralentizan lo mismo: tu crecimiento de dinero por minuto.
+
+El objetivo no es tener la mejora más cara. El objetivo es crear el ciclo más rápido entre ingresos y reinversión.
+
+<Callout type="tip" title="Evita esta trampa">
+No te quedes con el dinero esperando la mejora más grande si tu parque todavía tiene espacios vacíos. Las pequeñas reinversiones suelen crecer más rápido.
+</Callout>
+
+| Error | Problema | Solución |
+| --- | --- | --- |
+| Comprar mejoras antes de llenar los espacios | Bajo retorno del dinero | Compra huevos primero |
+| Ahorrar solo para la mejora más grande | Crecimiento inicial lento | Usa ahora mejoras más pequeñas |
+| Ignorar los códigos activos | Progreso gratis perdido | Canjéalos antes de gastar |
+| Reemplazar dinos demasiado pronto | Recursos desperdiciados | Mejora por etapas |
+| Expandirse demasiado rápido | Base de ingresos débil | Construye ingresos primero |
+
+<Checklist
+  id="upgrade-checklist"
+  title="Lista de verificación para estar listo para mejorar"
+  items={[
+    "Canjea las recompensas actuales de Cash y Teeth",
+    "Llena los espacios iniciales del parque con dinosaurios Common o Uncommon",
+    "Compra Visitor Booth una vez que el parque ya esté activo",
+    "Ahorra para Food Court antes de perseguir mejoras caras de final de partida",
+    "Compra Helicopter Tour solo cuando tus ingresos puedan recuperarse rápido"
+  ]}
+/>
+
+| Recurso oficial | Enlace | Uso |
+| --- | --- | --- |
+| Roblox Experience | https://www.roblox.com/games/80701570784699/My-Dino-Park | Juega y comprueba el título actual |
+| Dino Community Group | https://www.roblox.com/communities/532484073/Dino-Community | Fuente de la comunidad del desarrollador |
+| Discord Invite | https://discord.com/invite/eQHNk8dGpz | Códigos, actualizaciones y ayuda para restauración |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor mejora de my dino park para comprar primero?",
+    answer: "Visitor Booth es la primera mejora a la que debes apuntar, pero solo después de que tu parque tenga suficientes dinosaurios colocados para beneficiarse de ella."
+  },
+  {
+    question: "¿Debería comprar primero mejoras o huevos?",
+    answer: "Compra primero huevos cuando tu parque tenga espacios vacíos. Compra mejoras primero solo cuando tu parque ya esté generando ingresos estables."
+  },
+  {
+    question: "¿Vale la pena ahorrar para Helicopter Tour?",
+    answer: "Sí, pero más adelante. Su 3x de ingresos de visitantes es más fuerte cuando tu parque puede recuperar dinero rápidamente después de la compra."
+  },
+  {
+    question: "¿Importan los códigos actuales para las mejoras?",
+    answer: "Sí. Las recompensas de Cash de UPDATE2, DINOSLOVESU, WELCOME y THX4PLAYING pueden llevarte antes a tu primera mejora."
+  }
+]} />
+
+</Section>
