@@ -1,1 +1,1120 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki My Dino Park - Kode, Daftar Tier Dino & Panduan Telur",
+      "description": "Bangun lebih cepat dengan kode My Dino Park, daftar tier dinosaurus, biaya telur, tips pendapatan, peningkatan taman, dan panduan pemula untuk tycoon Roblox.",
+      "keywords": "My Dino Park, Roblox, kode, daftar tier dino, panduan telur, peningkatan taman, tycoon",
+      "ogTitle": "Wiki My Dino Park - Kode, Daftar Tier Dino & Panduan Telur",
+      "ogDescription": "Bangun lebih cepat dengan kode My Dino Park, daftar tier dinosaurus, biaya telur, tips pendapatan, peningkatan taman, dan panduan pemula untuk tycoon Roblox.",
+      "twitterTitle": "Wiki My Dino Park - Kode, Daftar Tier Dino & Panduan Telur",
+      "twitterDescription": "Bangun lebih cepat dengan kode My Dino Park, daftar tier dinosaurus, biaya telur, tips pendapatan, peningkatan taman, dan panduan pemula untuk tycoon Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "dinos": "Dino",
+    "eggs": "Telur",
+    "levels": "Level",
+    "updates": "Pembaruan",
+    "roblox": "Roblox"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Steam",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Roblox Dino Park Tycoon",
+    "title": "Wiki My Dino Park",
+    "description": "Bangun taman dinosaurus Anda sendiri di Roblox: beli telur, tetaskan dinosaurus, tarik pengunjung, hasilkan uang, tingkatkan taman Anda, dan naiklah menuju peringkat #1 Dino Park.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "2,7 Jt",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "12,4K",
+        "label": "Pemain Online"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "Rating Pengguna"
+      },
+      "stat4": {
+        "value": "6",
+        "label": "Maksimal Pemain"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay My Dino Park",
+    "description": "Bangun taman dinosaurusmu sendiri di Roblox: beli telur, tetaskan dinosaurus, tarik pengunjung, dapatkan Cash, dan tingkatkan untuk menuju posisi Dino Park #1."
+  },
+  "tools": {
+    "title": "My Dino Park",
+    "titleHighlight": "Panduan",
+    "subtitle": "Semua yang kamu butuhkan untuk membangun, menetaskan, dan mengembangkan taman dinosaurusmu",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Kode My Dino Park",
+        "description": "Kode aktif, hadiah, dan langkah penukaran"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Panduan Pemula My Dino Park",
+        "description": "Rute sesi pertama dan kemajuan awal"
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List My Dino Park",
+        "description": "Peringkat dinosaurus, telur, dan peningkatan"
+      },
+      {
+        "icon": "Egg",
+        "title": "Panduan Telur My Dino Park",
+        "description": "Biaya telur, hasil tetasan, dan urutan pembelian"
+      },
+      {
+        "icon": "Coins",
+        "title": "Panduan Uang My Dino Park",
+        "description": "Rute mendapatkan Cash dan Teeth serta urutan investasi kembali"
+      },
+      {
+        "icon": "Bone",
+        "title": "Daftar Dinosaurus My Dino Park",
+        "description": "Semua dinosaurus berdasarkan kelangkaan, telur, dan pendapatan"
+      },
+      {
+        "icon": "History",
+        "title": "Log Pembaruan My Dino Park",
+        "description": "Catatan patch, kode, dan perubahan terbaru"
+      },
+      {
+        "icon": "Globe",
+        "title": "Tautan Resmi My Dino Park",
+        "description": "Tautan Roblox, komunitas, dan Discord"
+      }
+    ]
+  },
+  "modules": {
+    "myDinoParkCodes": {
+      "title": "Kode My Dino Park",
+      "subtitle": "Tukarkan kode My Dino Park yang aktif untuk mendapatkan Cash, Teeth, dan Frozen Egg sebelum membeli telur berbayar.",
+      "intro": "Gunakan kode-kode ini setelah tutorial membuka menu Toko. Tukarkan semua daftar aktif terlebih dahulu, lalu tetaskan telur gratis dan belanjakan Cash untuk dinosaurus awal.",
+      "lastChecked": "2026-07-05",
+      "redemptionHint": "Luncurkan My Dino Park di Roblox, selesaikan tutorial, buka Toko, gulir ke 'Redeem a gift code', tempel kode, lalu tekan Enter atau Redeem.",
+      "activeCodes": [
+        {
+          "code": "UPDATE2",
+          "reward": "20.000 Cash + 200 Teeth",
+          "status": "aktif",
+          "priority": "Kode pembaruan terbaik secara keseluruhan"
+        },
+        {
+          "code": "BESTDINOGAME",
+          "reward": "300 Teeth",
+          "status": "aktif",
+          "priority": "Kode khusus Teeth terbaik"
+        },
+        {
+          "code": "DINOSLOVESU",
+          "reward": "Frozen Egg + 10.000 Cash",
+          "status": "aktif",
+          "priority": "Kode egg pemula terbaik"
+        },
+        {
+          "code": "WELCOME",
+          "reward": "1.000 Cash",
+          "status": "aktif",
+          "priority": "Boost Cash pemula"
+        },
+        {
+          "code": "THX4PLAYING",
+          "reward": "650 Cash",
+          "status": "aktif",
+          "priority": "Tambahan Cash pemula"
+        }
+      ],
+      "expiredCodes": []
+    },
+    "myDinoParkBeginnerGuide": {
+      "title": "Panduan Pemula My Dino Park",
+      "subtitle": "Mulailah dengan membuka Toko, menukarkan kode, menetaskan dinosaurus pertama Anda, dan menginvestasikan kembali pendapatan awal ke lebih banyak atraksi.",
+      "intro": "Alur awal My Dino Park sangat sederhana: beli Dino Egg, tetaskan dinosaurus, tarik pengunjung, lalu investasikan kembali pendapatan ke lebih banyak dinosaurus dan upgrade penghasilan. Ikuti langkah-langkahnya secara berurutan agar Cash awal berubah menjadi penghasilan dengan cepat.",
+      "steps": [
+        {
+          "title": "Buka pengalaman Roblox",
+          "description": "Buka My Dino Park dari halaman pengalaman Roblox dan biarkan taman Anda dimuat sepenuhnya.",
+          "result": "Anda akan masuk ke lahan awal dan dapat memulai alur tutorial."
+        },
+        {
+          "title": "Selesaikan tutorial terlebih dahulu",
+          "description": "Selesaikan tutorial singkat sebelum menukarkan kode atau membeli egg.",
+          "result": "Menu utama seperti Toko, egg, penempatan, dan aksi taman menjadi dapat digunakan."
+        },
+        {
+          "title": "Tukarkan semua kode yang aktif",
+          "description": "Buka Toko, gulir ke kotak kode hadiah, lalu tukarkan UPDATE2, BESTDINOGAME, DINOSLOVESU, WELCOME, dan THX4PLAYING.",
+          "result": "Anda akan menerima Cash awal, Teeth, dan Frozen Egg sebelum menghabiskan Cash pemula."
+        },
+        {
+          "title": "Beli atau tetaskan egg pertama",
+          "description": "Mulailah dengan Common Egg saat membelanjakan Cash; harganya 500 Cash dan menetas seketika.",
+          "result": "Dinosaurus pertama Anda akan mulai menarik minat pengunjung segera."
+        },
+        {
+          "title": "Tempatkan setiap dinosaurus baru",
+          "description": "Gunakan inventaris Anda, tempatkan dinosaurus yang sudah menetas di lahan terbuka, dan hindari membiarkan egg menganggur.",
+          "result": "Lebih banyak dinosaurus yang terlihat berarti lebih banyak pendapatan pengunjung yang masuk kembali ke taman."
+        },
+        {
+          "title": "Isi lahan sebelum mengejar egg yang mahal",
+          "description": "Gunakan Common dan Uncommon Egg untuk mengisi ruang awal, lalu beralih ke Rare Egg setelah aliran Cash Anda stabil.",
+          "result": "Anda membangun basis pendapatan yang andal sebelum menabung untuk pembelian yang lebih besar."
+        },
+        {
+          "title": "Beralih ke nilai Rare dan Epic",
+          "description": "Targetkan Rare Egg seharga 10.000 Cash, lalu Epic Egg seharga 25.000 Cash setelah taman Anda memiliki cukup penghasil.",
+          "result": "Velociraptor, Stegosaurus, Brachiosaurus, Triceratops, dan Spinosaurus menjadi target pertumbuhan utama Anda."
+        },
+        {
+          "title": "Beli upgrade penghasilan setelah taman memiliki dino",
+          "description": "Gunakan Visitor Booth seharga 2.000 Cash sebagai upgrade pertama, lalu Food Court, Dino Hotel, dan Helicopter Tour seiring pertumbuhan pendapatan Anda.",
+          "result": "Upgrade melipatgandakan pendapatan pengunjung setelah Anda memiliki cukup dinosaurus yang layak dilipatgandakan."
+        }
+      ]
+    },
+    "myDinoParkTierList": {
+      "title": "Tier List My Dino Park",
+      "subtitle": "Urutkan dinosaurus, telur, dan prioritas pengeluaran berdasarkan nilai awal, pendapatan, kelangkaan, dan relevansi pembaruan.",
+      "intro": "Filter berdasarkan tahap progres atau jenis item sebelum berbelanja. Pilihan awal membangun pendapatan dengan cepat, pilihan mid-game meningkatkan Cash per menit, pilihan late-game memperkuat taman, dan hadiah khusus kode harus diklaim sebelum pembelian berbayar.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Nilai Terbaik",
+          "entries": [
+            {
+              "name": "Telur Beku",
+              "type": "telur",
+              "rarity": "Terbatas / hanya kode",
+              "cost": "Hadiah kode dari DINOSLOVESU",
+              "income": "Hadiah telur kode",
+              "reason": "Nilai telur gratis ditambah 10.000 Cash dari kode yang sama menjadikannya hadiah sesi pertama yang paling kuat."
+            },
+            {
+              "name": "T-Rex",
+              "type": "dinosaurus",
+              "rarity": "Legendaris",
+              "cost": "50.000 Cash",
+              "income": "2.500 Cash/menit",
+              "reason": "Pendapatan dinosaurus tertinggi yang terdaftar dan penopang utama taman di late-game.",
+              "sourceEgg": "Telur Legendaris"
+            },
+            {
+              "name": "Telur Legendaris",
+              "type": "telur",
+              "rarity": "Legendaris",
+              "cost": "50.000 Cash",
+              "income": "Rata-rata 2.500 Cash/menit",
+              "reason": "Telur end-game terbaik karena mengarah pada pendapatan T-Rex."
+            },
+            {
+              "name": "Tur Helikopter",
+              "type": "upgrade",
+              "rarity": "Upgrade taman",
+              "cost": "50.000 Cash",
+              "income": "3x pendapatan pengunjung",
+              "reason": "Pengganda pendapatan terkuat setelah taman Anda sudah memiliki penghasil pendapatan yang kuat."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Sangat Bagus",
+          "entries": [
+            {
+              "name": "Spinosaurus",
+              "type": "dinosaurus",
+              "rarity": "Epik",
+              "cost": "25.000 Cash",
+              "income": "1.400 Cash/menit",
+              "reason": "Pendapatan Epik teratas dan jembatan yang kuat menuju late-game.",
+              "sourceEgg": "Telur Epik"
+            },
+            {
+              "name": "Triceratops",
+              "type": "dinosaurus",
+              "rarity": "Epik",
+              "cost": "20.000 Cash",
+              "income": "1.200 Cash/mnt",
+              "reason": "Pendapatan tingkat Epik yang stabil dengan daya tarik pengunjung yang kuat.",
+              "sourceEgg": "Telur Epik"
+            },
+            {
+              "name": "Telur Epik",
+              "type": "telur",
+              "rarity": "Epik",
+              "cost": "25.000 Cash",
+              "income": "Rata-rata 1.300 Cash/mnt",
+              "reason": "Telur fase pertengahan hingga akhir terbaik sebelum menabung untuk Legendaris."
+            },
+            {
+              "name": "Hotel Dino",
+              "type": "peningkatan",
+              "rarity": "Peningkatan taman",
+              "cost": "20.000 Cash",
+              "income": "2x pendapatan pengunjung",
+              "reason": "Menggandakan pendapatan pengunjung setelah taman memiliki cukup dinosaurus untuk mendukungnya."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Pilihan Pertumbuhan Hebat",
+          "entries": [
+            {
+              "name": "Brachiosaurus",
+              "type": "dinosaurus",
+              "rarity": "Langka",
+              "cost": "12.000 Cash",
+              "income": "700 Cash/mnt",
+              "reason": "Pendapatan tingkat Langka terbaik dan daya tarik pengunjung yang kuat.",
+              "sourceEgg": "Telur Langka"
+            },
+            {
+              "name": "Stegosaurus",
+              "type": "dinosaurus",
+              "rarity": "Langka",
+              "cost": "10.000 Cash",
+              "income": "600 Cash/mnt",
+              "reason": "Pendapatan tingkat Langka yang andal dengan nilai yang sepadan.",
+              "sourceEgg": "Telur Langka"
+            },
+            {
+              "name": "Velociraptor",
+              "type": "dinosaurus",
+              "rarity": "Langka",
+              "cost": "8.000 Cash",
+              "income": "500 Cash/mnt",
+              "reason": "Target upgrade awal terbaik setelah dinosaurus Common dan Uncommon menghasilkan.",
+              "sourceEgg": "Telur Rare"
+            },
+            {
+              "name": "Telur Rare",
+              "type": "telur",
+              "rarity": "Rare",
+              "cost": "10.000 Cash",
+              "income": "Rata-rata 600 Cash/menit",
+              "reason": "Telur utama mid-game dan lonjakan besar pertama dari pendapatan awal."
+            },
+            {
+              "name": "Food Court",
+              "type": "upgrade",
+              "rarity": "Upgrade taman",
+              "cost": "8.000 Cash",
+              "income": "1,5x pendapatan pengunjung",
+              "reason": "Peningkatan pendapatan yang kuat setelah Anda menempatkan beberapa dinosaurus."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Filler Berguna",
+          "entries": [
+            {
+              "name": "Pterodactyl",
+              "type": "dinosaurus",
+              "rarity": "Uncommon",
+              "cost": "6.000 Cash",
+              "income": "350 Cash/menit",
+              "reason": "Pendapatan awal yang solid dan variasi yang berguna sebelum Telur Rare.",
+              "sourceEgg": "Telur Uncommon"
+            },
+            {
+              "name": "Ankylosaurus",
+              "type": "dinosaurus",
+              "rarity": "Uncommon",
+              "cost": "5.000 Cash",
+              "income": "300 Cash/menit",
+              "reason": "Filler yang bagus saat membangun kepadatan pendapatan awal.",
+              "sourceEgg": "Telur Uncommon"
+            },
+            {
+              "name": "Parasaurolophus",
+              "type": "dinosaurus",
+              "rarity": "Uncommon",
+              "cost": "4.000 Cash",
+              "income": "250 Cash/menit",
+              "reason": "Pilihan Uncommon investasi rendah sebelum lonjakan Telur Rare.",
+              "sourceEgg": "Telur Uncommon"
+            },
+            {
+              "name": "Telur Uncommon",
+              "type": "telur",
+              "rarity": "Uncommon",
+              "cost": "4.000 Cash",
+              "income": "Rata-rata 300 Cash/menit",
+              "reason": "Upgrade awal terbaik setelah batch Telur Common pertama."
+            },
+            {
+              "name": "Stan Pengunjung",
+              "type": "upgrade",
+              "rarity": "Upgrade taman",
+              "cost": "2.000 Cash",
+              "income": "1,2x pendapatan pengunjung",
+              "reason": "Upgrade pengganda pertama setelah slot dinosaurus dasar terisi."
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Khusus Pemula",
+          "entries": [
+            {
+              "name": "Dilophosaurus",
+              "type": "dinosaurus",
+              "rarity": "Common",
+              "cost": "1.500 Cash",
+              "income": "100 Cash/menit",
+              "reason": "Pendapatan tertera terbaik untuk tier Common, sangat berguna saat baru memulai.",
+              "sourceEgg": "Telur Common"
+            },
+            {
+              "name": "Gallimimus",
+              "type": "dinosaurus",
+              "rarity": "Common",
+              "cost": "1.000 Cash",
+              "income": "75 Cash/menit",
+              "reason": "Pengisi awal yang murah untuk membantu memulai siklus pengunjung.",
+              "sourceEgg": "Telur Common"
+            },
+            {
+              "name": "Compsognathus",
+              "type": "dinosaurus",
+              "rarity": "Common",
+              "cost": "500 Cash",
+              "income": "50 Cash/menit",
+              "reason": "Dinosaurus dengan biaya terendah untuk pendapatan awal.",
+              "sourceEgg": "Telur Common"
+            },
+            {
+              "name": "Telur Common",
+              "type": "telur",
+              "rarity": "Common",
+              "cost": "500 Cash",
+              "income": "Rata-rata 75 Cash/menit",
+              "reason": "Pembelian pertama yang tepat karena murah dan instan."
+            }
+          ]
+        }
+      ]
+    },
+    "myDinoParkEggsGuide": {
+      "title": "Panduan Telur My Dino Park",
+      "subtitle": "Bandingkan biaya telur, waktu menetas, kumpulan kelangkaan, hasil tetasan, dan momen pembelian terbaik sebelum membelanjakan Cash.",
+      "intro": "Telur adalah keputusan pengeluaran inti di My Dino Park. Rute biasanya adalah Common ke Uncommon, Rare setelah aliran Cash stabil, Epic untuk pertumbuhan fase pertengahan hingga akhir, dan Legendary setelah taman dapat pulih dari pengeluaran 50.000 Cash.",
+      "eggs": [
+        {
+          "egg": "Telur Common",
+          "cost": "500 Cash",
+          "hatchTime": "Instan",
+          "rarityPool": "Common",
+          "hatchResults": [
+            "Compsognathus",
+            "Gallimimus",
+            "Dilophosaurus"
+          ],
+          "income": "~75 Cash/menit",
+          "bestUse": "Pembelian pertama dan pengisian lahan awal.",
+          "buyTiming": "Beli segera setelah tutorial atau setelah menukarkan kode starter."
+        },
+        {
+          "egg": "Telur Uncommon",
+          "cost": "4.000 Cash",
+          "hatchTime": "10 detik",
+          "rarityPool": "Common / Uncommon",
+          "hatchResults": [
+            "Dilophosaurus",
+            "Parasaurolophus",
+            "Ankylosaurus",
+            "Pterodactyl"
+          ],
+          "income": "~300 Cash/menit",
+          "bestUse": "Upgrade awal dari pendapatan Common.",
+          "buyTiming": "Beli setelah beberapa dinosaurus Common ditempatkan dan mulai menghasilkan."
+        },
+        {
+          "egg": "Telur Rare",
+          "cost": "10.000 Cash",
+          "hatchTime": "30 detik",
+          "rarityPool": "Uncommon / Rare",
+          "hatchResults": [
+            "Velociraptor",
+            "Stegosaurus",
+            "Brachiosaurus"
+          ],
+          "income": "~600 Cash/menit",
+          "bestUse": "Langkah pendapatan utama fase mid-game.",
+          "buyTiming": "Beli setelah aliran Cash awal stabil; Velociraptor adalah target Rare pertama yang kuat."
+        },
+        {
+          "egg": "Telur Epic",
+          "cost": "25.000 Cash",
+          "hatchTime": "1 menit",
+          "rarityPool": "Rare / Epic",
+          "hatchResults": [
+            "Spinosaurus",
+            "Triceratops"
+          ],
+          "income": "~1.300 Cash/menit",
+          "bestUse": "Pertumbuhan pendapatan fase pertengahan hingga akhir game.",
+          "buyTiming": "Beli setelah dinosaurus Rare dan upgrade dasar sudah menopang taman."
+        },
+        {
+          "egg": "Telur Legendary",
+          "cost": "50.000 Cash",
+          "hatchTime": "2 menit",
+          "rarityPool": "Epic / Legendary",
+          "hatchResults": [
+            "T-Rex"
+          ],
+          "income": "~2500 Cash/menit",
+          "bestUse": "Target pendapatan akhir game.",
+          "buyTiming": "Beli saat taman dapat mengumpulkan kembali Cash dengan cepat setelah menghabiskan 50.000 Cash."
+        },
+        {
+          "egg": "Telur Frozen",
+          "cost": "Hadiah kode dari DINOSLOVESU",
+          "hatchTime": "Telur kode",
+          "rarityPool": "Terbatas / hanya via kode",
+          "hatchResults": [
+            "Dinosaurus hadiah Telur Frozen"
+          ],
+          "income": "Hadiah kode",
+          "bestUse": "Menetaskan gratis di awal sebelum menghabiskan Cash untuk telur berbayar.",
+          "buyTiming": "Tukarkan DINOSLOVESU selama sesi pertama, lalu tetaskan sebelum membeli telur dengan harga lebih tinggi."
+        }
+      ]
+    },
+    "myDinoParkMoneyGuide": {
+      "title": "Panduan Uang My Dino Park",
+      "subtitle": "Bangun pendapatan dengan menetaskan dinosaurus, menarik pengunjung, menyelesaikan quest, menukarkan kode, meng-upgrade taman Anda, dan memperluas lahan. Urutan pengeluaran yang rapi adalah telur terlebih dahulu, lalu dinosaurus yang lebih kuat, lalu upgrade taman, lalu perluasan lahan.",
+      "intro": "My Dino Park menggunakan loop tycoon yang sederhana: beli telur, tetaskan dinosaurus, tempatkan di taman Anda, tarik pengunjung, kumpulkan Cash, dan investasikan kembali ke koleksi dinosaurus yang lebih besar. Gigi digunakan sebagai mata uang progres bergaya premium dan saat ini paling terlihat melalui hadiah update dan progres quest, sementara Cash mendukung jalur pertumbuhan taman utama.",
+      "steps": [
+        {
+          "title": "Tukarkan kode aktif sebelum membeli telur",
+          "description": "Mulailah dengan hadiah gratis dari kotak kode Store, lalu gunakan Cash untuk mempercepat pembelian telur di awal. Kode sensitif terhadap huruf besar/kecil, jadi masukkan persis seperti yang diposting.",
+          "action": "Buka My Dino Park, tekan Store, gulir ke Tukarkan kode hadiah, masukkan kode, dan klaim hadiahnya.",
+          "rewards": [
+            {
+              "code": "UPDATE2",
+              "reward": "20.000 Cash + 200 Gigi"
+            },
+            {
+              "code": "BESTDINOGAME",
+              "reward": "300 Gigi"
+            },
+            {
+              "code": "DINOSLOVESU",
+              "reward": "Telur Frozen + 10.000 Cash"
+            },
+            {
+              "code": "THX4PLAYING",
+              "reward": "650 Cash"
+            },
+            {
+              "code": "WELCOME",
+              "reward": "1.000 Cash"
+            }
+          ]
+        },
+        {
+          "title": "Isi ruang kosong dengan telur yang terjangkau terlebih dahulu",
+          "description": "Pendapatan awal bergantung pada adanya dinosaurus yang ditempatkan, bukan pada menabung untuk T-Rex impian saat taman Anda kosong. Beli telur tier Common terlebih dahulu agar setiap ruang terbuka mulai menghasilkan pendapatan pengunjung.",
+          "priority": "Gunakan dinosaurus dari Telur Common untuk memulai loop pendapatan, lalu beralih ke telur Uncommon dan Rare setelah taman memiliki aliran Cash yang stabil.",
+          "bestEarlyTargets": [
+            {
+              "dinosaur": "Compsognathus",
+              "cost": "500 Cash",
+              "income": "50 Cash/menit"
+            },
+            {
+              "dinosaur": "Gallimimus",
+              "cost": "1.000 Cash",
+              "income": "75 Cash/menit"
+            },
+            {
+              "dinosaur": "Dilophosaurus",
+              "cost": "1.500 Cash",
+              "income": "100 Cash/menit"
+            }
+          ]
+        },
+        {
+          "title": "Menetaskan dan menempatkan setiap dinosaurus yang berguna",
+          "description": "Pengunjung membayar untuk melihat dinosaurus, jadi dinosaurus yang baru menetas harus segera ditempatkan. Dinosaurus tingkat rendah yang ditempatkan lebih baik daripada slot kosong saat Anda masih membangun basis pendapatan pertama Anda.",
+          "cashSource": "Pendapatan pengunjung dari dinosaurus yang ditempatkan di area taman yang terlihat",
+          "upgradeRule": "Pertahankan dinosaurus murah sampai Anda bisa menggantinya dengan hasil tetasan berpendapatan lebih tinggi."
+        },
+        {
+          "title": "Gunakan misi sebagai jalur bonus yang stabil",
+          "description": "Misi mendukung alur utama taman dengan memberikan kemajuan ekstra saat Anda membeli telur, menetaskan dinosaurus, dan memperluas wilayah. Selesaikan misi tersebut sembari bermain normal, alih-alih menganggapnya sebagai pekerjaan rumah terpisah.",
+          "cashSource": "Hadiah misi dan tugas kemajuan taman",
+          "teethSource": "Kemajuan misi dan jalur hadiah pembaruan"
+        },
+        {
+          "title": "Ganti dinosaurus yang lemah dengan penghasil pendapatan Langka",
+          "description": "Setelah taman Anda menghasilkan pendapatan, berhentilah membeli tingkat terendah secara berlebihan dan mulailah mengganti dinosaurus yang lemah dengan spesies berpendapatan lebih tinggi. Velociraptor adalah target peningkatan awal terkuat karena memberikan lonjakan pendapatan yang besar tanpa memerlukan Cash fase akhir.",
+          "replacementTargets": [
+            {
+              "dinosaur": "Velociraptor",
+              "rarity": "Langka",
+              "cost": "8.000 Cash",
+              "income": "500 Cash/menit"
+            },
+            {
+              "dinosaur": "Stegosaurus",
+              "rarity": "Langka",
+              "cost": "10.000 Cash",
+              "income": "600 Cash/menit"
+            },
+            {
+              "dinosaur": "Brachiosaurus",
+              "rarity": "Langka",
+              "cost": "12.000 Cash",
+              "income": "700 Cash/menit"
+            }
+          ]
+        },
+        {
+          "title": "Beli peningkatan taman setelah basis dinosaurus berjalan",
+          "description": "Peningkatan taman melipatgandakan nilai taman yang sudah memiliki dinosaurus. Belilah setelah Anda memiliki set dinosaurus yang ditempatkan secara stabil, bukan sebelumnya, karena taman kosong yang ditingkatkan tidak akan menambah pendapatan dengan sendirinya.",
+          "upgradeOrder": [
+            {
+              "upgrade": "Stan Pengunjung",
+              "cost": "2.000 Cash",
+              "role": "Peningkatan awal pendapatan pengunjung"
+            },
+            {
+              "upgrade": "Food Court",
+              "cost": "8.000 Cash",
+              "role": "Pengganda pendapatan awal-menengah"
+            },
+            {
+              "upgrade": "Hotel Dino",
+              "cost": "20.000 Cash",
+              "role": "Peningkatan nilai taman pertengahan game"
+            },
+            {
+              "upgrade": "Tur Helikopter",
+              "cost": "50.000 Cash",
+              "role": "Upgrade atraksi late-game"
+            }
+          ]
+        },
+        {
+          "title": "Perluas lahan hanya saat lahan saat ini sudah produktif",
+          "description": "Perluasan lahan paling efektif setelah area saat ini dipenuhi dengan dinosaurus penghasil uang. Perluas, isi area baru dengan telur, ganti dinosaurus yang lemah, lalu ulangi siklusnya.",
+          "reinvestmentOrder": [
+            "Beli telur untuk mengisi area kosong",
+            "Tetaskan dan tempatkan dinosaurus untuk mendapatkan Cash dari pengunjung",
+            "Ganti penghasil pendapatan rendah dengan dinosaurus Rare, Epic, dan Legendary",
+            "Beli upgrade taman setelah pendapatan stabil",
+            "Perluas lahan dan ulangi siklusnya"
+          ]
+        }
+      ]
+    },
+    "myDinoParkDinosaursList": {
+      "title": "Daftar Dinosaurus My Dino Park",
+      "subtitle": "Cari setiap dinosaurus standar berdasarkan kelangkaan, asal telur, metode pembukaan, nilai pendapatan, dan prioritas penggantian. Gunakan daftar ini untuk memutuskan dinosaurus mana yang akan disimpan, diganti, atau diincar berikutnya.",
+      "intro": "Koleksi standar saat ini mencakup 12 dinosaurus di seluruh tingkat kelangkaan Common, Uncommon, Rare, Epic, dan Legendary. Dinosaurus dengan kelangkaan lebih tinggi membutuhkan biaya lebih besar untuk ditetaskan tetapi menghasilkan pendapatan pengunjung yang jauh lebih besar, jadi jalur koleksi terbaik adalah memenuhi taman sejak awal, lalu mengganti penghasil pendapatan rendah dengan spesies yang lebih kuat.",
+      "searchPlaceholder": "Cari dinosaurus berdasarkan nama...",
+      "allRarities": "Semua",
+      "rarityFilters": [
+        "Common",
+        "Uncommon",
+        "Rare",
+        "Epic",
+        "Legendary"
+      ],
+      "columns": {
+        "dinosaur": "Dinosaurus",
+        "tier": "Tier",
+        "rarity": "Kelangkaan",
+        "sourceEgg": "Asal Telur",
+        "cost": "Biaya",
+        "income": "Pendapatan / mnt",
+        "visitorValue": "Nilai Pengunjung",
+        "replacementNote": "Simpan atau Ganti"
+      },
+      "noResults": "Tidak ada dinosaurus yang cocok dengan pencarian Anda.",
+      "dinosaurs": [
+        {
+          "dinosaur": "T-Rex",
+          "rarity": "Legendary",
+          "tier": "S",
+          "sourceEgg": "Telur Legendary",
+          "cost": "50.000 Cash",
+          "income": "2.500 Cash/mnt",
+          "visitorValue": "Atraksi taman terbaik dan pendapatan standar tertinggi",
+          "replacementNote": "Pertahankan untuk endgame; ganti hanya jika duplikat atau untuk dinosaurus terbatas yang lebih kuat di masa mendatang"
+        },
+        {
+          "dinosaur": "Spinosaurus",
+          "rarity": "Epic",
+          "tier": "A",
+          "sourceEgg": "Telur Epic",
+          "cost": "25.000 Cash",
+          "income": "1.400 Cash/mnt",
+          "visitorValue": "Pendapatan fase mid-to-late game yang luar biasa",
+          "replacementNote": "Simpan sampai upgrade Legendaris terjangkau"
+        },
+        {
+          "dinosaur": "Triceratops",
+          "rarity": "Epik",
+          "tier": "A",
+          "sourceEgg": "Telur Epik",
+          "cost": "20.000 Cash",
+          "income": "1.200 Cash/mnt",
+          "visitorValue": "Daya tarik pengunjung yang kuat dan seimbang",
+          "replacementNote": "Simpan sebagai penghasil kuat untuk fase mid-to-late game"
+        },
+        {
+          "dinosaur": "Brachiosaurus",
+          "rarity": "Langka",
+          "tier": "B",
+          "sourceEgg": "Telur Langka",
+          "cost": "12.000 Cash",
+          "income": "700 Cash/mnt",
+          "visitorValue": "Daya tarik pengunjung tinggi untuk fase awal-ke-tengah",
+          "replacementNote": "Ganti hanya setelah dinosaurus Epik terjangkau"
+        },
+        {
+          "dinosaur": "Stegosaurus",
+          "rarity": "Langka",
+          "tier": "B",
+          "sourceEgg": "Telur Langka",
+          "cost": "10.000 Cash",
+          "income": "600 Cash/mnt",
+          "visitorValue": "Pendapatan fase awal-ke-tengah yang andal",
+          "replacementNote": "Penghasil stabil yang baik sebelum upgrade Epik"
+        },
+        {
+          "dinosaur": "Velociraptor",
+          "rarity": "Langka",
+          "tier": "B",
+          "sourceEgg": "Telur Langka",
+          "cost": "8.000 Cash",
+          "income": "500 Cash/mnt",
+          "visitorValue": "Target upgrade awal terbaik",
+          "replacementNote": "Simpan selama fase awal-tengah game; ganti dengan dinosaurus Epik nanti"
+        },
+        {
+          "dinosaur": "Pterodactyl",
+          "rarity": "Tidak Umum",
+          "tier": "C",
+          "sourceEgg": "Telur Tidak Umum",
+          "cost": "6.000 Cash",
+          "income": "350 Cash/menit",
+          "visitorValue": "Variasi awal yang bagus dan pendapatan pengisi",
+          "replacementNote": "Gantikan dengan dinosaurus Rare saat slot taman menjadi berharga"
+        },
+        {
+          "dinosaur": "Ankylosaurus",
+          "rarity": "Uncommon",
+          "tier": "C",
+          "sourceEgg": "Telur Uncommon",
+          "cost": "5.000 Cash",
+          "income": "300 Cash/menit",
+          "visitorValue": "Pendapatan pengisi dengan pemeliharaan rendah",
+          "replacementNote": "Gunakan sebagai jembatan menuju telur Rare"
+        },
+        {
+          "dinosaur": "Parasaurolophus",
+          "rarity": "Uncommon",
+          "tier": "C",
+          "sourceEgg": "Telur Uncommon",
+          "cost": "4.000 Cash",
+          "income": "250 Cash/menit",
+          "visitorValue": "Pendapatan awal investasi rendah",
+          "replacementNote": "Gantikan setelah siklus pendapatan telur Rare Anda dimulai"
+        },
+        {
+          "dinosaur": "Dilophosaurus",
+          "rarity": "Common",
+          "tier": "D",
+          "sourceEgg": "Telur Common",
+          "cost": "1.500 Cash",
+          "income": "100 Cash/menit",
+          "visitorValue": "Pendapatan awal",
+          "replacementNote": "Gantikan dengan dinosaurus Uncommon atau Rare setelah aliran Cash membaik"
+        },
+        {
+          "dinosaur": "Gallimimus",
+          "rarity": "Common",
+          "tier": "D",
+          "sourceEgg": "Telur Common",
+          "cost": "1.000 Cash",
+          "income": "75 Cash/menit",
+          "visitorValue": "Pendapatan awal ramah anggaran",
+          "replacementNote": "Gunakan di awal, lalu gantikan segera setelah telur tingkat lebih tinggi terjangkau"
+        },
+        {
+          "dinosaur": "Compsognathus",
+          "rarity": "Common",
+          "tier": "D",
+          "sourceEgg": "Telur Common",
+          "cost": "500 Cash",
+          "income": "50 Cash/mnt",
+          "visitorValue": "Pengisi awal termurah",
+          "replacementNote": "Hanya bagus untuk mengisi ruang kosong di awal; segera ganti"
+        }
+      ]
+    },
+    "myDinoParkUpdateLog": {
+      "title": "Log Pembaruan My Dino Park",
+      "subtitle": "Pantau pembaruan My Dino Park terbaru, kode aktif, telur baru, perubahan keseimbangan, dan perbaikan bug. Judul Roblox saat ini menandai game sebagai UPD 2.",
+      "intro": "Gunakan log ini untuk detail yang benar-benar dibutuhkan pemain: apa yang berubah, kode mana yang ditambahkan, hadiah apa yang penting, dan apakah ada telur baru, dinosaurus, perubahan mata uang, atau catatan terkait pemulihan.",
+      "sectionLabels": {
+        "newCodes": "Kode Baru",
+        "newContent": "Telur & Dinosaurus Baru",
+        "bugFixes": "Perbaikan Bug",
+        "balanceChanges": "Perubahan Keseimbangan",
+        "currencyChanges": "Perubahan Mata Uang"
+      },
+      "updates": [
+        {
+          "update": "UPD 2",
+          "date": "2026-07-04",
+          "title": "Pembaruan 2 — Kode Baru & Perbaikan Bug",
+          "status": "Pembaruan terbaru",
+          "summary": "Pembaruan 2 menambahkan tiga kode hadiah baru, memperkenalkan Frozen Egg melalui penukaran kode, serta mencakup perbaikan bug, peningkatan stabilitas server, dan penyesuaian ekonomi Gigi.",
+          "newCodes": [
+            {
+              "code": "UPDATE2",
+              "reward": "20.000 Cash + 200 Gigi"
+            },
+            {
+              "code": "BESTDINOGAME",
+              "reward": "300 Gigi"
+            },
+            {
+              "code": "DINOSLOVESU",
+              "reward": "Frozen Egg + 10.000 Cash"
+            }
+          ],
+          "newContent": [
+            "Frozen Egg ditambahkan sebagai hadiah kode melalui DINOSLOVESU"
+          ],
+          "bugFixes": [
+            "Perbaikan bug",
+            "Peningkatan stabilitas server"
+          ],
+          "balanceChanges": [
+            "Tingkat perolehan mata uang Gigi disesuaikan"
+          ],
+          "currencyChanges": [
+            "UPDATE2 menambahkan hadiah Cash dan Gigi",
+            "BESTDINOGAME menambahkan hadiah khusus Gigi",
+            "DINOSLOVESU menambahkan hadiah Frozen Egg dan Cash"
+          ]
+        },
+        {
+          "update": "UPD 1",
+          "date": "2026-07-01",
+          "title": "Pembaruan 1 — Peluncuran Game",
+          "status": "Pembaruan peluncuran",
+          "summary": "Versi peluncuran memperkenalkan inti permainan park tycoon: beli telur, tetaskan dinosaurus, tarik pengunjung, dapatkan Cash, tingkatkan taman, dan berkembang menuju peringkat taman teratas.",
+          "newCodes": [
+            {
+              "code": "WELCOME",
+              "reward": "1.000 Cash"
+            },
+            {
+              "code": "THX4PLAYING",
+              "reward": "650 Cash"
+            }
+          ],
+          "newContent": [
+            "12 spesies dinosaurus standar di tingkatan Common, Uncommon, Rare, Epic, dan Legendary",
+            "Common Egg",
+            "Telur Uncommon",
+            "Telur Rare",
+            "Telur Epic",
+            "Telur Legendary"
+          ],
+          "bugFixes": [
+            "Dasar peluncuran"
+          ],
+          "balanceChanges": [
+            "Nilai pendapatan dinosaurus awal dan progresi telur"
+          ],
+          "currencyChanges": [
+            "Cash ditetapkan sebagai mata uang utama pertumbuhan taman",
+            "Teeth ditetapkan sebagai mata uang progres sekunder"
+          ]
+        }
+      ]
+    },
+    "myDinoParkOfficialLinks": {
+      "title": "Link Resmi My Dino Park",
+      "subtitle": "Gunakan pengalaman Roblox resmi, grup Dino Community, dan undangan Discord untuk jalur teraman untuk bermain, mendapatkan kode, mencari bantuan pemulihan, dan mengikuti pembaruan.",
+      "intro": "Modul ini menjaga link untuk pemain tetap bersih: Roblox untuk memainkan pengalaman, Dino Community untuk grup resmi, dan Discord untuk pengumuman, kode, pemulihan, dan dukungan komunitas. Tidak ada wiki pihak ketiga, Trello, atau link agregator yang disertakan di sini.",
+      "links": [
+        {
+          "title": "Pengalaman Roblox Resmi",
+          "label": "Mainkan My Dino Park",
+          "href": "https://www.roblox.com/games/80701570784699/My-Dino-Park",
+          "description": "Luncurkan pengalaman Roblox My Dino Park resmi oleh Dino Community. Halaman game mencantumkan judul UPD 2 saat ini dan siklus inti: beli Telur Dino, tetaskan Dinosaurus, tarik pengunjung, upgrade tamanmu, dan berkembanglah menuju peringkat taman teratas.",
+          "type": "Pengalaman Roblox"
+        },
+        {
+          "title": "Grup Roblox Dino Community",
+          "label": "Buka Dino Community",
+          "href": "https://www.roblox.com/communities/532484073/Dino-Community",
+          "description": "Buka komunitas resmi Roblox yang terhubung dengan My Dino Park. Gunakan ini sebagai sumber sisi grup untuk identitas developer, akses komunitas, dan pembaruan asli Roblox.",
+          "type": "Komunitas Roblox"
+        },
+        {
+          "title": "Discord Resmi",
+          "label": "Bergabung ke Discord",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Bergabunglah dengan Discord resmi My Dino Park untuk kode, pengumuman, berita pembaruan, bantuan pemulihan, dan diskusi pemain.",
+          "type": "Server Discord"
+        },
+        {
+          "title": "Bantuan Pemulihan",
+          "label": "Dapatkan Bantuan Pemulihan",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Gunakan jalur Discord resmi untuk dukungan pemulihan. Deskripsi pengalaman Roblox mengarahkan pemain ke link resmi untuk pemulihan, jadi ini adalah rute yang bersih daripada mempercayai link misterius.",
+          "type": "Dukungan"
+        },
+        {
+          "title": "Sumber Kode",
+          "label": "Periksa Sumber Kode Resmi",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Gunakan sumber komunitas resmi yang tertaut di Discord dan Roblox untuk rilis kode baru. Hadiah aktif saat ini termasuk UPDATE2, BESTDINOGAME, DINOSLOVESU, THX4PLAYING, dan WELCOME.",
+          "type": "Kode"
+        },
+        {
+          "title": "Wiki dan Trello",
+          "label": "Gunakan Link Resmi Saja",
+          "href": "https://www.roblox.com/games/80701570784699/My-Dino-Park",
+          "description": "Tidak ada link wiki pihak ketiga atau Trello yang ditampilkan dalam modul ini. Pemain hanya boleh menggunakan link yang diposting melalui pengalaman resmi Roblox, grup Dino Community, atau Discord resmi.",
+          "type": "Keamanan Tautan"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Sering Diajukan",
+    "titleHighlight": "Pertanyaan",
+    "subtitle": "Semua yang perlu kamu ketahui tentang My Dino Park",
+    "questions": [
+      {
+        "question": "Apa itu My Dino Park?",
+        "answer": "My Dino Park adalah tycoon taman dinosaurus Roblox oleh Dino Community tempat kamu membeli telur, menetaskan dinosaurus, menarik pengunjung, menghasilkan Cash, dan meningkatkan tamanmu menuju peringkat #1 Dino Park."
+      },
+      {
+        "question": "Bagaimana cara menukarkan kode di My Dino Park?",
+        "answer": "Selesaikan tutorial terlebih dahulu, lalu buka Store, gulir ke Tukarkan kode hadiah, tempel kode My Dino Park yang aktif, dan tekan Enter atau Redeem untuk mengklaim hadiahmu."
+      },
+      {
+        "question": "Telur mana yang harus saya beli pertama kali di My Dino Park?",
+        "answer": "Di My Dino Park, mulailah dengan Common Egg seharga 500 Cash untuk mengisi ruang dengan cepat, lalu beralih ke Uncommon dan Rare Egg saat aliran Cash kamu stabil, dan menabunglah untuk Epic dan Legendary Egg setelah tamanmu menghasilkan secara konsisten."
+      },
+      {
+        "question": "Untuk apa Teeth digunakan di My Dino Park?",
+        "answer": "Teeth adalah mata uang progres sekunder di My Dino Park, saat ini paling terlihat melalui hadiah kode pembaruan dan progres misi, sementara Cash mendukung jalur pertumbuhan utama taman."
+      },
+      {
+        "question": "Berapa banyak pemain yang bisa bergabung dalam satu server My Dino Park?",
+        "answer": "Server My Dino Park mendukung hingga 6 pemain sekaligus, jadi kamu membangun taman dinosaurusmu dalam pengalaman bersama yang kecil alih-alih satu lobi besar."
+      },
+      {
+        "question": "Di mana saya bisa menemukan kode My Dino Park baru?",
+        "answer": "Kode My Dino Park baru diposting melalui Discord resmi Dino Community dan halaman pengalaman Roblox, jadi ikuti keduanya untuk mendapatkan setiap rilis kode tepat setelah pembaruan."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Membangun Dino Park Kamu?",
+    "description": "Bergabunglah dengan komunitas My Dino Park di Discord untuk mendapatkan kode, panduan, pembaruan, dan diskusi!",
+    "joinCommunity": "Gabung Discord",
+    "joinGame": "Mainkan di Roblox"
+  },
+  "footer": {
+    "title": "Wiki My Dino Park",
+    "description": "Pusat sumber daya lengkapmu untuk kode My Dino Park, daftar tingkatan dinosaurus, panduan telur, tips pendapatan, dan peningkatan taman untuk tycoon Roblox ini.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "discord": "Discord",
+    "robloxCommunity": "Komunitas Roblox",
+    "robloxGame": "Mainkan di Roblox",
+    "youtube": "Video Gameplay",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 My Dino Park Wiki. Tidak berafiliasi dengan pengembang My Dino Park atau Roblox Corporation.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode My Dino Park",
+      "description": "Kode My Dino Park terbaru yang aktif untuk mendapatkan Cash gratis, Teeth, dan Frozen Egg. Tukarkan di Store dan gunakan hadiahnya untuk membeli telur murah dan pertumbuhan awal taman.",
+      "metaTitle": "Kode My Dino Park - Cash, Teeth & Telur Gratis (Diperbarui Setiap Hari)",
+      "metaDescription": "Dapatkan Cash, Teeth, dan Frozen Egg gratis dengan kode My Dino Park yang aktif. Diperbarui setiap hari dengan kode yang terverifikasi aktif dan langkah penukarannya.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode?",
+      "whatIsDescription": "Kode My Dino Park adalah string penukaran gratis yang dirilis oleh pengembang Dino Community. Masukkan kode tersebut di Toko dalam game untuk mengeklaim Cash, Teeth, dan telur langka yang mempercepat pertumbuhan tamanmu.",
+      "why": "Mengapa menukarkan kode?",
+      "whySteps": {
+        "step1Title": "Sumber daya awal gratis",
+        "step1Description": "Kode aktif memberikan ribuan Cash dan Teeth, memberimu keunggulan awal untuk telur dan peningkatan tanpa harus grinding.",
+        "step2Title": "Telur langka eksklusif",
+        "step2Description": "Beberapa kode berhadiah Frozen Egg dan telur premium lainnya yang menetas menjadi dinosaurus awal game yang kuat.",
+        "step3Title": "Diperbarui setiap rilis",
+        "step3Description": "Kode baru muncul di setiap pembaruan game, jadi memeriksa kembali setiap hari akan menjaga aliran hadiahmu tetap berjalan."
+      },
+      "featured": "Kode Unggulan",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan My Dino Park",
+      "description": "Panduan pemula dan walkthrough My Dino Park lengkap: langkah awal, telur pertama, tata letak taman, dan putaran pendapatan stabil untuk pemain baru.",
+      "metaTitle": "Panduan My Dino Park - Walkthrough & Tips Pemula",
+      "metaDescription": "Pelajari cara bermain My Dino Park dengan panduan pemula, walkthrough, dan tips yang mencakup telur pertama, tata letak taman, dan putaran pendapatan Cash yang stabil.",
+      "categoryLabel": "PANDUAN",
+      "whatIs": "Apa itu bagian Panduan?",
+      "whatIsDescription": "Pusat panduan My Dino Park mencakup semua yang dibutuhkan pemilik taman baru: langkah pembukaan, 30 menit pertama, inti gameplay, dan kesalahan umum yang harus dihindari saat membangun taman dinosaurusmu.",
+      "why": "Mengapa membaca panduan?",
+      "whySteps": {
+        "step1Title": "30 menit pertama yang cepat",
+        "step1Description": "Walkthrough langkah demi langkah membawamu dari lahan kosong menuju pendapatan Cash yang stabil tanpa pengeluaran sia-sia.",
+        "step2Title": "Hindari kesalahan pemula",
+        "step2Description": "Panduan menandai jebakan umum—pembelian telur yang salah, tata letak yang buruk, dan pengeluaran berlebih—sebelum hal itu menghambat kemajuanmu.",
+        "step3Title": "Penguasaan inti permainan",
+        "step3Description": "Pahami bagaimana telur, dinosaurus, pengunjung, dan peningkatan saling terhubung sehingga setiap keputusan melipatgandakan pendapatanmu."
+      },
+      "featured": "Panduan Unggulan",
+      "all": "Semua Panduan"
+    },
+    "dinos": {
+      "title": "Dino My Dino Park",
+      "description": "Daftar dinosaurus dan peringkat tier My Dino Park: kelangkaan, kekuatan pendapatan, dan dinosaurus terbaik untuk dipertahankan atau diganti di setiap tahap taman.",
+      "metaTitle": "Dino My Dino Park - Daftar Tier Dinosaurus & Pilihan Terbaik",
+      "metaDescription": "Telusuri daftar lengkap dinosaurus My Dino Park dengan peringkat tier, kelangkaan, statistik pendapatan, dan dinosaurus terbaik untuk tahap awal, menengah, dan akhir taman.",
+      "categoryLabel": "DINOSAURUS",
+      "whatIs": "Apa itu Dino?",
+      "whatIsDescription": "Dinosaurus adalah inti dari My Dino Park. Setiap spesies menetas dari telur, menarik pengunjung, dan menghasilkan pendapatan. Bagian Dino memberi peringkat pada setiap spesies berdasarkan kelangkaan dan daya penghasilannya sehingga kamu tahu mana yang harus dipertahankan dan mana yang harus diganti.",
+      "why": "Mengapa mempelajari daftar dino?",
+      "whySteps": {
+        "step1Title": "Pendapatan berdasarkan peringkat tier",
+        "step1Description": "Lihat dinosaurus mana yang menghasilkan Cash paling banyak per menit sehingga kamu dapat memprioritaskan anggaran telur dan peningkatanmu.",
+        "step2Title": "Kelangkaan dan pertumbuhan",
+        "step2Description": "Pahami tier kelangkaan dan bagaimana setiap dinosaurus berkembang seiring pertumbuhan taman dan jumlah pengunjungmu.",
+        "step3Title": "Penggantian cerdas",
+        "step3Description": "Ketahui dengan tepat kapan dinosaurus yang lebih lemah harus diganti dengan hasil tetasan yang lebih kuat agar pendapatan terus meningkat."
+      },
+      "featured": "Dino Unggulan",
+      "all": "Semua Dino"
+    },
+    "eggs": {
+      "title": "Telur My Dino Park",
+      "description": "Jenis telur, biaya, tingkat tetas My Dino Park, dan urutan pembelian terbaik untuk setiap tahap taman guna memaksimalkan daftar dinosaurus dan pendapatan Anda.",
+      "metaTitle": "Telur My Dino Park - Biaya Telur, Jenis & Urutan Pembelian",
+      "metaDescription": "Bandingkan jenis telur, biaya, dan tingkat tetas My Dino Park, serta ikuti urutan pembelian telur terbaik untuk tahap awal, menengah, dan akhir taman.",
+      "categoryLabel": "TELUR",
+      "whatIs": "Apa itu Telur?",
+      "whatIsDescription": "Telur adalah cara Anda mengembangkan daftar dinosaurus di My Dino Park. Setiap jenis telur memiliki biaya, daftar tetasan, dan peluang kelangkaan yang berbeda. Bagian Telur merinci setiap opsi sehingga Anda dapat membelanjakan Cash dan Gigi pada telur yang tepat di waktu yang tepat.",
+      "why": "Mengapa harus merencanakan pembelian telur?",
+      "whySteps": {
+        "step1Title": "Penetasan yang hemat biaya",
+        "step1Description": "Bandingkan biaya dan nilai telur sehingga setiap pembelian meningkatkan pendapatan Anda, bukan malah menguras Cash.",
+        "step2Title": "Kelangkaan dan peluang",
+        "step2Description": "Pelajari tingkat tetas untuk dinosaurus langka dan epik sebelum Anda membeli telur yang mahal.",
+        "step3Title": "Urutan pembelian tahap demi tahap",
+        "step3Description": "Ikuti urutan pembelian yang jelas untuk awal, pertengahan, dan akhir permainan guna membangun taman yang seimbang dan berpenghasilan tinggi."
+      },
+      "featured": "Telur Unggulan",
+      "all": "Semua Telur"
+    },
+    "levels": {
+      "title": "Level My Dino Park",
+      "description": "Panduan naik level My Dino Park: peningkatan taman, urutan ekspansi, prioritas fasilitas, dan rute tercepat menuju level maksimal dan peringkat taman #1.",
+      "metaTitle": "Level My Dino Park - Urutan Peningkatan & Panduan Level Maksimal",
+      "metaDescription": "Tingkatkan level My Dino Park Anda dengan urutan peningkatan, ekspansi taman, prioritas fasilitas, dan rute tercepat menuju level maksimal.",
+      "categoryLabel": "LEVEL & PENINGKATAN",
+      "whatIs": "Apa itu Level & Peningkatan?",
+      "whatIsDescription": "Level melacak kemajuan taman Anda secara keseluruhan di My Dino Park. Meningkatkan bangunan taman, memperluas lahan, dan meningkatkan fasilitas akan menaikkan level Anda serta membuka dinosaurus yang lebih kuat, lebih banyak pengunjung, dan pendapatan yang lebih tinggi. Bagian Level memetakan jalur peningkatan yang paling efisien.",
+      "why": "Mengapa harus merencanakan peningkatan Anda?",
+      "whySteps": {
+        "step1Title": "Naik level yang efisien",
+        "step1Description": "Prioritaskan peningkatan yang memberikan pengembalian pendapatan terbanyak per Cash yang dibelanjakan agar Anda dapat naik level tanpa hambatan.",
+        "step2Title": "Ekspansi cerdas",
+        "step2Description": "Ketahui kapan harus memperluas lahan versus meningkatkan fasilitas, demi menjaga keseimbangan aliran pengunjung dan pendapatan.",
+        "step3Title": "Peta jalan level maksimal",
+        "step3Description": "Ikuti rute yang jelas dari level awal hingga level maksimal dan peringkat taman teratas."
+      },
+      "featured": "Panduan Level Unggulan",
+      "all": "Semua Panduan Level"
+    },
+    "updates": {
+      "title": "Pembaruan My Dino Park",
+      "description": "Log pembaruan dan catatan rilis My Dino Park: dinosaurus baru, telur baru, kode baru, dan hal pertama yang harus dilakukan setelah setiap versi dirilis.",
+      "metaTitle": "Pembaruan My Dino Park - Catatan Rilis & Konten Baru",
+      "metaDescription": "Lacak setiap pembaruan My Dino Park dengan catatan rilis yang mencakup dinosaurus, telur, kode baru, dan langkah pertama terbaik setelah setiap versi dirilis.",
+      "categoryLabel": "PEMBARUAN",
+      "whatIs": "Apa itu Update?",
+      "whatIsDescription": "Bagian Update mencatat setiap versi My Dino Park, dari Update 1 hingga patch terbaru, mencakup dinosaurus baru, telur baru, perubahan keseimbangan, dan kode baru. Gunakan ini untuk menyesuaikan strategimu saat konten baru dirilis.",
+      "why": "Mengapa mengikuti update?",
+      "whySteps": {
+        "step1Title": "Konten baru lebih awal",
+        "step1Description": "Lihat dinosaurus, telur, dan fitur baru di hari perilisannya agar kamu bisa merencanakan telur dan upgrade di sekitarnya.",
+        "step2Title": "Kode baru",
+        "step2Description": "Setiap update hadir dengan kode redeem baru, jadi dapatkan di sini sebelum kedaluwarsa.",
+        "step3Title": "Sesuaikan strategimu",
+        "step3Description": "Catatan patch menandai perubahan keseimbangan dan mekanik baru agar tamanmu tetap optimal setelah setiap rilis."
+      },
+      "featured": "Update Unggulan",
+      "all": "Semua Update"
+    },
+    "roblox": {
+      "title": "My Dino Park Roblox",
+      "description": "My Dino Park di Roblox: cara bermain, halaman resmi game, tautan komunitas, dan tips platform untuk pemilik taman baru maupun lama.",
+      "metaTitle": "My Dino Park Roblox - Cara Bermain & Tautan Resmi",
+      "metaDescription": "Mainkan My Dino Park di Roblox dengan halaman resmi game, tautan komunitas, tips gameplay, dan dasar-dasar platform untuk pemilik taman baru.",
+      "categoryLabel": "ROBLOX",
+      "whatIs": "Apa itu bagian Roblox?",
+      "whatIsDescription": "My Dino Park adalah pengalaman tycoon Roblox yang dikembangkan oleh Dino Community. Bagian Roblox mengumpulkan halaman resmi game, komunitas pengembang, tips khusus platform, dan semua yang kamu butuhkan untuk mulai bermain dan tetap terhubung.",
+      "why": "Mengapa menggunakan bagian ini?",
+      "whySteps": {
+        "step1Title": "Halaman resmi game",
+        "step1Description": "Langsung menuju ke halaman resmi pengalaman Roblox untuk meluncurkan game dan memeriksa versi terbaru.",
+        "step2Title": "Koneksi komunitas",
+        "step2Description": "Jangkau grup resmi Dino Community dan saluran sosial untuk pengumuman, kode, dan dukungan.",
+        "step3Title": "Tips platform",
+        "step3Description": "Dapatkan saran khusus Roblox tentang kontrol, performa, dan permainan lintas perangkat untuk sesi membangun taman yang lebih lancar."
+      },
+      "featured": "Panduan Roblox Unggulan",
+      "all": "Semua Panduan Roblox"
+    }
+  }
+}

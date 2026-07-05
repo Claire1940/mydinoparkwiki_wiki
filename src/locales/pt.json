@@ -1,1 +1,1120 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "My Dino Park Wiki - Códigos, Tier List de Dinos e Guia de Ovos",
+      "description": "Construa mais rápido com códigos de My Dino Park, tier lists de dinossauros, custos de ovos, dicas de renda, melhorias de parque e guias para iniciantes do tycoon do Roblox.",
+      "keywords": "My Dino Park, Roblox, códigos, tier list de dinos, guia de ovos, melhorias de parque, tycoon",
+      "ogTitle": "My Dino Park Wiki - Códigos, Tier List de Dinos e Guia de Ovos",
+      "ogDescription": "Construa mais rápido com códigos de My Dino Park, tier lists de dinossauros, custos de ovos, dicas de renda, melhorias de parque e guias para iniciantes do tycoon do Roblox.",
+      "twitterTitle": "My Dino Park Wiki - Códigos, Tier List de Dinos e Guia de Ovos",
+      "twitterDescription": "Construa mais rápido com códigos de My Dino Park, tier lists de dinossauros, custos de ovos, dicas de renda, melhorias de parque e guias para iniciantes do tycoon do Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "dinos": "Dinos",
+    "eggs": "Ovos",
+    "levels": "Níveis",
+    "updates": "Atualizações",
+    "roblox": "Roblox"
+  },
+  "common": {
+    "home": "Home",
+    "more": "Mais",
+    "playNow": "Jogar no Steam",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Roblox Dino Park Tycoon",
+    "title": "My Dino Park Wiki",
+    "description": "Construa seu próprio parque de dinossauros no Roblox: compre ovos, choque dinossauros, atraia visitantes, ganhe dinheiro, melhore seu parque e suba rumo ao 1º lugar do Dino Park.",
+    "getFreeCodesCTA": "Obter Códigos Grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "2,7M",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "12,4K",
+        "label": "Jogadores Online"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "Avaliação dos Usuários"
+      },
+      "stat4": {
+        "value": "6",
+        "label": "Máximo de Jogadores"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de My Dino Park",
+    "description": "Construa seu próprio parque de dinossauros no Roblox: compre ovos, choque dinossauros, atraia visitantes, ganhe Cash e faça melhorias para alcançar o 1º lugar no My Dino Park."
+  },
+  "tools": {
+    "title": "My Dino Park",
+    "titleHighlight": "Guias",
+    "subtitle": "Tudo o que você precisa para construir, chocar e expandir seu parque de dinossauros",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos de My Dino Park",
+        "description": "Códigos ativos, recompensas e etapas de resgate"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guia de Iniciante de My Dino Park",
+        "description": "Rota da primeira sessão e progressão inicial"
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List de My Dino Park",
+        "description": "Rankings de dinossauros, ovos e melhorias"
+      },
+      {
+        "icon": "Egg",
+        "title": "Guia de Ovos de My Dino Park",
+        "description": "Custos de ovos, eclosões e ordem de compra"
+      },
+      {
+        "icon": "Coins",
+        "title": "Guia de Dinheiro de My Dino Park",
+        "description": "Rotas para ganhar Cash e Teeth e ordem de reinvestimento"
+      },
+      {
+        "icon": "Bone",
+        "title": "Lista de Dinossauros de My Dino Park",
+        "description": "Todos os dinossauros por raridade, ovo e renda"
+      },
+      {
+        "icon": "History",
+        "title": "Log de Atualizações de My Dino Park",
+        "description": "Notas da última atualização, códigos e mudanças"
+      },
+      {
+        "icon": "Globe",
+        "title": "Links Oficiais de My Dino Park",
+        "description": "Links do Roblox, da comunidade e do Discord"
+      }
+    ]
+  },
+  "modules": {
+    "myDinoParkCodes": {
+      "title": "Códigos de My Dino Park",
+      "subtitle": "Resgate códigos ativos de My Dino Park para ganhar Cash, Teeth e o Frozen Egg antes de comprar ovos pagos.",
+      "intro": "Use estes códigos após o tutorial abrir o menu da Loja. Resgate toda a lista ativa primeiro, depois choque o ovo grátis e gaste Cash nos primeiros dinossauros.",
+      "lastChecked": "2026-07-05",
+      "redemptionHint": "Inicie My Dino Park no Roblox, termine o tutorial, abra a Loja, role até Resgatar código de presente, cole o código e pressione Enter ou Resgatar.",
+      "activeCodes": [
+        {
+          "code": "UPDATE2",
+          "reward": "20.000 Cash + 200 Teeth",
+          "status": "ativo",
+          "priority": "Melhor código de atualização geral"
+        },
+        {
+          "code": "BESTDINOGAME",
+          "reward": "300 Teeth",
+          "status": "ativo",
+          "priority": "Melhor código apenas de Dentes"
+        },
+        {
+          "code": "DINOSLOVESU",
+          "reward": "Ovo Congelado + 10.000 em Dinheiro",
+          "status": "ativo",
+          "priority": "Melhor código de ovo inicial"
+        },
+        {
+          "code": "WELCOME",
+          "reward": "1.000 em Dinheiro",
+          "status": "ativo",
+          "priority": "Bônus de Dinheiro inicial"
+        },
+        {
+          "code": "THX4PLAYING",
+          "reward": "650 em Dinheiro",
+          "status": "ativo",
+          "priority": "Dinheiro inicial extra"
+        }
+      ],
+      "expiredCodes": []
+    },
+    "myDinoParkBeginnerGuide": {
+      "title": "Guia para Iniciantes de My Dino Park",
+      "subtitle": "Comece desbloqueando a Loja, resgatando códigos, chocando seus primeiros dinossauros e reinvestindo a renda inicial em mais atrações.",
+      "intro": "O ciclo inicial de My Dino Park é simples: compre Ovos de Dino, choque dinossauros, atraia visitantes e depois reinvista os ganhos em mais dinossauros e melhorias de renda. Siga os passos em ordem para que o Dinheiro inicial se transforme em renda rapidamente.",
+      "steps": [
+        {
+          "title": "Inicie a experiência no Roblox",
+          "description": "Abra o My Dino Park a partir da página da experiência no Roblox e deixe seu parque carregar totalmente.",
+          "result": "Você entrará no seu lote inicial e poderá começar o fluxo do tutorial."
+        },
+        {
+          "title": "Termine o tutorial primeiro",
+          "description": "Conclua o tutorial curto antes de resgatar códigos ou comprar ovos.",
+          "result": "Menus principais como Loja, ovos, posicionamento e ações do parque tornam-se utilizáveis."
+        },
+        {
+          "title": "Resgate todos os códigos ativos",
+          "description": "Abra a Loja, role até a caixa de código de presente e resgate UPDATE2, BESTDINOGAME, DINOSLOVESU, WELCOME e THX4PLAYING.",
+          "result": "Você recebe Dinheiro inicial, Dentes e o Ovo Congelado antes de gastar o Dinheiro inicial."
+        },
+        {
+          "title": "Compre ou choque o primeiro ovo",
+          "description": "Comece com o Ovo Comum ao gastar Dinheiro; ele custa 500 de Dinheiro e choca instantaneamente.",
+          "result": "Seu primeiro dinossauro começa a gerar interesse dos visitantes imediatamente."
+        },
+        {
+          "title": "Posicione cada novo dinossauro",
+          "description": "Use seu inventário, posicione os dinossauros chocados em terrenos abertos e evite deixar ovos parados.",
+          "result": "Mais dinossauros visíveis significam mais renda de visitantes retornando para o parque."
+        },
+        {
+          "title": "Preencha o terreno antes de buscar ovos caros",
+          "description": "Use Ovos Comuns e Incomuns para preencher o espaço inicial e, em seguida, parta para Ovos Raros assim que seu fluxo de Dinheiro estiver estável.",
+          "result": "Você constrói uma base de renda confiável antes de economizar para compras maiores."
+        },
+        {
+          "title": "Avance para o valor Raro e Épico",
+          "description": "Foque em Ovos Raros a 10.000 de Dinheiro e depois em Ovos Épicos a 25.000 de Dinheiro após seu parque ter geradores de renda suficientes.",
+          "result": "Velociraptor, Estegossauro, Braquiossauro, Tricerátops e Espinossauro tornam-se seus principais alvos de crescimento."
+        },
+        {
+          "title": "Compre melhorias de renda após o parque ter dinos",
+          "description": "Use o Guichê de Visitantes a 2.000 de Dinheiro como a primeira melhoria, depois a Praça de Alimentação, o Hotel Dino e o Passeio de Helicóptero conforme sua renda cresce.",
+          "result": "Os upgrades multiplicam a renda dos visitantes depois que você já possui dinossauros suficientes que valem a pena multiplicar."
+        }
+      ]
+    },
+    "myDinoParkTierList": {
+      "title": "Tier List de My Dino Park",
+      "subtitle": "Classifique dinossauros, ovos e prioridades de gastos por valor inicial, renda, raridade e relevância da atualização.",
+      "intro": "Filtre por estágio de progressão ou tipo de item antes de gastar. Escolhas iniciais geram renda rapidamente, escolhas de meio de jogo melhoram o Cash por minuto, escolhas de fim de jogo sustentam o parque, e recompensas exclusivas de códigos devem ser resgatadas antes de compras pagas.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Melhor Custo-Benefício",
+          "entries": [
+            {
+              "name": "Ovo Congelado",
+              "type": "ovo",
+              "rarity": "Limitado / apenas por código",
+              "cost": "Recompensa de código de DINOSLOVESU",
+              "income": "Recompensa de ovo de código",
+              "reason": "O valor do ovo grátis mais 10.000 de Cash do mesmo código o torna a recompensa mais forte para a primeira sessão."
+            },
+            {
+              "name": "T-Rex",
+              "type": "dinossauro",
+              "rarity": "Lendário",
+              "cost": "50.000 Cash",
+              "income": "2.500 Cash/min",
+              "reason": "A maior renda de dinossauro listada e a principal sustentação do parque no fim do jogo.",
+              "sourceEgg": "Ovo Lendário"
+            },
+            {
+              "name": "Ovo Lendário",
+              "type": "ovo",
+              "rarity": "Lendário",
+              "cost": "50.000 Cash",
+              "income": "Média de 2.500 Cash/min",
+              "reason": "Melhor ovo para o fim do jogo porque leva à renda do T-Rex."
+            },
+            {
+              "name": "Passeio de Helicóptero",
+              "type": "upgrade",
+              "rarity": "Upgrade do parque",
+              "cost": "50.000 Cash",
+              "income": "3x renda dos visitantes",
+              "reason": "O multiplicador de renda mais forte depois que seu parque já tiver grandes geradores de receita."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Excelente",
+          "entries": [
+            {
+              "name": "Espinossauro",
+              "type": "dinossauro",
+              "rarity": "Épico",
+              "cost": "25.000 Cash",
+              "income": "1.400 Cash/min",
+              "reason": "Melhor renda Épica e uma forte transição para o fim do jogo.",
+              "sourceEgg": "Ovo Épico"
+            },
+            {
+              "name": "Triceratops",
+              "type": "dinossauro",
+              "rarity": "Épico",
+              "cost": "20.000 Cash",
+              "income": "1.200 Cash/min",
+              "reason": "Rendimento estável de nível Épico com forte apelo para os visitantes.",
+              "sourceEgg": "Ovo Épico"
+            },
+            {
+              "name": "Ovo Épico",
+              "type": "ovo",
+              "rarity": "Épico",
+              "cost": "25.000 Cash",
+              "income": "Média de 1.300 Cash/min",
+              "reason": "Melhor ovo de meio a fim de jogo antes de economizar para o Lendário."
+            },
+            {
+              "name": "Hotel Dino",
+              "type": "melhoria",
+              "rarity": "Melhoria do parque",
+              "cost": "20.000 Cash",
+              "income": "2x renda dos visitantes",
+              "reason": "Dobra a renda dos visitantes assim que o parque tiver dinossauros suficientes para justificar."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Grandes Escolhas de Crescimento",
+          "entries": [
+            {
+              "name": "Braquiossauro",
+              "type": "dinossauro",
+              "rarity": "Raro",
+              "cost": "12.000 Cash",
+              "income": "700 Cash/min",
+              "reason": "Melhor rendimento listado de nível Raro e uma forte atração de público.",
+              "sourceEgg": "Ovo Raro"
+            },
+            {
+              "name": "Estegossauro",
+              "type": "dinossauro",
+              "rarity": "Raro",
+              "cost": "10.000 Cash",
+              "income": "600 Cash/min",
+              "reason": "Rendimento confiável de nível Raro com bom custo-benefício.",
+              "sourceEgg": "Ovo Raro"
+            },
+            {
+              "name": "Velociraptor",
+              "type": "dinossauro",
+              "rarity": "Raro",
+              "cost": "8.000 Cash",
+              "income": "500 Cash/min",
+              "reason": "Melhor alvo de upgrade inicial assim que dinossauros Comuns e Incomuns estiverem produzindo.",
+              "sourceEgg": "Ovo Raro"
+            },
+            {
+              "name": "Ovo Raro",
+              "type": "ovo",
+              "rarity": "Raro",
+              "cost": "10.000 Cash",
+              "income": "Média de 600 Cash/min",
+              "reason": "Ovo principal do meio de jogo e o primeiro grande salto sobre a renda inicial."
+            },
+            {
+              "name": "Praça de Alimentação",
+              "type": "upgrade",
+              "rarity": "Upgrade do parque",
+              "cost": "8.000 Cash",
+              "income": "1,5x renda de visitantes",
+              "reason": "Forte aumento de renda após ter vários dinossauros colocados."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Preenchimentos Úteis",
+          "entries": [
+            {
+              "name": "Pterodáctilo",
+              "type": "dinossauro",
+              "rarity": "Incomum",
+              "cost": "6.000 Cash",
+              "income": "350 Cash/min",
+              "reason": "Renda inicial sólida e variedade útil antes dos Ovos Raros.",
+              "sourceEgg": "Ovo Incomum"
+            },
+            {
+              "name": "Anquilossauro",
+              "type": "dinossauro",
+              "rarity": "Incomum",
+              "cost": "5.000 Cash",
+              "income": "300 Cash/min",
+              "reason": "Bom preenchimento ao construir densidade de renda inicial.",
+              "sourceEgg": "Ovo Incomum"
+            },
+            {
+              "name": "Parassaurolofo",
+              "type": "dinossauro",
+              "rarity": "Incomum",
+              "cost": "4.000 Cash",
+              "income": "250 Cash/min",
+              "reason": "Opção Incomum de baixo investimento antes do salto para o Ovo Raro.",
+              "sourceEgg": "Ovo Incomum"
+            },
+            {
+              "name": "Ovo Incomum",
+              "type": "ovo",
+              "rarity": "Incomum",
+              "cost": "4.000 de Dinheiro",
+              "income": "Média de 300 de Dinheiro/min",
+              "reason": "Melhor melhoria inicial após o primeiro lote de Ovos Comuns."
+            },
+            {
+              "name": "Cabine de Visitantes",
+              "type": "melhoria",
+              "rarity": "Melhoria do parque",
+              "cost": "2.000 de Dinheiro",
+              "income": "1.2x de renda de visitantes",
+              "reason": "Primeira melhoria de multiplicador assim que os espaços básicos de dinossauros forem preenchidos."
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Apenas para Iniciantes",
+          "entries": [
+            {
+              "name": "Dilofossauro",
+              "type": "dinossauro",
+              "rarity": "Comum",
+              "cost": "1.500 de Dinheiro",
+              "income": "100 de Dinheiro/min",
+              "reason": "Melhor renda listada de nível Comum, útil ao começar.",
+              "sourceEgg": "Ovo Comum"
+            },
+            {
+              "name": "Galimimo",
+              "type": "dinossauro",
+              "rarity": "Comum",
+              "cost": "1.000 de Dinheiro",
+              "income": "75 de Dinheiro/min",
+              "reason": "Preenchimento inicial barato que ajuda a iniciar o ciclo de visitantes.",
+              "sourceEgg": "Ovo Comum"
+            },
+            {
+              "name": "Compsognato",
+              "type": "dinossauro",
+              "rarity": "Comum",
+              "cost": "500 de Dinheiro",
+              "income": "50 de Dinheiro/min",
+              "reason": "Dinossauro de menor custo para renda inicial.",
+              "sourceEgg": "Ovo Comum"
+            },
+            {
+              "name": "Ovo Comum",
+              "type": "ovo",
+              "rarity": "Comum",
+              "cost": "500 de Dinheiro",
+              "income": "Média de 75 de Dinheiro/min",
+              "reason": "Primeira compra correta por ser barata e instantânea."
+            }
+          ]
+        }
+      ]
+    },
+    "myDinoParkEggsGuide": {
+      "title": "Guia de Ovos do My Dino Park",
+      "subtitle": "Compare custos de ovos, tempos de chocagem, grupos de raridade, resultados de chocagem e os melhores momentos de compra antes de gastar Dinheiro.",
+      "intro": "Os Ovos são a principal decisão de gasto em My Dino Park. A rota usual é Comum para Incomum, Raro quando o fluxo de Dinheiro estiver estável, Épico para o crescimento do meio ao fim do jogo, e Lendário após o parque conseguir se recuperar do gasto de 50.000 de Dinheiro.",
+      "eggs": [
+        {
+          "egg": "Ovo Comum",
+          "cost": "500 de Dinheiro",
+          "hatchTime": "Instantâneo",
+          "rarityPool": "Comum",
+          "hatchResults": [
+            "Compsognathus",
+            "Gallimimus",
+            "Dilophosaurus"
+          ],
+          "income": "~75 de Dinheiro/min",
+          "bestUse": "Primeira compra e preenchimento inicial do terreno.",
+          "buyTiming": "Compre imediatamente após o tutorial ou após resgatar os códigos iniciais."
+        },
+        {
+          "egg": "Ovo Incomum",
+          "cost": "4.000 de Dinheiro",
+          "hatchTime": "10 segundos",
+          "rarityPool": "Comum / Incomum",
+          "hatchResults": [
+            "Dilophosaurus",
+            "Parasaurolophus",
+            "Ankylosaurus",
+            "Pterodáctilo"
+          ],
+          "income": "~300 de Dinheiro/min",
+          "bestUse": "Upgrade inicial a partir da renda Comum.",
+          "buyTiming": "Compre após vários dinossauros Comuns estarem posicionados e rendendo."
+        },
+        {
+          "egg": "Ovo Raro",
+          "cost": "10.000 de Dinheiro",
+          "hatchTime": "30 segundos",
+          "rarityPool": "Incomum / Raro",
+          "hatchResults": [
+            "Velociraptor",
+            "Estegossauro",
+            "Braquiossauro"
+          ],
+          "income": "~600 de Dinheiro/min",
+          "bestUse": "Passo principal de renda no meio do jogo.",
+          "buyTiming": "Compre quando o fluxo de Dinheiro inicial estiver estável; o Velociraptor é um forte primeiro alvo Raro."
+        },
+        {
+          "egg": "Ovo Épico",
+          "cost": "25.000 de Dinheiro",
+          "hatchTime": "1 minuto",
+          "rarityPool": "Raro / Épico",
+          "hatchResults": [
+            "Espinossauro",
+            "Tricerátops"
+          ],
+          "income": "~1.300 de Dinheiro/min",
+          "bestUse": "Crescimento de renda do meio ao fim do jogo.",
+          "buyTiming": "Compre depois que os dinossauros Raros e as melhorias básicas já estiverem sustentando o parque."
+        },
+        {
+          "egg": "Ovo Lendário",
+          "cost": "50.000 de Dinheiro",
+          "hatchTime": "2 minutos",
+          "rarityPool": "Épico / Lendário",
+          "hatchResults": [
+            "T-Rex"
+          ],
+          "income": "~2500 de Dinheiro/min",
+          "bestUse": "Meta de renda de fim de jogo.",
+          "buyTiming": "Compre quando o parque puder recuperar o Dinheiro rapidamente após um gasto de 50.000 de Dinheiro."
+        },
+        {
+          "egg": "Ovo Congelado",
+          "cost": "Recompensa de código do DINOSLOVESU",
+          "hatchTime": "Ovo de código",
+          "rarityPool": "Limitado / apenas por código",
+          "hatchResults": [
+            "Dinossauro de recompensa do Ovo Congelado"
+          ],
+          "income": "Recompensa de código",
+          "bestUse": "Chocagem inicial gratuita antes de gastar Dinheiro em ovos pagos.",
+          "buyTiming": "Resgate DINOSLOVESU durante a primeira sessão e, depois, choque-o antes de comprar ovos de maior custo."
+        }
+      ]
+    },
+    "myDinoParkMoneyGuide": {
+      "title": "Guia de Dinheiro do My Dino Park",
+      "subtitle": "Aumente sua renda chocando dinossauros, atraindo visitantes, concluindo missões, resgatando códigos, melhorando seu parque e expandindo o terreno. A ordem ideal de gastos é: primeiro ovos, depois dinossauros mais fortes, depois melhorias do parque e, por fim, expansão do terreno.",
+      "intro": "O My Dino Park usa um ciclo simples de tycoon: compre ovos, choque dinossauros, coloque-os no seu parque, atraia visitantes, colete Dinheiro e reinvista em uma coleção maior de dinossauros. Dentes são usados como uma moeda de progresso premium e atualmente são mais visíveis através de recompensas de atualização e progresso de missões, enquanto o Dinheiro impulsiona o caminho principal de crescimento do parque.",
+      "steps": [
+        {
+          "title": "Resgate códigos ativos antes de comprar ovos",
+          "description": "Comece com as recompensas gratuitas da caixa de códigos da Loja e use o Dinheiro para acelerar as compras de ovos iniciais. Os códigos diferenciam maiúsculas de minúsculas, então insira-os exatamente como foram postados.",
+          "action": "Abra o My Dino Park, pressione Loja, role até Resgatar um código de presente, insira o código e resgate a recompensa.",
+          "rewards": [
+            {
+              "code": "UPDATE2",
+              "reward": "20.000 de Dinheiro + 200 Dentes"
+            },
+            {
+              "code": "BESTDINOGAME",
+              "reward": "300 Dentes"
+            },
+            {
+              "code": "DINOSLOVESU",
+              "reward": "Ovo Congelado + 10.000 de Dinheiro"
+            },
+            {
+              "code": "THX4PLAYING",
+              "reward": "650 de Dinheiro"
+            },
+            {
+              "code": "WELCOME",
+              "reward": "1.000 de Dinheiro"
+            }
+          ]
+        },
+        {
+          "title": "Preencha o espaço vazio com ovos acessíveis primeiro",
+          "description": "A renda inicial depende de ter dinossauros posicionados, não de economizar para o T-Rex dos seus sonhos enquanto seu parque fica vazio. Compre ovos de nível Comum primeiro para que cada espaço aberto comece a gerar renda de visitantes.",
+          "priority": "Use dinossauros de Ovo Comum para iniciar o ciclo de renda e, depois, passe para ovos Incomuns e Raros assim que o parque tiver um fluxo constante de Dinheiro.",
+          "bestEarlyTargets": [
+            {
+              "dinosaur": "Compsognathus",
+              "cost": "500 de Dinheiro",
+              "income": "50 de Dinheiro/min"
+            },
+            {
+              "dinosaur": "Gallimimus",
+              "cost": "1.000 Dinheiro",
+              "income": "75 Dinheiro/min"
+            },
+            {
+              "dinosaur": "Dilophosaurus",
+              "cost": "1.500 Dinheiro",
+              "income": "100 Dinheiro/min"
+            }
+          ]
+        },
+        {
+          "title": "Choque e coloque todos os dinossauros úteis",
+          "description": "Os visitantes pagam para ver dinossauros, então dinossauros recém-chocados devem ser colocados rapidamente. Um dinossauro de nível baixo colocado é melhor do que um espaço vazio enquanto você ainda está construindo sua base de renda inicial.",
+          "cashSource": "Renda de visitantes de dinossauros colocados em espaços visíveis do parque",
+          "upgradeRule": "Mantenha dinossauros baratos até poder substituí-los por um filhote de maior renda."
+        },
+        {
+          "title": "Use missões como o caminho de bônus constante",
+          "description": "As missões apoiam o ciclo principal do parque ao oferecer progresso extra enquanto você compra ovos, choca dinossauros e expande. Complete-as junto com o jogo normal em vez de tratá-las como uma tarefa separada.",
+          "cashSource": "Recompensas de missões e tarefas de progresso do parque",
+          "teethSource": "Progresso de missões e caminhos de recompensa de atualização"
+        },
+        {
+          "title": "Substitua dinossauros fracos por geradores Raros",
+          "description": "Assim que seu parque estiver produzindo, pare de comprar demais o nível mais baixo e comece a substituir dinossauros fracos por espécies de maior renda. O Velociraptor é o alvo de melhoria inicial mais forte porque dá um grande salto na renda sem precisar de Dinheiro de fim de jogo.",
+          "replacementTargets": [
+            {
+              "dinosaur": "Velociraptor",
+              "rarity": "Rare",
+              "cost": "8.000 Dinheiro",
+              "income": "500 Dinheiro/min"
+            },
+            {
+              "dinosaur": "Stegosaurus",
+              "rarity": "Rare",
+              "cost": "10.000 Dinheiro",
+              "income": "600 Dinheiro/min"
+            },
+            {
+              "dinosaur": "Brachiosaurus",
+              "rarity": "Rare",
+              "cost": "12.000 Dinheiro",
+              "income": "700 Dinheiro/min"
+            }
+          ]
+        },
+        {
+          "title": "Compre melhorias do parque após a base de dinossauros estar funcionando",
+          "description": "As melhorias do parque multiplicam o valor de um parque que já possui dinossauros. Compre-as depois de ter um conjunto estável de dinossauros colocados, não antes, pois um parque melhorado vazio não gera renda por si só.",
+          "upgradeOrder": [
+            {
+              "upgrade": "Guichê de Visitantes",
+              "cost": "2.000 Dinheiro",
+              "role": "Impulso inicial de renda de visitantes"
+            },
+            {
+              "upgrade": "Praça de Alimentação",
+              "cost": "8.000 Dinheiro",
+              "role": "Multiplicador de renda do início ao meio do jogo"
+            },
+            {
+              "upgrade": "Dino Hotel",
+              "cost": "20.000 Dinheiro",
+              "role": "Melhoria de valor do parque para o meio do jogo"
+            },
+            {
+              "upgrade": "Passeio de Helicóptero",
+              "cost": "50.000 Dinheiro",
+              "role": "Melhoria de atração de fim de jogo"
+            }
+          ]
+        },
+        {
+          "title": "Expanda o terreno apenas quando o seu terreno atual for produtivo",
+          "description": "A expansão do terreno é mais eficaz após os seus espaços atuais estarem preenchidos com dinossauros lucrativos. Expanda, preencha o novo espaço com ovos, substitua dinossauros fracos e repita o ciclo.",
+          "reinvestmentOrder": [
+            "Compre ovos para preencher espaços vazios",
+            "Choque e coloque dinossauros para obter Dinheiro dos visitantes",
+            "Substitua os de baixo rendimento por dinossauros Raros, Épicos e Lendários",
+            "Compre melhorias para o parque assim que a renda estiver estável",
+            "Expanda o terreno e repita o ciclo"
+          ]
+        }
+      ]
+    },
+    "myDinoParkDinosaursList": {
+      "title": "Lista de Dinossauros do My Dino Park",
+      "subtitle": "Pesquise cada dinossauro padrão por raridade, ovo de origem, método de desbloqueio, valor de rendimento e prioridade de substituição. Use esta lista para decidir quais dinossauros manter, substituir ou buscar a seguir.",
+      "intro": "A coleção padrão abrange atualmente 12 dinossauros nos níveis de raridade Comum, Incomum, Raro, Épico e Lendário. Dinossauros de maior raridade custam mais para chocar, mas trazem uma renda de visitantes muito maior, portanto, o melhor caminho de coleção é preencher o parque cedo e depois substituir os de baixo rendimento por espécies mais fortes.",
+      "searchPlaceholder": "Pesquisar dinossauros por nome...",
+      "allRarities": "Tudo",
+      "rarityFilters": [
+        "Comum",
+        "Incomum",
+        "Raro",
+        "Épico",
+        "Lendário"
+      ],
+      "columns": {
+        "dinosaur": "Dinossauro",
+        "tier": "Nível",
+        "rarity": "Raridade",
+        "sourceEgg": "Ovo de Origem",
+        "cost": "Custo",
+        "income": "Rendimento / min",
+        "visitorValue": "Valor de Visitante",
+        "replacementNote": "Manter ou Substituir"
+      },
+      "noResults": "Nenhum dinossauro corresponde à sua pesquisa.",
+      "dinosaurs": [
+        {
+          "dinosaur": "T-Rex",
+          "rarity": "Lendário",
+          "tier": "S",
+          "sourceEgg": "Ovo Lendário",
+          "cost": "50.000 em Dinheiro",
+          "income": "2.500 Dinheiro/min",
+          "visitorValue": "Melhor atração do parque e maior rendimento padrão",
+          "replacementNote": "Essencial para o fim de jogo; substitua apenas por duplicatas ou dinossauros limitados mais fortes no futuro"
+        },
+        {
+          "dinosaur": "Espinossauro",
+          "rarity": "Épico",
+          "tier": "A",
+          "sourceEgg": "Ovo Épico",
+          "cost": "25.000 em Dinheiro",
+          "income": "1.400 Dinheiro/min",
+          "visitorValue": "Excelente renda para o meio ao fim de jogo",
+          "replacementNote": "Mantenha até que as melhorias Lendárias sejam acessíveis"
+        },
+        {
+          "dinosaur": "Triceratops",
+          "rarity": "Épico",
+          "tier": "A",
+          "sourceEgg": "Ovo Épico",
+          "cost": "20.000 Dinheiro",
+          "income": "1.200 Dinheiro/min",
+          "visitorValue": "Forte apelo equilibrado para visitantes",
+          "replacementNote": "Mantenha como um forte gerador de renda para o meio ao fim de jogo"
+        },
+        {
+          "dinosaur": "Braquiossauro",
+          "rarity": "Raro",
+          "tier": "B",
+          "sourceEgg": "Ovo Raro",
+          "cost": "12.000 Dinheiro",
+          "income": "700 Dinheiro/min",
+          "visitorValue": "Alta atração de visitantes para o início ao meio de jogo",
+          "replacementNote": "Substitua apenas quando os dinossauros Épicos forem acessíveis"
+        },
+        {
+          "dinosaur": "Estegossauro",
+          "rarity": "Raro",
+          "tier": "B",
+          "sourceEgg": "Ovo Raro",
+          "cost": "10.000 Dinheiro",
+          "income": "600 Dinheiro/min",
+          "visitorValue": "Renda confiável para o início ao meio de jogo",
+          "replacementNote": "Bom gerador estável antes das melhorias Épicas"
+        },
+        {
+          "dinosaur": "Velociraptor",
+          "rarity": "Raro",
+          "tier": "B",
+          "sourceEgg": "Ovo Raro",
+          "cost": "8.000 Dinheiro",
+          "income": "500 Dinheiro/min",
+          "visitorValue": "Melhor alvo para melhorias iniciais",
+          "replacementNote": "Mantenha durante o início ao meio de jogo; substitua por dinossauros Épicos depois"
+        },
+        {
+          "dinosaur": "Pterodátilo",
+          "rarity": "Incomum",
+          "tier": "C",
+          "sourceEgg": "Ovo Incomum",
+          "cost": "6.000 Dinheiro",
+          "income": "350 Dinheiro/min",
+          "visitorValue": "Boa variedade inicial e renda extra",
+          "replacementNote": "Substitua por dinossauros Raros quando os espaços do parque se tornarem valiosos"
+        },
+        {
+          "dinosaur": "Anquilossauro",
+          "rarity": "Incomum",
+          "tier": "C",
+          "sourceEgg": "Ovo Incomum",
+          "cost": "5.000 de Dinheiro",
+          "income": "300 Dinheiro/min",
+          "visitorValue": "Renda extra de baixa manutenção",
+          "replacementNote": "Use como uma ponte para ovos Raros"
+        },
+        {
+          "dinosaur": "Parassaurolofo",
+          "rarity": "Incomum",
+          "tier": "C",
+          "sourceEgg": "Ovo Incomum",
+          "cost": "4.000 de Dinheiro",
+          "income": "250 Dinheiro/min",
+          "visitorValue": "Renda inicial de baixo investimento",
+          "replacementNote": "Substitua após o início do ciclo de renda de ovos Raros"
+        },
+        {
+          "dinosaur": "Dilofossauro",
+          "rarity": "Comum",
+          "tier": "D",
+          "sourceEgg": "Ovo Comum",
+          "cost": "1.500 de Dinheiro",
+          "income": "100 Dinheiro/min",
+          "visitorValue": "Renda inicial",
+          "replacementNote": "Substitua por dinossauros Incomuns ou Raros quando o fluxo de dinheiro melhorar"
+        },
+        {
+          "dinosaur": "Galimimo",
+          "rarity": "Comum",
+          "tier": "D",
+          "sourceEgg": "Ovo Comum",
+          "cost": "1.000 de Dinheiro",
+          "income": "75 Dinheiro/min",
+          "visitorValue": "Renda inicial econômica",
+          "replacementNote": "Use no início e substitua assim que puder pagar por ovos de nível superior"
+        },
+        {
+          "dinosaur": "Compsognato",
+          "rarity": "Comum",
+          "tier": "D",
+          "sourceEgg": "Ovo Comum",
+          "cost": "500 de Dinheiro",
+          "income": "50 Dinheiro/min",
+          "visitorValue": "Item de preenchimento inicial mais barato",
+          "replacementNote": "Bom apenas para preencher o espaço vazio inicial; substitua rapidamente"
+        }
+      ]
+    },
+    "myDinoParkUpdateLog": {
+      "title": "Registro de Atualizações de My Dino Park",
+      "subtitle": "Acompanhe a atualização mais recente de My Dino Park, códigos ativos, novos ovos, ajustes de balanceamento e correções de bugs. O título atual no Roblox marca o jogo como UPD 2.",
+      "intro": "Use este registro para os detalhes que os jogadores realmente precisam: o que mudou, quais códigos foram adicionados, quais recompensas importam e se há novos ovos, dinossauros, mudanças de moedas ou notas relacionadas a restauração.",
+      "sectionLabels": {
+        "newCodes": "Novos Códigos",
+        "newContent": "Novos Ovos e Dinossauros",
+        "bugFixes": "Correções de Bugs",
+        "balanceChanges": "Ajustes de Balanceamento",
+        "currencyChanges": "Mudanças de Moeda"
+      },
+      "updates": [
+        {
+          "update": "UPD 2",
+          "date": "2026-07-04",
+          "title": "Atualização 2 — Novos Códigos e Correções de Bugs",
+          "status": "Última atualização",
+          "summary": "A atualização 2 adiciona três novos códigos de recompensa, introduz um Ovo Congelado por meio de resgate de código e inclui correções de bugs, melhorias na estabilidade do servidor e ajustes na economia de Dentes.",
+          "newCodes": [
+            {
+              "code": "UPDATE2",
+              "reward": "20.000 de Dinheiro + 200 Dentes"
+            },
+            {
+              "code": "BESTDINOGAME",
+              "reward": "300 Dentes"
+            },
+            {
+              "code": "DINOSLOVESU",
+              "reward": "Ovo Congelado + 10.000 de Dinheiro"
+            }
+          ],
+          "newContent": [
+            "Ovo Congelado adicionado como recompensa de código através de DINOSLOVESU"
+          ],
+          "bugFixes": [
+            "Correções de bugs",
+            "Melhorias na estabilidade do servidor"
+          ],
+          "balanceChanges": [
+            "Taxa de ganho da moeda Dentes ajustada"
+          ],
+          "currencyChanges": [
+            "UPDATE2 adiciona recompensas de Dinheiro e Dentes",
+            "BESTDINOGAME adiciona uma recompensa apenas de Dentes",
+            "DINOSLOVESU adiciona um Ovo Congelado e uma recompensa de Dinheiro"
+          ]
+        },
+        {
+          "update": "UPD 1",
+          "date": "2026-07-01",
+          "title": "Atualização 1 — Lançamento do Jogo",
+          "status": "Atualização de lançamento",
+          "summary": "A versão de lançamento introduziu o ciclo principal do tycoon de parque: comprar ovos, chocar dinossauros, atrair visitantes, ganhar Dinheiro, melhorar o parque e crescer rumo ao topo do ranking de parques.",
+          "newCodes": [
+            {
+              "code": "WELCOME",
+              "reward": "1.000 de Dinheiro"
+            },
+            {
+              "code": "THX4PLAYING",
+              "reward": "650 de Dinheiro"
+            }
+          ],
+          "newContent": [
+            "12 espécies padrão de dinossauros nas categorias Comum, Incomum, Rara, Épica e Lendária",
+            "Ovo Comum",
+            "Ovo Incomum",
+            "Ovo Raro",
+            "Ovo Épico",
+            "Ovo Lendário"
+          ],
+          "bugFixes": [
+            "Linha de base de lançamento"
+          ],
+          "balanceChanges": [
+            "Valores iniciais de renda dos dinossauros e progressão dos ovos"
+          ],
+          "currencyChanges": [
+            "Dinheiro estabelecido como a principal moeda de crescimento do parque",
+            "Dentes estabelecidos como uma moeda de progresso secundária"
+          ]
+        }
+      ]
+    },
+    "myDinoParkOfficialLinks": {
+      "title": "Links Oficiais de My Dino Park",
+      "subtitle": "Use a experiência oficial do Roblox, o grupo Dino Community e o convite do Discord para o caminho mais seguro para jogar, obter códigos, encontrar ajuda com restauração e acompanhar as atualizações.",
+      "intro": "Este módulo mantém os links para os jogadores limpos: Roblox para jogar a experiência, Dino Community para o grupo oficial e Discord para anúncios, códigos, restaurações e suporte da comunidade. Nenhum link de wiki de terceiros, Trello ou agregador está incluído aqui.",
+      "links": [
+        {
+          "title": "Experiência Oficial no Roblox",
+          "label": "Jogar My Dino Park",
+          "href": "https://www.roblox.com/games/80701570784699/My-Dino-Park",
+          "description": "Inicie a experiência oficial de My Dino Park no Roblox criada pela Dino Community. A página do jogo lista o título atual da UPD 2 e o ciclo principal: comprar Ovos de Dino, chocar Dinossauros, atrair visitantes, atualizar seu parque e crescer rumo ao topo do ranking dos parques.",
+          "type": "Experiência no Roblox"
+        },
+        {
+          "title": "Grupo Dino Community no Roblox",
+          "label": "Abrir Dino Community",
+          "href": "https://www.roblox.com/communities/532484073/Dino-Community",
+          "description": "Abra a comunidade oficial do Roblox conectada ao My Dino Park. Use-a como a fonte do grupo para identidade do desenvolvedor, acesso à comunidade e atualizações nativas do Roblox.",
+          "type": "Comunidade no Roblox"
+        },
+        {
+          "title": "Discord Oficial",
+          "label": "Entrar no Discord",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Entre no Discord oficial de My Dino Park para códigos, anúncios, novidades de atualizações, ajuda com restauração e conversas entre jogadores.",
+          "type": "Servidor do Discord"
+        },
+        {
+          "title": "Ajuda com Restauração",
+          "label": "Obter Ajuda com Restauração",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Use o caminho oficial do Discord para suporte de restauração. A descrição da experiência no Roblox direciona os jogadores para os links oficiais para restaurações, sendo esta a rota segura em vez de confiar em links misteriosos.",
+          "type": "Suporte"
+        },
+        {
+          "title": "Fontes de Códigos",
+          "label": "Verificar Fontes Oficiais de Códigos",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Use o Discord oficial e as fontes da comunidade vinculadas ao Roblox para novos lançamentos de códigos. As recompensas ativas atuais incluem UPDATE2, BESTDINOGAME, DINOSLOVESU, THX4PLAYING e WELCOME.",
+          "type": "Códigos"
+        },
+        {
+          "title": "Wiki e Trello",
+          "label": "Use Apenas Links Oficiais",
+          "href": "https://www.roblox.com/games/80701570784699/My-Dino-Park",
+          "description": "Nenhum link de wiki de terceiros ou Trello é exibido neste módulo. Os jogadores devem usar apenas os links publicados na experiência oficial do Roblox, no grupo Dino Community ou no Discord oficial.",
+          "type": "Segurança de Links"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "Questões",
+    "subtitle": "Tudo o que você precisa saber sobre My Dino Park",
+    "questions": [
+      {
+        "question": "O que é My Dino Park?",
+        "answer": "My Dino Park é um tycoon de parque de dinossauros no Roblox da Dino Community, onde você compra ovos, choca dinossauros, atrai visitantes, ganha Cash e melhora seu parque rumo ao ranking nº 1 de Dino Park."
+      },
+      {
+        "question": "Como eu resgato códigos no My Dino Park?",
+        "answer": "Termine o tutorial primeiro, depois abra a Store, role até Redeem a gift code, cole um código ativo do My Dino Park e pressione Enter ou Redeem para resgatar suas recompensas."
+      },
+      {
+        "question": "Quais ovos devo comprar primeiro no My Dino Park?",
+        "answer": "No My Dino Park, comece com o Common Egg por 500 de Cash para preencher o espaço rapidamente, depois passe para os Ovos Incomuns e Raros conforme seu fluxo de Cash se estabiliza, e economize para Ovos Épicos e Lendários quando seu parque render de forma confiável."
+      },
+      {
+        "question": "Para que servem os Teeth no My Dino Park?",
+        "answer": "Teeth são uma moeda de progresso secundária no My Dino Park, atualmente mais visíveis através de recompensas de códigos de atualização e progresso de missões, enquanto o Cash impulsiona o caminho principal de crescimento do parque."
+      },
+      {
+        "question": "Quantos jogadores podem entrar em um servidor de My Dino Park?",
+        "answer": "Um servidor de My Dino Park suporta até 6 jogadores por vez, então você constrói seu parque de dinossauros em uma pequena experiência compartilhada em vez de um único lobby enorme."
+      },
+      {
+        "question": "Onde posso encontrar novos códigos do My Dino Park?",
+        "answer": "Novos códigos do My Dino Park são postados no Discord oficial da Dino Community e na página da experiência no Roblox, então siga ambos para conferir cada lançamento de código logo após as atualizações."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Construir seu Dino Park?",
+    "description": "Junte-se à comunidade do My Dino Park no Discord para códigos, guias, atualizações e discussões!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki do My Dino Park",
+    "description": "Seu hub de recursos completo para códigos do My Dino Park, listas de níveis de dinossauros, guias de ovos, dicas de renda e melhorias de parque para o tycoon no Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "robloxCommunity": "Comunidade Roblox",
+    "robloxGame": "Jogar no Roblox",
+    "youtube": "Vídeo de Gameplay",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 My Dino Park Wiki. Não afiliado aos desenvolvedores do My Dino Park ou à Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos do My Dino Park",
+      "description": "Últimos códigos funcionais do My Dino Park para Cash, Teeth e um Frozen Egg grátis. Resgate-os na Store e gaste as recompensas em ovos baratos e no crescimento inicial do parque.",
+      "metaTitle": "Códigos do My Dino Park - Cash, Teeth e Ovos Grátis (Atualizado Diariamente)",
+      "metaDescription": "Ganhe Cash, Teeth e Frozen Eggs grátis com códigos ativos do My Dino Park. Atualizado diariamente com códigos verificados e passos de resgate.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "Os códigos de My Dino Park são sequências de resgate gratuitas lançadas pela desenvolvedora Dino Community. Insira-os na Loja do jogo para resgatar Cash, Dentes e ovos raros que aceleram o crescimento do seu parque.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Recursos iniciais gratuitos",
+        "step1Description": "Códigos ativos concedem milhares de Cash e Dentes, dando a você uma vantagem inicial em ovos e melhorias sem precisar de grinding.",
+        "step2Title": "Ovos raros exclusivos",
+        "step2Description": "Alguns códigos recompensam com um Frozen Egg e outros ovos premium que chocam dinossauros fortes para o início do jogo.",
+        "step3Title": "Atualizado a cada lançamento",
+        "step3Description": "Novos códigos surgem a cada atualização do jogo, então voltar diariamente mantém seu fluxo de recompensas ativo."
+      },
+      "featured": "Códigos em Destaque",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guia de My Dino Park",
+      "description": "Guia completo para iniciantes e tutoriais de My Dino Park: primeiros passos, primeiros ovos, layout do parque e um ciclo de renda estável para novos jogadores.",
+      "metaTitle": "Guia de My Dino Park - Tutorial para Iniciantes e Dicas",
+      "metaDescription": "Aprenda a jogar My Dino Park com guias para iniciantes, tutoriais e dicas que cobrem os primeiros ovos, o layout do parque e um ciclo estável de renda de Cash.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que é a seção de Guias?",
+      "whatIsDescription": "O hub de guias de My Dino Park cobre tudo o que um novo dono de parque precisa: passos iniciais, os primeiros 30 minutos, ciclos principais de gameplay e erros comuns a evitar ao construir seu parque de dinossauros.",
+      "why": "Por que ler os guias?",
+      "whySteps": {
+        "step1Title": "Primeiros 30 minutos rápidos",
+        "step1Description": "Tutoriais passo a passo levam você de um terreno vazio a uma renda estável de Cash sem gastos desperdiçados.",
+        "step2Title": "Evite erros de iniciante",
+        "step2Description": "Os guias sinalizam as armadilhas comuns — compra de ovos errados, layout ruim e gastos excessivos — antes que elas travem seu progresso.",
+        "step3Title": "Domínio do ciclo principal",
+        "step3Description": "Entenda como ovos, dinossauros, visitantes e melhorias se conectam para que cada decisão multiplique sua renda."
+      },
+      "featured": "Guias em Destaque",
+      "all": "Todos os Guias"
+    },
+    "dinos": {
+      "title": "Dinos de My Dino Park",
+      "description": "Lista de dinossauros e tier list de My Dino Park: raridade, força de renda e os melhores dinossauros para manter ou substituir em cada estágio do parque.",
+      "metaTitle": "Dinos de My Dino Park - Tier List de Dinossauros e Melhores Escolhas",
+      "metaDescription": "Navegue pela lista completa de dinossauros de My Dino Park com rankings, raridade, estatísticas de renda e os melhores dinossauros para as fases inicial, intermediária e final do parque.",
+      "categoryLabel": "DINOSSAUROS",
+      "whatIs": "O que são Dinos?",
+      "whatIsDescription": "Os dinossauros são o coração de My Dino Park. Cada espécie choca de um ovo, atrai visitantes e gera renda. A seção de Dinos classifica cada espécie por raridade e poder de ganho para que você saiba quais manter e quais substituir.",
+      "why": "Por que estudar a lista de dinos?",
+      "whySteps": {
+        "step1Title": "Renda por tier",
+        "step1Description": "Veja quais dinossauros rendem mais Cash por minuto para que você possa priorizar seu orçamento de ovos e melhorias.",
+        "step2Title": "Raridade e crescimento",
+        "step2Description": "Entenda os níveis de raridade e como cada dinossauro evolui conforme seu parque e a contagem de visitantes crescem.",
+        "step3Title": "Substituições inteligentes",
+        "step3Description": "Saiba exatamente quando um dinossauro mais fraco deve ser substituído por um recém-nascido mais forte para manter o crescimento da renda."
+      },
+      "featured": "Dinos em Destaque",
+      "all": "Todos os Dinos"
+    },
+    "eggs": {
+      "title": "Ovos do My Dino Park",
+      "description": "Tipos de ovos do My Dino Park, custos, taxas de eclosão e a melhor ordem de compra para cada estágio do parque para maximizar seu elenco de dinossauros e renda.",
+      "metaTitle": "Ovos do My Dino Park - Custos de Ovos, Tipos e Ordem de Compra",
+      "metaDescription": "Compare tipos de ovos do My Dino Park, custos e taxas de eclosão, e siga a melhor ordem de compra de ovos para os estágios inicial, médio e avançado do parque.",
+      "categoryLabel": "OVOS",
+      "whatIs": "O que são Ovos?",
+      "whatIsDescription": "Os ovos são a forma como você aumenta seu elenco de dinossauros no My Dino Park. Cada tipo de ovo tem um custo, conjunto de eclosão e chance de raridade diferentes. A seção de Ovos detalha cada opção para que você gaste Cash e Dentes nos ovos certos no momento certo.",
+      "why": "Por que planejar a compra de ovos?",
+      "whySteps": {
+        "step1Title": "Eclosão de melhor custo-benefício",
+        "step1Description": "Compare custos e valores dos ovos para que cada compra aumente sua renda em vez de esgotar seu Cash.",
+        "step2Title": "Raridade e probabilidades",
+        "step2Description": "Saiba as taxas de eclosão de dinossauros raros e épicos antes de se comprometer com ovos caros.",
+        "step3Title": "Ordem de compra por estágio",
+        "step3Description": "Siga uma ordem de compra clara para o início, meio e fim de jogo para construir um parque equilibrado e lucrativo."
+      },
+      "featured": "Ovos em Destaque",
+      "all": "Todos os Ovos"
+    },
+    "levels": {
+      "title": "Níveis do My Dino Park",
+      "description": "Guia de níveis do My Dino Park: melhorias de parque, ordem de expansão, prioridades de instalações e a rota mais rápida para o nível máximo e o 1º lugar no ranking de parques.",
+      "metaTitle": "Níveis do My Dino Park - Ordem de Melhoria e Guia de Nível Máximo",
+      "metaDescription": "Suba de nível no seu My Dino Park com a ordem de melhoria, expansão do parque, prioridades de instalações e a rota mais rápida para o nível máximo.",
+      "categoryLabel": "NÍVEIS E MELHORIAS",
+      "whatIs": "O que são Níveis e Melhorias?",
+      "whatIsDescription": "Os níveis acompanham seu progresso geral no My Dino Park. Melhorar edifícios, expandir o terreno e aprimorar as instalações aumenta seu nível e desbloqueia dinossauros mais fortes, mais visitantes e maior renda. A seção de Níveis mapeia o caminho de melhoria mais eficiente.",
+      "why": "Por que planejar suas melhorias?",
+      "whySteps": {
+        "step1Title": "Subidas de nível eficientes",
+        "step1Description": "Priorize as melhorias que trazem mais renda por Cash gasto para subir de nível sem estagnar.",
+        "step2Title": "Expansão inteligente",
+        "step2Description": "Saiba quando expandir o terreno em vez de melhorar as instalações, mantendo o fluxo de visitantes e a renda equilibrados.",
+        "step3Title": "Roteiro para o nível máximo",
+        "step3Description": "Siga uma rota clara desde os níveis iniciais até o nível máximo e o topo do ranking de parques."
+      },
+      "featured": "Guias de Nível em Destaque",
+      "all": "Todos os Guias de Nível"
+    },
+    "updates": {
+      "title": "Atualizações do My Dino Park",
+      "description": "Log de atualizações e notas de patch do My Dino Park: novos dinossauros, novos ovos, novos códigos e o que fazer primeiro após o lançamento de cada versão.",
+      "metaTitle": "Atualizações do My Dino Park - Notas de Patch e Novo Conteúdo",
+      "metaDescription": "Acompanhe todas as atualizações do My Dino Park com notas de patch cobrindo novos dinossauros, ovos, códigos e os melhores passos iniciais após cada versão.",
+      "categoryLabel": "ATUALIZAÇÕES",
+      "whatIs": "O que são Atualizações?",
+      "whatIsDescription": "A seção de Atualizações registra todas as versões do My Dino Park, da Atualização 1 ao patch mais recente, abrangendo novos dinossauros, novos ovos, mudanças de balanceamento e novos códigos. Use-a para adaptar sua estratégia no momento em que o novo conteúdo for lançado.",
+      "why": "Por que acompanhar as atualizações?",
+      "whySteps": {
+        "step1Title": "Novo conteúdo em primeira mão",
+        "step1Description": "Veja novos dinossauros, ovos e funcionalidades no dia do lançamento para planejar seus ovos e melhorias com base neles.",
+        "step2Title": "Novos códigos",
+        "step2Description": "Cada atualização traz novos códigos de resgate, então aproveite-os aqui antes que expirem.",
+        "step3Title": "Adapte sua estratégia",
+        "step3Description": "As notas de atualização indicam mudanças de balanceamento e novas mecânicas para que seu parque continue otimizado após cada lançamento."
+      },
+      "featured": "Atualizações em Destaque",
+      "all": "Todas as Atualizações"
+    },
+    "roblox": {
+      "title": "My Dino Park Roblox",
+      "description": "My Dino Park no Roblox: como jogar, a página oficial do jogo, links da comunidade e dicas da plataforma para novos e antigos donos de parques.",
+      "metaTitle": "My Dino Park Roblox - Como Jogar e Links Oficiais",
+      "metaDescription": "Jogue My Dino Park no Roblox com a página oficial do jogo, links da comunidade, dicas de jogabilidade e o básico da plataforma para novos donos de parques.",
+      "categoryLabel": "ROBLOX",
+      "whatIs": "O que é a seção Roblox?",
+      "whatIsDescription": "My Dino Park é uma experiência tycoon no Roblox desenvolvida pela Dino Community. A seção Roblox reúne a página oficial do jogo, a comunidade de desenvolvedores, dicas específicas da plataforma e tudo o que você precisa para começar a jogar e se manter conectado.",
+      "why": "Por que usar esta seção?",
+      "whySteps": {
+        "step1Title": "Página oficial do jogo",
+        "step1Description": "Vá direto para a página oficial da experiência no Roblox para iniciar o jogo e conferir a versão mais recente.",
+        "step2Title": "Conexão com a comunidade",
+        "step2Description": "Acesse o grupo oficial da Dino Community e os canais sociais para anúncios, códigos e suporte.",
+        "step3Title": "Dicas da plataforma",
+        "step3Description": "Obtenha conselhos específicos do Roblox sobre controles, desempenho e jogo entre dispositivos para uma sessão de construção de parque mais fluida."
+      },
+      "featured": "Guias do Roblox em Destaque",
+      "all": "Todos os Guias do Roblox"
+    }
+  }
+}
