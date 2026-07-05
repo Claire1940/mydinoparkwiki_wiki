@@ -4,13 +4,20 @@ import { useState, Suspense, lazy } from "react";
 import {
   ArrowRight,
   BookOpen,
+  Bone,
   Check,
+  ChevronDown,
   ClipboardCheck,
   Coins,
   Copy,
   Crown,
+  Droplets,
   Egg,
+  ExternalLink,
+  Globe,
   GraduationCap,
+  History,
+  Search,
   Sparkles,
   Ticket,
   TrendingUp,
@@ -58,6 +65,10 @@ export default function HomePageClient({
 
   // M1 代码复制反馈
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
+  // M6 恐龙表搜索/筛选 + M7 更新日志展开
+  const [dinoQuery, setDinoQuery] = useState<string>("");
+  const [dinoRarity, setDinoRarity] = useState<string>("All");
+  const [openUpdate, setOpenUpdate] = useState<number>(0);
   const handleCopyCode = async (code: string) => {
     try {
       await navigator.clipboard.writeText(code);
@@ -160,6 +171,22 @@ export default function HomePageClient({
   const beginner = t.modules.myDinoParkBeginnerGuide;
   const tierList = t.modules.myDinoParkTierList;
   const eggsGuide = t.modules.myDinoParkEggsGuide;
+  const money = t.modules.myDinoParkMoneyGuide;
+  const dinosaurs = t.modules.myDinoParkDinosaursList;
+  const updateLog = t.modules.myDinoParkUpdateLog;
+  const officialLinks = t.modules.myDinoParkOfficialLinks;
+
+  // M6 恐龙表过滤结果（按名称/蛋/稀有度文本 + 稀有度筛选）
+  const filteredDinos = (dinosaurs?.dinosaurs || []).filter((d: any) => {
+    const matchesRarity = dinoRarity === "All" || d.rarity === dinoRarity;
+    const q = dinoQuery.trim().toLowerCase();
+    const matchesQuery =
+      !q ||
+      String(d.dinosaur).toLowerCase().includes(q) ||
+      String(d.sourceEgg).toLowerCase().includes(q) ||
+      String(d.rarity).toLowerCase().includes(q);
+    return matchesRarity && matchesQuery;
+  });
 
   // 层级徽章配色：S 实心主题色 → A 主题色半透 → B/C/D 灰阶
   const tierBadgeStyles: Record<string, string> = {
@@ -176,6 +203,10 @@ export default function HomePageClient({
     "my-dino-park-beginner-guide",
     "my-dino-park-tier-list",
     "my-dino-park-eggs-guide",
+    "my-dino-park-money-guide",
+    "my-dino-park-dinosaurs-list",
+    "my-dino-park-update-log",
+    "my-dino-park-official-links",
   ];
 
   return (
@@ -283,7 +314,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Tools Grid - 4 Navigation Cards (1:1 锚点映射) */}
+      {/* Tools Grid - 8 Navigation Cards (1:1 锚点映射) */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
@@ -692,6 +723,625 @@ export default function HomePageClient({
                   )}
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 模块间广告 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* M5: My Dino Park Money Guide */}
+      <section
+        id="my-dino-park-money-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-6xl">
+          <div className="mb-8 md:mb-12 scroll-reveal">
+            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)]">
+              <Coins className="h-6 w-6 text-[hsl(var(--nav-theme-light))]" />
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">
+              {money.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground mb-3">
+              {money.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl">
+              {money.intro}
+            </p>
+          </div>
+
+          <ol className="relative space-y-6 md:space-y-8 border-l border-[hsl(var(--nav-theme)/0.25)] pl-6 md:pl-10">
+            {money.steps?.map((s: any, index: number) => (
+              <li key={index} className="relative scroll-reveal">
+                <span className="absolute -left-[31px] md:-left-[47px] top-0 flex h-7 w-7 md:h-9 md:w-9 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] text-xs md:text-sm font-bold text-white ring-4 ring-background">
+                  {index + 1}
+                </span>
+                <div className="rounded-xl border border-border bg-card p-4 md:p-6">
+                  <h3 className="mb-2 text-base md:text-lg font-semibold">
+                    {s.title}
+                  </h3>
+                  <p className="text-sm md:text-base text-muted-foreground">
+                    {s.description}
+                  </p>
+
+                  {s.action && (
+                    <p className="mt-3 flex items-start gap-2 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] p-3 text-sm text-foreground">
+                      <ClipboardCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span>{s.action}</span>
+                    </p>
+                  )}
+
+                  {s.priority && (
+                    <p className="mt-3 text-sm text-foreground/90">
+                      <span className="font-medium text-[hsl(var(--nav-theme-light))]">
+                        Priority:{" "}
+                      </span>
+                      {s.priority}
+                    </p>
+                  )}
+
+                  {(s.cashSource || s.teethSource) && (
+                    <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                      {s.cashSource && (
+                        <p className="flex items-start gap-2 rounded-lg bg-white/[0.03] p-2.5 text-xs text-muted-foreground">
+                          <Coins className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          <span>
+                            <span className="font-medium text-foreground/80">
+                              Cash:{" "}
+                            </span>
+                            {s.cashSource}
+                          </span>
+                        </p>
+                      )}
+                      {s.teethSource && (
+                        <p className="flex items-start gap-2 rounded-lg bg-white/[0.03] p-2.5 text-xs text-muted-foreground">
+                          <Droplets className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          <span>
+                            <span className="font-medium text-foreground/80">
+                              Teeth:{" "}
+                            </span>
+                            {s.teethSource}
+                          </span>
+                        </p>
+                      )}
+                    </div>
+                  )}
+
+                  {s.upgradeRule && (
+                    <p className="mt-3 text-xs text-muted-foreground">
+                      <span className="font-medium text-foreground/80">
+                        Rule:{" "}
+                      </span>
+                      {s.upgradeRule}
+                    </p>
+                  )}
+
+                  {s.rewards?.length > 0 && (
+                    <div className="mt-3 space-y-1.5">
+                      {s.rewards.map((r: any) => (
+                        <div
+                          key={r.code}
+                          className="flex flex-wrap items-center gap-2 text-xs"
+                        >
+                          <code className="rounded-md bg-[hsl(var(--nav-theme)/0.1)] px-2 py-1 font-mono font-bold text-[hsl(var(--nav-theme-light))]">
+                            {r.code}
+                          </code>
+                          <span className="text-muted-foreground">
+                            → {r.reward}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {(s.bestEarlyTargets?.length > 0 ||
+                    s.replacementTargets?.length > 0) && (
+                    <div className="mt-3 grid gap-2 sm:grid-cols-3">
+                      {(s.bestEarlyTargets || s.replacementTargets).map(
+                        (tgt: any, i: number) => (
+                          <div
+                            key={i}
+                            className="rounded-lg border border-border bg-white/[0.02] p-2.5 text-xs"
+                          >
+                            <p className="font-semibold text-foreground">
+                              {tgt.dinosaur}
+                            </p>
+                            {tgt.rarity && (
+                              <p className="text-muted-foreground">
+                                {tgt.rarity}
+                              </p>
+                            )}
+                            <p className="text-muted-foreground">{tgt.cost}</p>
+                            <p className="font-medium text-[hsl(var(--nav-theme-light))]">
+                              {tgt.income}
+                            </p>
+                          </div>
+                        ),
+                      )}
+                    </div>
+                  )}
+
+                  {s.upgradeOrder?.length > 0 && (
+                    <ul className="mt-3 space-y-1.5">
+                      {s.upgradeOrder.map((u: any, i: number) => (
+                        <li
+                          key={i}
+                          className="flex items-start gap-2 text-xs text-muted-foreground"
+                        >
+                          <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          <span>
+                            <span className="font-medium text-foreground/80">
+                              {u.upgrade} ({u.cost}):{" "}
+                            </span>
+                            {u.role}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {s.reinvestmentOrder?.length > 0 && (
+                    <ol className="mt-3 space-y-1.5">
+                      {s.reinvestmentOrder.map((step: string, i: number) => (
+                        <li
+                          key={i}
+                          className="flex items-start gap-2 text-xs text-muted-foreground"
+                        >
+                          <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.15)] text-[10px] font-bold text-[hsl(var(--nav-theme-light))]">
+                            {i + 1}
+                          </span>
+                          <span>{step}</span>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      {/* 模块间广告 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* M6: My Dino Park Dinosaurs List */}
+      <section
+        id="my-dino-park-dinosaurs-list"
+        className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-6xl">
+          <div className="mb-8 md:mb-12 scroll-reveal">
+            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)]">
+              <Bone className="h-6 w-6 text-[hsl(var(--nav-theme-light))]" />
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">
+              {dinosaurs.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground mb-3">
+              {dinosaurs.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl">
+              {dinosaurs.intro}
+            </p>
+          </div>
+
+          {/* 搜索 + 稀有度筛选 */}
+          <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <div className="relative flex-1">
+              <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+              <input
+                type="text"
+                value={dinoQuery}
+                onChange={(e) => setDinoQuery(e.target.value)}
+                placeholder={dinosaurs.searchPlaceholder}
+                className="w-full rounded-lg border border-border bg-card py-2.5 pl-9 pr-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-[hsl(var(--nav-theme)/0.5)] focus:outline-none"
+              />
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              <button
+                type="button"
+                onClick={() => setDinoRarity("All")}
+                className={`rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${
+                  dinoRarity === "All"
+                    ? "bg-[hsl(var(--nav-theme))] text-white"
+                    : "border border-border bg-card text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                {dinosaurs.allRarities}
+              </button>
+              {dinosaurs.rarityFilters?.map((r: string) => (
+                <button
+                  key={r}
+                  type="button"
+                  onClick={() => setDinoRarity(r)}
+                  className={`rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${
+                    dinoRarity === r
+                      ? "bg-[hsl(var(--nav-theme))] text-white"
+                      : "border border-border bg-card text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  {r}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* 表格（桌面） */}
+          <div className="hidden overflow-x-auto rounded-xl border border-border bg-card md:block">
+            <table className="w-full text-sm">
+              <thead className="bg-white/[0.03] text-xs uppercase tracking-wide text-muted-foreground">
+                <tr>
+                  <th className="px-3 py-3 text-left">
+                    {dinosaurs.columns.dinosaur}
+                  </th>
+                  <th className="px-3 py-3 text-left">
+                    {dinosaurs.columns.tier}
+                  </th>
+                  <th className="px-3 py-3 text-left">
+                    {dinosaurs.columns.rarity}
+                  </th>
+                  <th className="px-3 py-3 text-left">
+                    {dinosaurs.columns.sourceEgg}
+                  </th>
+                  <th className="px-3 py-3 text-left">
+                    {dinosaurs.columns.cost}
+                  </th>
+                  <th className="px-3 py-3 text-left">
+                    {dinosaurs.columns.income}
+                  </th>
+                  <th className="px-3 py-3 text-left">
+                    {dinosaurs.columns.replacementNote}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {filteredDinos.length === 0 ? (
+                  <tr>
+                    <td
+                      colSpan={7}
+                      className="px-3 py-8 text-center text-sm text-muted-foreground"
+                    >
+                      {dinosaurs.noResults}
+                    </td>
+                  </tr>
+                ) : (
+                  filteredDinos.map((d: any) => (
+                    <tr key={d.dinosaur} className="border-t border-border align-top">
+                      <td className="px-3 py-3 font-semibold text-foreground">
+                        {d.dinosaur}
+                      </td>
+                      <td className="px-3 py-3">
+                        <span
+                          className={`inline-flex h-6 w-6 items-center justify-center rounded text-xs font-bold ${
+                            tierBadgeStyles[d.tier] || tierBadgeStyles.D
+                          }`}
+                        >
+                          {d.tier}
+                        </span>
+                      </td>
+                      <td className="px-3 py-3 text-muted-foreground">
+                        {d.rarity}
+                      </td>
+                      <td className="px-3 py-3 text-muted-foreground">
+                        {d.sourceEgg}
+                      </td>
+                      <td className="px-3 py-3 text-muted-foreground">
+                        {d.cost}
+                      </td>
+                      <td className="px-3 py-3 font-medium text-[hsl(var(--nav-theme-light))]">
+                        {d.income}
+                      </td>
+                      <td className="px-3 py-3 text-xs text-muted-foreground">
+                        {d.replacementNote}
+                      </td>
+                    </tr>
+                  ))
+                )}
+              </tbody>
+            </table>
+          </div>
+
+          {/* 卡片（移动端） */}
+          <div className="space-y-3 md:hidden">
+            {filteredDinos.length === 0 ? (
+              <p className="rounded-xl border border-border bg-card p-6 text-center text-sm text-muted-foreground">
+                {dinosaurs.noResults}
+              </p>
+            ) : (
+              filteredDinos.map((d: any) => (
+                <div
+                  key={d.dinosaur}
+                  className="rounded-xl border border-border bg-card p-4 scroll-reveal"
+                >
+                  <div className="mb-2 flex items-center justify-between gap-2">
+                    <h3 className="text-base font-semibold text-foreground">
+                      {d.dinosaur}
+                    </h3>
+                    <span
+                      className={`inline-flex h-6 w-6 items-center justify-center rounded text-xs font-bold ${
+                        tierBadgeStyles[d.tier] || tierBadgeStyles.D
+                      }`}
+                    >
+                      {d.tier}
+                    </span>
+                  </div>
+                  <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
+                    <span>{d.rarity}</span>
+                    <span>·</span>
+                    <span>{d.sourceEgg}</span>
+                  </div>
+                  <div className="mb-2 grid grid-cols-2 gap-2 text-sm">
+                    <div>
+                      <p className="text-xs text-muted-foreground">
+                        {dinosaurs.columns.cost}
+                      </p>
+                      <p className="font-medium text-foreground">{d.cost}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-muted-foreground">
+                        {dinosaurs.columns.income}
+                      </p>
+                      <p className="font-medium text-[hsl(var(--nav-theme-light))]">
+                        {d.income}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    <span className="font-medium text-foreground/80">
+                      {dinosaurs.columns.replacementNote}:{" "}
+                    </span>
+                    {d.replacementNote}
+                  </p>
+                </div>
+              ))
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 模块间广告 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* M7: My Dino Park Update Log */}
+      <section
+        id="my-dino-park-update-log"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-6xl">
+          <div className="mb-8 md:mb-12 scroll-reveal">
+            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)]">
+              <History className="h-6 w-6 text-[hsl(var(--nav-theme-light))]" />
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">
+              {updateLog.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground mb-3">
+              {updateLog.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl">
+              {updateLog.intro}
+            </p>
+          </div>
+
+          <div className="space-y-3">
+            {updateLog.updates?.map((u: any, idx: number) => {
+              const open = openUpdate === idx;
+              return (
+                <div
+                  key={u.update}
+                  className="overflow-hidden rounded-xl border border-border bg-card scroll-reveal"
+                >
+                  <button
+                    type="button"
+                    onClick={() => setOpenUpdate(open ? -1 : idx)}
+                    aria-expanded={open}
+                    className="flex w-full items-center gap-3 p-4 text-left transition-colors hover:bg-white/[0.02] md:p-5"
+                  >
+                    <span className="rounded-md bg-[hsl(var(--nav-theme)/0.1)] px-2.5 py-1 text-xs font-bold text-[hsl(var(--nav-theme-light))]">
+                      {u.update}
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <h3 className="truncate text-base font-semibold text-foreground md:text-lg">
+                        {u.title}
+                      </h3>
+                      <p className="text-xs text-muted-foreground">
+                        {u.date} · {u.status}
+                      </p>
+                    </div>
+                    <ChevronDown
+                      className={`h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform ${
+                        open ? "rotate-180" : ""
+                      }`}
+                    />
+                  </button>
+                  {open && (
+                    <div className="space-y-4 border-t border-border p-4 md:p-5">
+                      <p className="text-sm text-muted-foreground">{u.summary}</p>
+
+                      {u.newCodes?.length > 0 && (
+                        <div>
+                          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                            {updateLog.sectionLabels.newCodes}
+                          </p>
+                          <div className="space-y-1.5">
+                            {u.newCodes.map((c: any) => (
+                              <div
+                                key={c.code}
+                                className="flex flex-wrap items-center gap-2 text-sm"
+                              >
+                                <code className="rounded-md bg-[hsl(var(--nav-theme)/0.1)] px-2 py-1 font-mono font-bold text-[hsl(var(--nav-theme-light))]">
+                                  {c.code}
+                                </code>
+                                <span className="text-muted-foreground">
+                                  → {c.reward}
+                                </span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {u.newContent?.length > 0 && (
+                        <div>
+                          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                            {updateLog.sectionLabels.newContent}
+                          </p>
+                          <ul className="space-y-1">
+                            {u.newContent.map((n: string, i: number) => (
+                              <li
+                                key={i}
+                                className="flex items-start gap-2 text-sm text-muted-foreground"
+                              >
+                                <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                                <span>{n}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {u.bugFixes?.length > 0 && (
+                        <div>
+                          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                            {updateLog.sectionLabels.bugFixes}
+                          </p>
+                          <ul className="space-y-1">
+                            {u.bugFixes.map((b: string, i: number) => (
+                              <li
+                                key={i}
+                                className="flex items-start gap-2 text-sm text-muted-foreground"
+                              >
+                                <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                                <span>{b}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {u.balanceChanges?.length > 0 && (
+                        <div>
+                          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                            {updateLog.sectionLabels.balanceChanges}
+                          </p>
+                          <ul className="space-y-1">
+                            {u.balanceChanges.map((b: string, i: number) => (
+                              <li
+                                key={i}
+                                className="flex items-start gap-2 text-sm text-muted-foreground"
+                              >
+                                <TrendingUp className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                                <span>{b}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {u.currencyChanges?.length > 0 && (
+                        <div>
+                          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                            {updateLog.sectionLabels.currencyChanges}
+                          </p>
+                          <ul className="space-y-1">
+                            {u.currencyChanges.map((c: string, i: number) => (
+                              <li
+                                key={i}
+                                className="flex items-start gap-2 text-sm text-muted-foreground"
+                              >
+                                <Coins className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                                <span>{c}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* M8: My Dino Park Official Links */}
+      <section
+        id="my-dino-park-official-links"
+        className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-6xl">
+          <div className="mb-8 md:mb-12 scroll-reveal">
+            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)]">
+              <Globe className="h-6 w-6 text-[hsl(var(--nav-theme-light))]" />
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">
+              {officialLinks.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground mb-3">
+              {officialLinks.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl">
+              {officialLinks.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4 lg:grid-cols-3">
+            {officialLinks.links?.map((l: any, i: number) => (
+              <a
+                key={i}
+                href={l.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group scroll-reveal flex flex-col rounded-xl border border-border bg-card p-4 transition-all hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] md:p-5"
+              >
+                <div className="mb-2 flex items-center justify-between gap-2">
+                  <span className="rounded-md bg-[hsl(var(--nav-theme)/0.1)] px-2.5 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {l.type}
+                  </span>
+                  <ExternalLink className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <h3 className="mb-1.5 text-base font-semibold text-foreground md:text-lg">
+                  {l.title}
+                </h3>
+                <p className="mb-4 flex-1 text-sm text-muted-foreground">
+                  {l.description}
+                </p>
+                <span className="inline-flex items-center gap-1.5 self-start rounded-lg bg-[hsl(var(--nav-theme))] px-3 py-2 text-sm font-semibold text-white transition-colors group-hover:bg-[hsl(var(--nav-theme)/0.9)]">
+                  {l.label}
+                  <ArrowRight className="h-4 w-4" />
+                </span>
+              </a>
             ))}
           </div>
         </div>

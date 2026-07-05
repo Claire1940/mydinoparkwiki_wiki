@@ -39,6 +39,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Mountain: LucideIcons.Mountain,
   Zap: LucideIcons.Zap,
   Target: LucideIcons.Target,
+  // My Dino Park 模块 5-8 工具卡
+  Bone: LucideIcons.Bone,
+  History: LucideIcons.History,
+  Globe: LucideIcons.Globe,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

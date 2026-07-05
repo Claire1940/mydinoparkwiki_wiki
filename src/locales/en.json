@@ -79,6 +79,26 @@
         "icon": "Egg",
         "title": "My Dino Park Eggs Guide",
         "description": "Egg costs, hatches, and buying order"
+      },
+      {
+        "icon": "Coins",
+        "title": "My Dino Park Money Guide",
+        "description": "Cash and Teeth earning routes and reinvest order"
+      },
+      {
+        "icon": "Bone",
+        "title": "My Dino Park Dinosaurs List",
+        "description": "Every dinosaur by rarity, egg, and income"
+      },
+      {
+        "icon": "History",
+        "title": "My Dino Park Update Log",
+        "description": "Latest patch notes, codes, and changes"
+      },
+      {
+        "icon": "Globe",
+        "title": "My Dino Park Official Links",
+        "description": "Roblox, community, and Discord links"
       }
     ]
   },
@@ -481,6 +501,229 @@
           "buyTiming": "Redeem DINOSLOVESU during the first session, then hatch it before buying higher-cost eggs."
         }
       ]
+    },
+    "myDinoParkMoneyGuide": {
+      "title": "My Dino Park Money Guide",
+      "subtitle": "Build income by hatching dinosaurs, attracting visitors, completing quests, redeeming codes, upgrading your park, and expanding land. The clean spend order is eggs first, then stronger dinosaurs, then park upgrades, then land expansion.",
+      "intro": "My Dino Park uses a simple tycoon loop: buy eggs, hatch dinosaurs, place them in your park, attract visitors, collect Cash, and reinvest into a bigger dinosaur collection. Teeth are used as a premium-style progress currency and are currently most visible through update rewards and quest progress, while Cash powers the main park growth path.",
+      "steps": [
+        {
+          "title": "Redeem active codes before buying eggs",
+          "description": "Start with the free rewards from the Store code box, then use the Cash to speed up early egg purchases. Codes are case-sensitive, so enter them exactly as posted.",
+          "action": "Open My Dino Park, press Store, scroll to Redeem a gift code, enter the code, and claim the reward.",
+          "rewards": [
+            { "code": "UPDATE2", "reward": "20,000 Cash + 200 Teeth" },
+            { "code": "BESTDINOGAME", "reward": "300 Teeth" },
+            { "code": "DINOSLOVESU", "reward": "Frozen Egg + 10,000 Cash" },
+            { "code": "THX4PLAYING", "reward": "650 Cash" },
+            { "code": "WELCOME", "reward": "1,000 Cash" }
+          ]
+        },
+        {
+          "title": "Fill empty space with affordable eggs first",
+          "description": "Early income depends on having dinosaurs placed, not on saving for a dream T-Rex while your park sits empty. Buy Common-tier eggs first so every open space starts producing visitor income.",
+          "priority": "Use Common Egg dinosaurs to start the income loop, then move into Uncommon and Rare eggs once the park has steady Cash flow.",
+          "bestEarlyTargets": [
+            { "dinosaur": "Compsognathus", "cost": "500 Cash", "income": "50 Cash/min" },
+            { "dinosaur": "Gallimimus", "cost": "1,000 Cash", "income": "75 Cash/min" },
+            { "dinosaur": "Dilophosaurus", "cost": "1,500 Cash", "income": "100 Cash/min" }
+          ]
+        },
+        {
+          "title": "Hatch and place every useful dinosaur",
+          "description": "Visitors pay to see dinosaurs, so newly hatched dinosaurs should be placed quickly. A placed low-tier dinosaur is better than an empty slot while you are still building your first income base.",
+          "cashSource": "Visitor income from dinosaurs placed in visible park spaces",
+          "upgradeRule": "Keep cheap dinosaurs until you can replace them with a higher-income hatch."
+        },
+        {
+          "title": "Use quests as the steady bonus path",
+          "description": "Quests support the main park loop by giving extra progress while you buy eggs, hatch dinosaurs, and expand. Clear them alongside normal play instead of treating them as a separate chore.",
+          "cashSource": "Quest rewards and park progress tasks",
+          "teethSource": "Quest progress and update reward paths"
+        },
+        {
+          "title": "Replace weak dinosaurs with Rare earners",
+          "description": "Once your park is producing, stop overbuying the lowest tier and start replacing weak dinosaurs with higher-income species. Velociraptor is the strongest early upgrade target because it gives a major jump in income without needing endgame Cash.",
+          "replacementTargets": [
+            { "dinosaur": "Velociraptor", "rarity": "Rare", "cost": "8,000 Cash", "income": "500 Cash/min" },
+            { "dinosaur": "Stegosaurus", "rarity": "Rare", "cost": "10,000 Cash", "income": "600 Cash/min" },
+            { "dinosaur": "Brachiosaurus", "rarity": "Rare", "cost": "12,000 Cash", "income": "700 Cash/min" }
+          ]
+        },
+        {
+          "title": "Buy park upgrades after the dinosaur base is working",
+          "description": "Park upgrades multiply the value of a park that already has dinosaurs. Buy them after you have a stable set of placed dinosaurs, not before, because an empty upgraded park adds no income on its own.",
+          "upgradeOrder": [
+            { "upgrade": "Visitor Booth", "cost": "2,000 Cash", "role": "Early visitor income boost" },
+            { "upgrade": "Food Court", "cost": "8,000 Cash", "role": "Mid-early income multiplier" },
+            { "upgrade": "Dino Hotel", "cost": "20,000 Cash", "role": "Mid-game park value upgrade" },
+            { "upgrade": "Helicopter Tour", "cost": "50,000 Cash", "role": "Late-game attraction upgrade" }
+          ]
+        },
+        {
+          "title": "Expand land only when your current land is productive",
+          "description": "Land expansion is strongest after your current spaces are filled with earning dinosaurs. Expand, fill the new space with eggs, replace weak dinosaurs, then repeat the loop.",
+          "reinvestmentOrder": [
+            "Buy eggs to fill empty spaces",
+            "Hatch and place dinosaurs for visitor Cash",
+            "Replace low earners with Rare, Epic, and Legendary dinosaurs",
+            "Buy park upgrades once income is stable",
+            "Expand land and repeat the cycle"
+          ]
+        }
+      ]
+    },
+    "myDinoParkDinosaursList": {
+      "title": "My Dino Park Dinosaurs List",
+      "subtitle": "Search every standard dinosaur by rarity, source egg, unlock method, income value, and replacement priority. Use this list to decide which dinosaurs to keep, replace, or chase next.",
+      "intro": "The standard collection currently spans 12 dinosaurs across Common, Uncommon, Rare, Epic, and Legendary rarity tiers. Higher-rarity dinosaurs cost more to hatch but bring much stronger visitor income, so the best collection path is to fill the park early, then replace low earners with stronger species.",
+      "searchPlaceholder": "Search dinosaurs by name...",
+      "allRarities": "All",
+      "rarityFilters": ["Common", "Uncommon", "Rare", "Epic", "Legendary"],
+      "columns": {
+        "dinosaur": "Dinosaur",
+        "tier": "Tier",
+        "rarity": "Rarity",
+        "sourceEgg": "Source Egg",
+        "cost": "Cost",
+        "income": "Income / min",
+        "visitorValue": "Visitor Value",
+        "replacementNote": "Keep or Replace"
+      },
+      "noResults": "No dinosaurs match your search.",
+      "dinosaurs": [
+        { "dinosaur": "T-Rex", "rarity": "Legendary", "tier": "S", "sourceEgg": "Legendary Egg", "cost": "50,000 Cash", "income": "2,500 Cash/min", "visitorValue": "Best park attraction and highest standard income", "replacementNote": "Endgame keeper; replace only for duplicates or future stronger limited dinosaurs" },
+        { "dinosaur": "Spinosaurus", "rarity": "Epic", "tier": "A", "sourceEgg": "Epic Egg", "cost": "25,000 Cash", "income": "1,400 Cash/min", "visitorValue": "Excellent mid-to-late game income", "replacementNote": "Keep until Legendary upgrades are affordable" },
+        { "dinosaur": "Triceratops", "rarity": "Epic", "tier": "A", "sourceEgg": "Epic Egg", "cost": "20,000 Cash", "income": "1,200 Cash/min", "visitorValue": "Strong balanced visitor appeal", "replacementNote": "Keep as a strong mid-to-late game earner" },
+        { "dinosaur": "Brachiosaurus", "rarity": "Rare", "tier": "B", "sourceEgg": "Rare Egg", "cost": "12,000 Cash", "income": "700 Cash/min", "visitorValue": "High early-to-mid crowd attraction", "replacementNote": "Replace only after Epic dinosaurs become affordable" },
+        { "dinosaur": "Stegosaurus", "rarity": "Rare", "tier": "B", "sourceEgg": "Rare Egg", "cost": "10,000 Cash", "income": "600 Cash/min", "visitorValue": "Reliable early-to-mid income", "replacementNote": "Good stable earner before Epic upgrades" },
+        { "dinosaur": "Velociraptor", "rarity": "Rare", "tier": "B", "sourceEgg": "Rare Egg", "cost": "8,000 Cash", "income": "500 Cash/min", "visitorValue": "Best early upgrade target", "replacementNote": "Keep through early-mid game; replace with Epic dinosaurs later" },
+        { "dinosaur": "Pterodactyl", "rarity": "Uncommon", "tier": "C", "sourceEgg": "Uncommon Egg", "cost": "6,000 Cash", "income": "350 Cash/min", "visitorValue": "Good early variety and filler income", "replacementNote": "Replace with Rare dinosaurs when park slots become valuable" },
+        { "dinosaur": "Ankylosaurus", "rarity": "Uncommon", "tier": "C", "sourceEgg": "Uncommon Egg", "cost": "5,000 Cash", "income": "300 Cash/min", "visitorValue": "Low-maintenance filler income", "replacementNote": "Use as a bridge into Rare eggs" },
+        { "dinosaur": "Parasaurolophus", "rarity": "Uncommon", "tier": "C", "sourceEgg": "Uncommon Egg", "cost": "4,000 Cash", "income": "250 Cash/min", "visitorValue": "Low-investment early income", "replacementNote": "Replace after your Rare egg income loop starts" },
+        { "dinosaur": "Dilophosaurus", "rarity": "Common", "tier": "D", "sourceEgg": "Common Egg", "cost": "1,500 Cash", "income": "100 Cash/min", "visitorValue": "Starter income", "replacementNote": "Replace with Uncommon or Rare dinosaurs once Cash flow improves" },
+        { "dinosaur": "Gallimimus", "rarity": "Common", "tier": "D", "sourceEgg": "Common Egg", "cost": "1,000 Cash", "income": "75 Cash/min", "visitorValue": "Budget starter income", "replacementNote": "Use early, then replace as soon as higher-tier eggs are affordable" },
+        { "dinosaur": "Compsognathus", "rarity": "Common", "tier": "D", "sourceEgg": "Common Egg", "cost": "500 Cash", "income": "50 Cash/min", "visitorValue": "Cheapest starter filler", "replacementNote": "Good only for filling empty early space; replace quickly" }
+      ]
+    },
+    "myDinoParkUpdateLog": {
+      "title": "My Dino Park Update Log",
+      "subtitle": "Track the latest My Dino Park update, active codes, new eggs, balance changes, and bug fixes. The current Roblox title marks the game as UPD 2.",
+      "intro": "Use this log for the details players actually need: what changed, which codes were added, what rewards matter, and whether there are new eggs, dinosaurs, currency changes, or restore-related notes.",
+      "sectionLabels": {
+        "newCodes": "New Codes",
+        "newContent": "New Eggs & Dinosaurs",
+        "bugFixes": "Bug Fixes",
+        "balanceChanges": "Balance Changes",
+        "currencyChanges": "Currency Changes"
+      },
+      "updates": [
+        {
+          "update": "UPD 2",
+          "date": "2026-07-04",
+          "title": "Update 2 — New Codes & Bug Fixes",
+          "status": "Latest update",
+          "summary": "Update 2 adds three new reward codes, introduces a Frozen Egg through code redemption, and includes bug fixes, server stability improvements, and Teeth economy adjustments.",
+          "newCodes": [
+            { "code": "UPDATE2", "reward": "20,000 Cash + 200 Teeth" },
+            { "code": "BESTDINOGAME", "reward": "300 Teeth" },
+            { "code": "DINOSLOVESU", "reward": "Frozen Egg + 10,000 Cash" }
+          ],
+          "newContent": [
+            "Frozen Egg added as a code reward through DINOSLOVESU"
+          ],
+          "bugFixes": [
+            "Bug fixes",
+            "Server stability improvements"
+          ],
+          "balanceChanges": [
+            "Teeth currency earning rate adjusted"
+          ],
+          "currencyChanges": [
+            "UPDATE2 adds both Cash and Teeth rewards",
+            "BESTDINOGAME adds a Teeth-only reward",
+            "DINOSLOVESU adds a Frozen Egg and Cash reward"
+          ]
+        },
+        {
+          "update": "UPD 1",
+          "date": "2026-07-01",
+          "title": "Update 1 — Game Launch",
+          "status": "Launch update",
+          "summary": "The launch version introduced the core park tycoon loop: buy eggs, hatch dinosaurs, attract visitors, earn Cash, upgrade the park, and grow toward the top park ranking.",
+          "newCodes": [
+            { "code": "WELCOME", "reward": "1,000 Cash" },
+            { "code": "THX4PLAYING", "reward": "650 Cash" }
+          ],
+          "newContent": [
+            "12 standard dinosaur species across Common, Uncommon, Rare, Epic, and Legendary tiers",
+            "Common Egg",
+            "Uncommon Egg",
+            "Rare Egg",
+            "Epic Egg",
+            "Legendary Egg"
+          ],
+          "bugFixes": [
+            "Launch baseline"
+          ],
+          "balanceChanges": [
+            "Initial dinosaur income values and egg progression"
+          ],
+          "currencyChanges": [
+            "Cash established as the main park growth currency",
+            "Teeth established as a secondary progress currency"
+          ]
+        }
+      ]
+    },
+    "myDinoParkOfficialLinks": {
+      "title": "My Dino Park Official Links",
+      "subtitle": "Use the official Roblox experience, Dino Community group, and Discord invite for the safest path to play, get codes, find restore help, and follow updates.",
+      "intro": "This module keeps the player-facing links clean: Roblox for playing the experience, Dino Community for the official group, and Discord for announcements, codes, restores, and community support. No third-party wiki, Trello, or aggregator link is included here.",
+      "links": [
+        {
+          "title": "Official Roblox Experience",
+          "label": "Play My Dino Park",
+          "href": "https://www.roblox.com/games/80701570784699/My-Dino-Park",
+          "description": "Launch the official My Dino Park Roblox experience by Dino Community. The game page lists the current UPD 2 title and the core loop: buy Dino Eggs, hatch Dinosaurs, attract visitors, upgrade your park, and grow toward the top park rank.",
+          "type": "Roblox Experience"
+        },
+        {
+          "title": "Dino Community Roblox Group",
+          "label": "Open Dino Community",
+          "href": "https://www.roblox.com/communities/532484073/Dino-Community",
+          "description": "Open the official Roblox community connected to My Dino Park. Use it as the group-side source for developer identity, community access, and Roblox-native updates.",
+          "type": "Roblox Community"
+        },
+        {
+          "title": "Official Discord",
+          "label": "Join Discord",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Join the official My Dino Park Discord for codes, announcements, update news, restore help, and player discussion.",
+          "type": "Discord Server"
+        },
+        {
+          "title": "Restore Help",
+          "label": "Get Restore Help",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Use the official Discord path for restore support. The Roblox experience description directs players to official links for restores, so this is the clean route instead of trusting mystery links.",
+          "type": "Support"
+        },
+        {
+          "title": "Code Sources",
+          "label": "Check Official Code Sources",
+          "href": "https://discord.com/invite/eQHNk8dGpz",
+          "description": "Use the official Discord and Roblox-linked community sources for new code drops. Current active rewards include UPDATE2, BESTDINOGAME, DINOSLOVESU, THX4PLAYING, and WELCOME.",
+          "type": "Codes"
+        },
+        {
+          "title": "Wiki and Trello",
+          "label": "Use Official Links Only",
+          "href": "https://www.roblox.com/games/80701570784699/My-Dino-Park",
+          "description": "No third-party wiki or Trello link is shown in this module. Players should use only links posted through the official Roblox experience, Dino Community group, or official Discord.",
+          "type": "Link Safety"
+        }
+      ]
     }
   },
   "faq": {
@@ -537,126 +780,5 @@
     "copyright": "© 2026 My Dino Park Wiki. Not affiliated with the developers of My Dino Park or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
-  }
+  "pages": {}
 }
