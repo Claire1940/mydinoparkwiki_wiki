@@ -27,6 +27,18 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  // My Dino Park 工具卡 + 模块内图标
+  Ticket: LucideIcons.Ticket,
+  GraduationCap: LucideIcons.GraduationCap,
+  Crown: LucideIcons.Crown,
+  Egg: LucideIcons.Egg,
+  Coins: LucideIcons.Coins,
+  Gift: LucideIcons.Gift,
+  Flame: LucideIcons.Flame,
+  Droplets: LucideIcons.Droplets,
+  Mountain: LucideIcons.Mountain,
+  Zap: LucideIcons.Zap,
+  Target: LucideIcons.Target,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

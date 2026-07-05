@@ -52,696 +52,433 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "My Dino Park Gameplay",
+    "description": "Build your own dinosaur park in Roblox: buy eggs, hatch dinosaurs, attract visitors, earn Cash, and upgrade toward the #1 Dino Park spot."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "My Dino Park",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to build, hatch, and grow your dinosaur park",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Ticket",
+        "title": "My Dino Park Codes",
+        "description": "Active codes, rewards, and redemption steps"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "GraduationCap",
+        "title": "My Dino Park Beginner Guide",
+        "description": "First-session route and early progression"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Crown",
+        "title": "My Dino Park Tier List",
+        "description": "Dinosaur, egg, and upgrade rankings"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Egg",
+        "title": "My Dino Park Eggs Guide",
+        "description": "Egg costs, hatches, and buying order"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "myDinoParkCodes": {
+      "title": "My Dino Park Codes",
+      "subtitle": "Redeem active My Dino Park codes for Cash, Teeth, and the Frozen Egg before buying paid eggs.",
+      "intro": "Use these codes after the tutorial opens the Store menu. Redeem the full active list first, then hatch the free egg and spend Cash on early dinosaurs.",
+      "lastChecked": "2026-07-05",
+      "redemptionHint": "Launch My Dino Park on Roblox, finish the tutorial, open Store, scroll to Redeem a gift code, paste the code, then press Enter or Redeem.",
+      "activeCodes": [
+        {
+          "code": "UPDATE2",
+          "reward": "20,000 Cash + 200 Teeth",
+          "status": "active",
+          "priority": "Best all-around update code"
+        },
+        {
+          "code": "BESTDINOGAME",
+          "reward": "300 Teeth",
+          "status": "active",
+          "priority": "Best Teeth-only code"
+        },
+        {
+          "code": "DINOSLOVESU",
+          "reward": "Frozen Egg + 10,000 Cash",
+          "status": "active",
+          "priority": "Best starter egg code"
+        },
+        {
+          "code": "WELCOME",
+          "reward": "1,000 Cash",
+          "status": "active",
+          "priority": "Starter Cash boost"
+        },
+        {
+          "code": "THX4PLAYING",
+          "reward": "650 Cash",
+          "status": "active",
+          "priority": "Extra starter Cash"
+        }
+      ],
+      "expiredCodes": []
+    },
+    "myDinoParkBeginnerGuide": {
+      "title": "My Dino Park Beginner Guide",
+      "subtitle": "Start by unlocking the Store, redeeming codes, hatching your first dinosaurs, and reinvesting early income into more attractions.",
+      "intro": "My Dino Park’s opening loop is simple: buy Dino Eggs, hatch dinosaurs, attract visitors, then reinvest earnings into more dinosaurs and income upgrades. Follow the steps in order so early Cash turns into income quickly.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Launch the Roblox experience",
+          "description": "Open My Dino Park from its Roblox experience page and let your park fully load.",
+          "result": "You enter your starter plot and can begin the tutorial flow."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Finish the tutorial first",
+          "description": "Complete the short tutorial before redeeming codes or buying eggs.",
+          "result": "Core menus such as Store, eggs, placement, and park actions become usable."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Redeem all working codes",
+          "description": "Open Store, scroll to the gift-code box, then redeem UPDATE2, BESTDINOGAME, DINOSLOVESU, WELCOME, and THX4PLAYING.",
+          "result": "You receive early Cash, Teeth, and the Frozen Egg before spending starter Cash."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Buy or hatch the first egg",
+          "description": "Start with the Common Egg when spending Cash; it costs 500 Cash and hatches instantly.",
+          "result": "Your first dinosaur starts generating visitor interest right away."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Place every new dinosaur",
+          "description": "Use your inventory, place hatched dinosaurs on open land, and avoid leaving eggs idle.",
+          "result": "More visible dinosaurs means more visitor income feeding back into the park."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Fill land before chasing expensive eggs",
+          "description": "Use Common and Uncommon Eggs to fill early space, then move toward Rare Eggs once your Cash flow is stable.",
+          "result": "You build a reliable income base before saving for bigger purchases."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Move into Rare and Epic value",
+          "description": "Target Rare Eggs at 10,000 Cash, then Epic Eggs at 25,000 Cash after your park has enough earners.",
+          "result": "Velociraptor, Stegosaurus, Brachiosaurus, Triceratops, and Spinosaurus become your main growth targets."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Buy income upgrades after the park has dinos",
+          "description": "Use Visitor Booth at 2,000 Cash as the first upgrade, then Food Court, Dino Hotel, and Helicopter Tour as your income grows.",
+          "result": "Upgrades multiply visitor income after you already have enough dinosaurs worth multiplying."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "myDinoParkTierList": {
+      "title": "My Dino Park Tier List",
+      "subtitle": "Rank dinosaurs, eggs, and spending priorities by early value, income, rarity, and update relevance.",
+      "intro": "Filter by progression stage or item type before spending. Starter picks build income quickly, mid-game picks improve Cash per minute, late-game picks anchor the park, and code-only rewards should be claimed before paid purchases.",
+      "tiers": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
+          "tier": "S",
+          "label": "Best Value",
+          "entries": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "name": "Frozen Egg",
+              "type": "egg",
+              "rarity": "Limited / code-only",
+              "cost": "Code reward from DINOSLOVESU",
+              "income": "Code egg reward",
+              "reason": "Free egg value plus 10,000 Cash from the same code makes it the strongest first-session reward."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "name": "T-Rex",
+              "type": "dinosaur",
+              "rarity": "Legendary",
+              "cost": "50,000 Cash",
+              "income": "2,500 Cash/min",
+              "reason": "Highest listed dinosaur income and the main late-game park anchor.",
+              "sourceEgg": "Legendary Egg"
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
+              "name": "Legendary Egg",
+              "type": "egg",
+              "rarity": "Legendary",
+              "cost": "50,000 Cash",
+              "income": "Average 2,500 Cash/min",
+              "reason": "Best end-game egg because it leads to T-Rex income."
             },
             {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "Helicopter Tour",
+              "type": "upgrade",
+              "rarity": "Park upgrade",
+              "cost": "50,000 Cash",
+              "income": "3x visitor income",
+              "reason": "The strongest income multiplier after your park already has strong earners."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "tier": "A",
+          "label": "Excellent",
+          "entries": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Spinosaurus",
+              "type": "dinosaur",
+              "rarity": "Epic",
+              "cost": "25,000 Cash",
+              "income": "1,400 Cash/min",
+              "reason": "Top Epic income and a strong bridge into late-game.",
+              "sourceEgg": "Epic Egg"
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Triceratops",
+              "type": "dinosaur",
+              "rarity": "Epic",
+              "cost": "20,000 Cash",
+              "income": "1,200 Cash/min",
+              "reason": "Stable Epic-tier income with strong visitor appeal.",
+              "sourceEgg": "Epic Egg"
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
+              "name": "Epic Egg",
+              "type": "egg",
+              "rarity": "Epic",
+              "cost": "25,000 Cash",
+              "income": "Average 1,300 Cash/min",
+              "reason": "Best mid-to-late game egg before saving for Legendary."
             },
             {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Dino Hotel",
+              "type": "upgrade",
+              "rarity": "Park upgrade",
+              "cost": "20,000 Cash",
+              "income": "2x visitor income",
+              "reason": "Doubles visitor income once the park has enough dinosaurs to justify it."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "tier": "B",
+          "label": "Great Growth Picks",
+          "entries": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Brachiosaurus",
+              "type": "dinosaur",
+              "rarity": "Rare",
+              "cost": "12,000 Cash",
+              "income": "700 Cash/min",
+              "reason": "Best Rare-tier listed income and a strong crowd attraction.",
+              "sourceEgg": "Rare Egg"
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "name": "Stegosaurus",
+              "type": "dinosaur",
+              "rarity": "Rare",
+              "cost": "10,000 Cash",
+              "income": "600 Cash/min",
+              "reason": "Reliable Rare-tier income with good value.",
+              "sourceEgg": "Rare Egg"
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
+              "name": "Velociraptor",
+              "type": "dinosaur",
+              "rarity": "Rare",
+              "cost": "8,000 Cash",
+              "income": "500 Cash/min",
+              "reason": "Best early upgrade target once Common and Uncommon dinosaurs are producing.",
+              "sourceEgg": "Rare Egg"
             },
             {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "name": "Rare Egg",
+              "type": "egg",
+              "rarity": "Rare",
+              "cost": "10,000 Cash",
+              "income": "Average 600 Cash/min",
+              "reason": "Main mid-game egg and the first big jump over starter income."
+            },
+            {
+              "name": "Food Court",
+              "type": "upgrade",
+              "rarity": "Park upgrade",
+              "cost": "8,000 Cash",
+              "income": "1.5x visitor income",
+              "reason": "Strong income boost after you have several dinosaurs placed."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
+          "tier": "C",
+          "label": "Useful Fillers",
+          "entries": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "name": "Pterodactyl",
+              "type": "dinosaur",
+              "rarity": "Uncommon",
+              "cost": "6,000 Cash",
+              "income": "350 Cash/min",
+              "reason": "Solid early income and useful variety before Rare Eggs.",
+              "sourceEgg": "Uncommon Egg"
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
+              "name": "Ankylosaurus",
+              "type": "dinosaur",
+              "rarity": "Uncommon",
+              "cost": "5,000 Cash",
+              "income": "300 Cash/min",
+              "reason": "Good filler when building early income density.",
+              "sourceEgg": "Uncommon Egg"
             },
             {
-              "title": "Angel β",
-              "description": "Die."
+              "name": "Parasaurolophus",
+              "type": "dinosaur",
+              "rarity": "Uncommon",
+              "cost": "4,000 Cash",
+              "income": "250 Cash/min",
+              "reason": "Low-investment Uncommon option before the Rare Egg jump.",
+              "sourceEgg": "Uncommon Egg"
             },
             {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
+              "name": "Uncommon Egg",
+              "type": "egg",
+              "rarity": "Uncommon",
+              "cost": "4,000 Cash",
+              "income": "Average 300 Cash/min",
+              "reason": "Best early upgrade after the first Common Egg batch."
+            },
+            {
+              "name": "Visitor Booth",
+              "type": "upgrade",
+              "rarity": "Park upgrade",
+              "cost": "2,000 Cash",
+              "income": "1.2x visitor income",
+              "reason": "First multiplier upgrade once basic dinosaur slots are filled."
             }
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
+          "tier": "D",
+          "label": "Starter Only",
+          "entries": [
             {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
+              "name": "Dilophosaurus",
+              "type": "dinosaur",
+              "rarity": "Common",
+              "cost": "1,500 Cash",
+              "income": "100 Cash/min",
+              "reason": "Best Common-tier listed income, useful while starting out.",
+              "sourceEgg": "Common Egg"
             },
             {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
+              "name": "Gallimimus",
+              "type": "dinosaur",
+              "rarity": "Common",
+              "cost": "1,000 Cash",
+              "income": "75 Cash/min",
+              "reason": "Cheap early filler that helps start the visitor loop.",
+              "sourceEgg": "Common Egg"
             },
             {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Compsognathus",
+              "type": "dinosaur",
+              "rarity": "Common",
+              "cost": "500 Cash",
+              "income": "50 Cash/min",
+              "reason": "Lowest-cost dinosaur for opening income.",
+              "sourceEgg": "Common Egg"
+            },
+            {
+              "name": "Common Egg",
+              "type": "egg",
+              "rarity": "Common",
+              "cost": "500 Cash",
+              "income": "Average 75 Cash/min",
+              "reason": "Correct first purchase because it is cheap and instant."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "myDinoParkEggsGuide": {
+      "title": "My Dino Park Eggs Guide",
+      "subtitle": "Compare egg costs, hatch times, rarity pools, hatch results, and best buying moments before spending Cash.",
+      "intro": "Eggs are the core spending decision in My Dino Park. The usual route is Common into Uncommon, Rare once Cash flow is stable, Epic for mid-to-late growth, and Legendary after the park can recover from the 50,000 Cash spend.",
+      "eggs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "egg": "Common Egg",
+          "cost": "500 Cash",
+          "hatchTime": "Instant",
+          "rarityPool": "Common",
+          "hatchResults": [
+            "Compsognathus",
+            "Gallimimus",
+            "Dilophosaurus"
+          ],
+          "income": "~75 Cash/min",
+          "bestUse": "First purchase and early land filling.",
+          "buyTiming": "Buy immediately after tutorial or after redeeming starter codes."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "egg": "Uncommon Egg",
+          "cost": "4,000 Cash",
+          "hatchTime": "10 seconds",
+          "rarityPool": "Common / Uncommon",
+          "hatchResults": [
+            "Dilophosaurus",
+            "Parasaurolophus",
+            "Ankylosaurus",
+            "Pterodactyl"
+          ],
+          "income": "~300 Cash/min",
+          "bestUse": "Early upgrade from Common income.",
+          "buyTiming": "Buy after several Common dinosaurs are placed and earning."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "egg": "Rare Egg",
+          "cost": "10,000 Cash",
+          "hatchTime": "30 seconds",
+          "rarityPool": "Uncommon / Rare",
+          "hatchResults": [
+            "Velociraptor",
+            "Stegosaurus",
+            "Brachiosaurus"
+          ],
+          "income": "~600 Cash/min",
+          "bestUse": "Main mid-game income step.",
+          "buyTiming": "Buy once early Cash flow is stable; Velociraptor is a strong first Rare target."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "egg": "Epic Egg",
+          "cost": "25,000 Cash",
+          "hatchTime": "1 minute",
+          "rarityPool": "Rare / Epic",
+          "hatchResults": [
+            "Spinosaurus",
+            "Triceratops"
+          ],
+          "income": "~1300 Cash/min",
+          "bestUse": "Mid-to-late game income growth.",
+          "buyTiming": "Buy after Rare dinosaurs and basic upgrades are already supporting the park."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "egg": "Legendary Egg",
+          "cost": "50,000 Cash",
+          "hatchTime": "2 minutes",
+          "rarityPool": "Epic / Legendary",
+          "hatchResults": [
+            "T-Rex"
+          ],
+          "income": "~2500 Cash/min",
+          "bestUse": "End-game income goal.",
+          "buyTiming": "Buy when the park can rebuild Cash quickly after a 50,000 Cash spend."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "egg": "Frozen Egg",
+          "cost": "Code reward from DINOSLOVESU",
+          "hatchTime": "Code egg",
+          "rarityPool": "Limited / code-only",
+          "hatchResults": [
+            "Frozen Egg reward dinosaur"
+          ],
+          "income": "Code reward",
+          "bestUse": "Free early hatch before spending Cash on paid eggs.",
+          "buyTiming": "Redeem DINOSLOVESU during the first session, then hatch it before buying higher-cost eggs."
         }
       ]
     }
@@ -749,31 +486,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about My Dino Park",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is My Dino Park?",
+        "answer": "My Dino Park is a Roblox dinosaur park tycoon by Dino Community where you buy eggs, hatch dinosaurs, attract visitors, earn Cash, and upgrade your park toward the #1 Dino Park rank."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem codes in My Dino Park?",
+        "answer": "Finish the tutorial first, then open Store, scroll to Redeem a gift code, paste an active My Dino Park code, and press Enter or Redeem to claim your rewards."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Which eggs should I buy first in My Dino Park?",
+        "answer": "In My Dino Park, start with the Common Egg at 500 Cash to fill space quickly, then move into Uncommon and Rare Eggs as your Cash flow stabilizes, and save for Epic and Legendary Eggs once your park earns reliably."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What are Teeth used for in My Dino Park?",
+        "answer": "Teeth are a secondary progress currency in My Dino Park, currently most visible through update code rewards and quest progress, while Cash powers the main park growth path."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How many players can join a My Dino Park server?",
+        "answer": "A My Dino Park server supports up to 6 players at once, so you build your dinosaur park in a small shared experience rather than a single huge lobby."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I find new My Dino Park codes?",
+        "answer": "New My Dino Park codes are posted through the official Dino Community Discord and the Roblox experience page, so follow both to catch every code drop right after updates."
       }
     ]
   },
