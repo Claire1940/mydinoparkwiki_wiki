@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "My Dino Park Wiki - Codes, Dino Tier List & Egg Guide",
+  "short_name": "My Dino Park",
+  "description": "Build faster with My Dino Park codes, dinosaur tier lists, egg costs, income tips, park upgrades, and beginner guides for the Roblox tycoon.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#22c55e",
   "background_color": "#0a0a0a",
   "icons": [
     {
