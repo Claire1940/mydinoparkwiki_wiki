@@ -10,14 +10,7 @@
       "twitterDescription": "Build faster with My Dino Park codes, dinosaur tier lists, egg costs, income tips, park upgrades, and beginner guides for the Roblox tycoon."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
