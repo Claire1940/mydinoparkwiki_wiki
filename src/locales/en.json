@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "My Dino Park Wiki - Codes, Dino Tier List & Egg Guide",
+      "description": "Build faster with My Dino Park codes, dinosaur tier lists, egg costs, income tips, park upgrades, and beginner guides for the Roblox tycoon.",
+      "keywords": "My Dino Park, Roblox, codes, dino tier list, egg guide, park upgrades, tycoon",
+      "ogTitle": "My Dino Park Wiki - Codes, Dino Tier List & Egg Guide",
+      "ogDescription": "Build faster with My Dino Park codes, dinosaur tier lists, egg costs, income tips, park upgrades, and beginner guides for the Roblox tycoon.",
+      "twitterTitle": "My Dino Park Wiki - Codes, Dino Tier List & Egg Guide",
+      "twitterDescription": "Build faster with My Dino Park codes, dinosaur tier lists, egg costs, income tips, park upgrades, and beginner guides for the Roblox tycoon."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Dino Park Tycoon",
+    "title": "My Dino Park Wiki",
+    "description": "Build your own dinosaur park in Roblox: buy eggs, hatch dinosaurs, attract visitors, earn cash, upgrade your park, and climb toward the #1 Dino Park spot.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2.7M",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "12.4K",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "95%",
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "6",
+        "label": "Max Players"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Build Your Dino Park?",
+    "description": "Join the My Dino Park community on Discord for codes, guides, updates, and discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "My Dino Park Wiki",
+    "description": "Your complete resource hub for My Dino Park codes, dinosaur tier lists, egg guides, income tips, and park upgrades for the Roblox tycoon.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxCommunity": "Roblox Community",
+    "robloxGame": "Play on Roblox",
+    "youtube": "Gameplay Video",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 My Dino Park Wiki. Not affiliated with the developers of My Dino Park or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

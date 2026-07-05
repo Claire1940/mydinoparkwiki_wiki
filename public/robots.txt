@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mydinoparkwiki.wiki/sitemap.xml
